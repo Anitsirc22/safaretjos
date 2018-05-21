@@ -1,4 +1,4 @@
-var barriers_layer;
+var barriers_layer ;
 
 function barriersLayerGen() {
   var layer = new L.geoJson(barriers,{
