@@ -42,7 +42,7 @@ def fotos(filename):
 
 @app.route("/vendor/leaflet/<filename>")
 def leaflet(filename):
-	file=os.path.join(os.path.abspath(os.getcwd()),'vendor\\leaflet',filename)
+	file=os.path.join(os.path.abspath(os.getcwd()),'vendor/leaflet',filename)
 	if file[-3:]=="css":
 		return Response(open(file).read(),mimetype="text/css")
 	else:
@@ -51,7 +51,7 @@ def leaflet(filename):
 @app.route("/vendor/Leaflet.Canvas-Flowmap-Layer-master/src/<filename>")
 def flowmap(filename):
 
-	file=os.path.join(os.path.abspath(os.getcwd()),'vendor\\Leaflet.Canvas-Flowmap-Layer-master\\src',filename)
+	file=os.path.join(os.path.abspath(os.getcwd()),'vendor/Leaflet.Canvas-Flowmap-Layer-master\\src',filename)
 	return Response(open(file).read(),mimetype="text/javascript")
 
 
