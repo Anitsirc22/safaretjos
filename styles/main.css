@@ -47,7 +47,7 @@
 .imatge{
     width:100%;
     max-height:150px;
-    background-image:url(fotos/title.png);
+    background-image:url(../fotos/title.png);
     /*background-size:     contain; per escalar la imatge a l'espai que hi ha      */              
     background-repeat:   no-repeat;
     
@@ -174,14 +174,14 @@
 .controlls{
     width:100%;
     display:flex;
-    background-image:url(fotos/foto_div2.png);
+    background-image:url(../fotos/foto_div2.png);
     background-repeat:   no-repeat;
     background-size:     contain; 
 }
 
 .imatge_ac{
     flex:1;
-    background-image:url(fotos/foto_AC.png);
+    background-image:url(../fotos/foto_AC.png);
     background-size:     contain;          
     background-repeat:   no-repeat;
     align-items: center;
