@@ -1,5 +1,5 @@
 var layer_identitat_points_heat;
-var _identity_layer;
+//var _identity_layer;
 
 function geoJson2heat(geojson, weight) {
   return geojson.features.map(function(feature) {
@@ -36,11 +36,79 @@ function identityLayerGen( ) {
       0.80:'#ffffbf',
       0.85: '#BE788D',
       1: '#F90527'
-    }
+    },
+    blur:35
   });
   layer_identitat_points_heat = layer;
+  /*layer.on('click',function(e){ //NO FUNCIONA
+    popUp.setLatLng(e.latlng);
+    popUp.setContent(e.layer.feature.properties.Age);
+    popUp.openOn(map);
+  });*/
+  return [ layer, _identityLayerGen() ];
+}
+
+
+function identityPointToLayer( feature, latlng ) {
+  return L.circleMarker( latlng, styleIdentity( feature ) );
+}
+
+function styleIdentity(feature) {
+  
+    return {
+      radius: 5,
+      fillColor: '#fff0',
+      color: '#fff0',
+      weight: 0.5,
+      opacity: 1,
+      fillOpacity: 0
+    };
+  
+}
+
+var blurredDelay;
+function highlightFeatureIdentity( event ) {
+  var identity_label = event.target.feature.properties.Safaretjos_description? event.target.feature.properties.Safaretjos_description : "";
+  label.style.fontSize="23px";
+  label.innerHTML = "<span class='label3 lng' lng_val='Safaretjos is ...'>"+lng("Safaretjos is ...")+" </span>"+lng(identity_label);
+  var layer = event.target;
+  //info.update(layer.feature.properties);
+  clearTimeout(blurredDelay);
+};
+
+
+
+
+function resetHighlightIdentity( e ) {
+  
+  clearTimeout(blurredDelay);//si li passo una funcio amb delay la para i no sexecuta
+
+  blurredDelay = setTimeout(function(){//setTimeout executa una funcio en un temps
+    label.innerHTML = '';
+  }, 600 );
+    //info.update();
+};
+
+
+
+function onEachFeatureIdentity( feature_A, layer_B ) {
+  
+  layer_B.on({
+      mouseover: highlightFeatureIdentity,
+      mouseout: resetHighlightIdentity,
+    
+  });
+};
+
+function _identityLayerGen( ){
+  // layer_identitat_points_heat = identityLayerGen();
+  layer = L.geoJson(punts_per_identitats2,{
+    onEachFeature: onEachFeatureIdentity,
+    pointToLayer: identityPointToLayer,
+    filter: filterFn
+  });//PER EL ZOOM FITBOUNDS.
+
   return layer;
 }
 
-// layer_identitat_points_heat = identityLayerGen();
-_identity_layer = L.geoJson(punts_per_identitats2,{});
+

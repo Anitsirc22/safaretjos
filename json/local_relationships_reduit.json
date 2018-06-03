@@ -5,23 +5,24 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.2123814103806962, 
-          41.4346383699827
+          2.2124188395911015, 
+          41.43458755399184
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.2123814103806962, 
-        "x_end": 2.215493905613285, 
-        "Name": "Manel", 
+        "x_start": 2.2124188395911015, 
+        "x_end": 2.2172702023306496, 
+        "Name": "Paula", 
         "OBJECTID": 1, 
-        "Facility": "Escola Rafael Alberti", 
-        "id_start": 2, 
-        "id_end": 139, 
-        "y_end": 41.43649329150851, 
-        "Sex": "Female", 
-        "y_start": 41.4346383699827, 
-        "Age": "16-40 years old"
+        "Facility": "Escola Rafael Casanova", 
+        "Age": "16-40 years old", 
+        "id_end": 202, 
+        "y_end": 41.43606996765561, 
+        "Sex": "Male", 
+        "Family_members": 1, 
+        "y_start": 41.43458755399184, 
+        "id_start": 2
       }
     }
     ,
@@ -29,47 +30,49 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.2126590052737547, 
-          41.434430578537366
+          2.212254649539839, 
+          41.43480098456468
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.2126590052737547, 
-        "x_end": 2.215721046073696, 
-        "Name": "Manel", 
-        "OBJECTID": 2, 
-        "Facility": "Llar d'Infants Patufet", 
-        "id_start": 7, 
-        "id_end": 175, 
-        "y_end": 41.43296366580729, 
-        "Sex": "Female", 
-        "y_start": 41.434430578537366, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211986461500992, 
-          41.435216137776436
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211986461500992, 
-        "x_end": 2.218790661155026, 
+        "x_start": 2.212254649539839, 
+        "x_end": 2.2124004682611083, 
         "Name": "Ignasi", 
+        "OBJECTID": 2, 
+        "Facility": "Casal Els Safaretjos", 
+        "Age": "16-40 years old", 
+        "id_end": 221, 
+        "y_end": 41.43541203064415, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.43480098456468, 
+        "id_start": 4
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212152098088515, 
+          41.434976386937045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212152098088515, 
+        "x_end": 2.2129166422526314, 
+        "Name": "Paula", 
         "OBJECTID": 3, 
-        "Facility": "Espai ludic i de Salut per a la Gent Gran - Llefia", 
-        "id_start": 14, 
-        "id_end": 163, 
-        "y_end": 41.437076185406994, 
-        "Sex": "Female", 
-        "y_start": 41.435216137776436, 
-        "Age": "0-15 years old"
+        "Facility": "Fundacio Hospital de l'Esperit Sant", 
+        "Age": "16-40 years old", 
+        "id_end": 211, 
+        "y_end": 41.43868129343892, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.434976386937045, 
+        "id_start": 5
       }
     }
     ,
@@ -84,1240 +87,17 @@ var local_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2116583422624867, 
-        "x_end": 2.2175583975058792, 
-        "Name": "Paula", 
+        "x_end": 2.2159157766362116, 
+        "Name": "Roger", 
         "OBJECTID": 4, 
-        "Facility": "Oficina de Benestar Social i Familia - Llefia", 
-        "id_start": 17, 
-        "id_end": 162, 
-        "y_end": 41.43992295391707, 
+        "Facility": "Pista Poliesportiva Carrer Major", 
+        "Age": "16-40 years old", 
+        "id_end": 219, 
+        "y_end": 41.43353289315195, 
         "Sex": "Female", 
+        "Family_members": 5, 
         "y_start": 41.43573361499826, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211902503706219, 
-          41.43621373648447
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211902503706219, 
-        "x_end": 2.218790661155026, 
-        "Name": "Isabel", 
-        "OBJECTID": 5, 
-        "Facility": "Espai ludic i de Salut per a la Gent Gran - Llefia", 
-        "id_start": 24, 
-        "id_end": 163, 
-        "y_end": 41.437076185406994, 
-        "Sex": "Female", 
-        "y_start": 41.43621373648447, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2120878029217717, 
-          41.43594093974879
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2120878029217717, 
-        "x_end": 2.2175583975058792, 
-        "Name": "Manel", 
-        "OBJECTID": 6, 
-        "Facility": "Oficina de Benestar Social i Familia - Llefia", 
-        "id_start": 28, 
-        "id_end": 162, 
-        "y_end": 41.43992295391707, 
-        "Sex": "Female", 
-        "y_start": 41.43594093974879, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212179939051119, 
-          41.43589451584334
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212179939051119, 
-        "x_end": 2.2114563295908276, 
-        "Name": "Manel", 
-        "OBJECTID": 7, 
-        "Facility": "Centre de Creacio Musical Molinet", 
-        "id_start": 29, 
-        "id_end": 168, 
-        "y_end": 41.43746226767798, 
-        "Sex": "Female", 
-        "y_start": 41.43589451584334, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2122815379574585, 
-          41.43565298417969
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2122815379574585, 
-        "x_end": 2.2177266417969395, 
-        "Name": "Roger", 
-        "OBJECTID": 8, 
-        "Facility": "Llar d'Infants Tam - Tam", 
-        "id_start": 33, 
-        "id_end": 161, 
-        "y_end": 41.432617924257734, 
-        "Sex": "Male", 
-        "y_start": 41.43565298417969, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213804340222745, 
-          41.43550138867264
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213804340222745, 
-        "x_end": 2.215493905613285, 
-        "Name": "Paula", 
-        "OBJECTID": 9, 
-        "Facility": "Escola Rafael Alberti", 
-        "id_start": 41, 
-        "id_end": 139, 
-        "y_end": 41.43649329150851, 
-        "Sex": "Female", 
-        "y_start": 41.43550138867264, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213071409495562, 
-          41.43525534895045
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213071409495562, 
-        "x_end": 2.215493905613285, 
-        "Name": "Ignasi", 
-        "OBJECTID": 10, 
-        "Facility": "Escola Rafael Alberti", 
-        "id_start": 46, 
-        "id_end": 139, 
-        "y_end": 41.43649329150851, 
-        "Sex": "Female", 
-        "y_start": 41.43525534895045, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213527771595856, 
-          41.43490731163409
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213527771595856, 
-        "x_end": 2.214454863299662, 
-        "Name": "Gerard", 
-        "OBJECTID": 11, 
-        "Facility": "Petanca Pl. de la Torre de l'Ou (Ronda Llefia)", 
-        "id_start": 74, 
-        "id_end": 158, 
-        "y_end": 41.440134045493586, 
-        "Sex": "Male", 
-        "y_start": 41.43490731163409, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213421611729627, 
-          41.43485949488608
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213421611729627, 
-        "x_end": 2.2201936573828527, 
-        "Name": "Isabel", 
-        "OBJECTID": 12, 
-        "Facility": "Salo del Regne dels Testimonis Cristians de Jehova", 
-        "id_start": 76, 
-        "id_end": 159, 
-        "y_end": 41.43449429046408, 
-        "Sex": "Female", 
-        "y_start": 41.43485949488608, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2131808291883055, 
-          41.43474298352423
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2131808291883055, 
-        "x_end": 2.214489465134903, 
-        "Name": "Ignasi", 
-        "OBJECTID": 13, 
-        "Facility": "Llar d'infants Arrels-Timbals", 
-        "id_start": 77, 
-        "id_end": 174, 
-        "y_end": 41.4333962617349, 
-        "Sex": "Male", 
-        "y_start": 41.43474298352423, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2128136617060186, 
-          41.43581446856083
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2128136617060186, 
-        "x_end": 2.216000705915493, 
-        "Name": "Manel", 
-        "OBJECTID": 14, 
-        "Facility": "Complex Esportiu Municipal Llefia", 
-        "id_start": 85, 
-        "id_end": 152, 
-        "y_end": 41.437301964393484, 
-        "Sex": "Female", 
-        "y_start": 41.43581446856083, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213049388644868, 
-          41.4358251986557
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213049388644868, 
-        "x_end": 2.220579193410011, 
-        "Name": "Manel", 
-        "OBJECTID": 15, 
-        "Facility": "Escola Cultural (Artigues)", 
-        "id_start": 88, 
-        "id_end": 157, 
-        "y_end": 41.43638578570834, 
-        "Sex": "Male", 
-        "y_start": 41.4358251986557, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2130673482923746, 
-          41.435627349510405
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2130673482923746, 
-        "x_end": 2.2124007545649937, 
-        "Name": "Manel", 
-        "OBJECTID": 16, 
-        "Facility": "Casal Safaretjos", 
-        "id_start": 90, 
-        "id_end": 167, 
-        "y_end": 41.4354030420922, 
-        "Sex": "Female", 
-        "y_start": 41.435627349510405, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.21290539616869, 
-          41.43552828647333
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.21290539616869, 
-        "x_end": 2.214536381329788, 
-        "Name": "Elvira", 
-        "OBJECTID": 17, 
-        "Facility": "Institut Julia Minguell", 
-        "id_start": 92, 
-        "id_end": 141, 
-        "y_end": 41.438161823999984, 
-        "Sex": "Female", 
-        "y_start": 41.43552828647333, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2128044203952806, 
-          41.4355941335884
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2128044203952806, 
-        "x_end": 2.213012346302462, 
-        "Name": "Isabel", 
-        "OBJECTID": 18, 
-        "Facility": "Escola Municipal de Musica Benet Bails", 
-        "id_start": 93, 
-        "id_end": 173, 
-        "y_end": 41.43389727430007, 
-        "Sex": "Female", 
-        "y_start": 41.4355941335884, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213344087959211, 
-          41.43582749793409
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213344087959211, 
-        "x_end": 2.2177266417969395, 
-        "Name": "Elvira", 
-        "OBJECTID": 19, 
-        "Facility": "Llar d'Infants Tam - Tam", 
-        "id_start": 100, 
-        "id_end": 161, 
-        "y_end": 41.432617924257734, 
-        "Sex": "Female", 
-        "y_start": 41.43582749793409, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213071884399192, 
-          41.43631310311985
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213071884399192, 
-        "x_end": 2.220579193410011, 
-        "Name": "Gerard", 
-        "OBJECTID": 20, 
-        "Facility": "Escola Cultural (Artigues)", 
-        "id_start": 105, 
-        "id_end": 157, 
-        "y_end": 41.43638578570834, 
-        "Sex": "Female", 
-        "y_start": 41.43631310311985, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2132930619333875, 
-          41.434467849285525
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2132930619333875, 
-        "x_end": 2.214489465134903, 
-        "Name": "Isabel", 
-        "OBJECTID": 21, 
-        "Facility": "Llar d'infants Arrels-Timbals", 
-        "id_start": 114, 
-        "id_end": 174, 
-        "y_end": 41.4333962617349, 
-        "Sex": "Male", 
-        "y_start": 41.434467849285525, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2138550882596073, 
-          41.43462220759181
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2138550882596073, 
-        "x_end": 2.215721046073696, 
-        "Name": "Isabel", 
-        "OBJECTID": 22, 
-        "Facility": "Llar d'Infants Patufet", 
-        "id_start": 115, 
-        "id_end": 175, 
-        "y_end": 41.43296366580729, 
-        "Sex": "Male", 
-        "y_start": 41.43462220759181, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213589231540642, 
-          41.43602066871432
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213589231540642, 
-        "x_end": 2.2129166422526314, 
-        "Name": "Mateu", 
-        "OBJECTID": 23, 
-        "Facility": "Fundacio Hospital de l'Esperit Sant", 
-        "id_start": 118, 
-        "id_end": 166, 
-        "y_end": 41.43868129343892, 
-        "Sex": "Female", 
-        "y_start": 41.43602066871432, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2132860375320558, 
-          41.436026024147935
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2132860375320558, 
-        "x_end": 2.214332764047791, 
-        "Name": "Isabel", 
-        "OBJECTID": 24, 
-        "Facility": "Escola de Dansa Dansa 2001, Generacio Innovadora Segle XXI", 
-        "id_start": 120, 
-        "id_end": 172, 
-        "y_end": 41.43250907976681, 
-        "Sex": "Female", 
-        "y_start": 41.436026024147935, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213073104184982, 
-          41.43602621976089
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213073104184982, 
-        "x_end": 2.2172702023306496, 
-        "Name": "Manel", 
-        "OBJECTID": 25, 
-        "Facility": "Escola Rafael Casanova", 
-        "id_start": 124, 
-        "id_end": 140, 
-        "y_end": 41.43606996765561, 
-        "Sex": "Female", 
-        "y_start": 41.43602621976089, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212959201307746, 
-          41.436026331399404
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212959201307746, 
-        "x_end": 2.216000705915493, 
-        "Name": "Ignasi", 
-        "OBJECTID": 26, 
-        "Facility": "Complex Esportiu Municipal Llefia", 
-        "id_start": 126, 
-        "id_end": 152, 
-        "y_end": 41.437301964393484, 
-        "Sex": "Male", 
-        "y_start": 41.436026331399404, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212826398081579, 
-          41.43602638926269
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212826398081579, 
-        "x_end": 2.213012346302462, 
-        "Name": "Carles", 
-        "OBJECTID": 27, 
-        "Facility": "Escola Municipal de Musica Benet Bails", 
-        "id_start": 127, 
-        "id_end": 173, 
-        "y_end": 41.43389727430007, 
-        "Sex": "Male", 
-        "y_start": 41.43602638926269, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212483662078482, 
-          41.43609527806135
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212483662078482, 
-        "x_end": 2.217185409981995, 
-        "Name": "Carles", 
-        "OBJECTID": 28, 
-        "Facility": "Mercat Municipal", 
-        "id_start": 129, 
-        "id_end": 169, 
-        "y_end": 41.43199106414017, 
-        "Sex": "Male", 
-        "y_start": 41.43609527806135, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2124720418167416, 
-          41.43622115325158
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2124720418167416, 
-        "x_end": 2.214489465134903, 
-        "Name": "Manel", 
-        "OBJECTID": 29, 
-        "Facility": "Llar d'infants Arrels-Timbals", 
-        "id_start": 130, 
-        "id_end": 174, 
-        "y_end": 41.4333962617349, 
-        "Sex": "Male", 
-        "y_start": 41.43622115325158, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.21245952716707, 
-          41.43627872514975
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.21245952716707, 
-        "x_end": 2.2114563295908276, 
-        "Name": "Tania", 
-        "OBJECTID": 30, 
-        "Facility": "Centre de Creacio Musical Molinet", 
-        "id_start": 131, 
-        "id_end": 168, 
-        "y_end": 41.43746226767798, 
-        "Sex": "Male", 
-        "y_start": 41.43627872514975, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2133309812670285, 
-          41.436025962183884
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2133309812670285, 
-        "x_end": 2.218790661155026, 
-        "Name": "Carles", 
-        "OBJECTID": 31, 
-        "Facility": "Espai ludic i de Salut per a la Gent Gran - Llefia", 
-        "id_start": 136, 
-        "id_end": 163, 
-        "y_end": 41.437076185406994, 
-        "Sex": "Female", 
-        "y_start": 41.436025962183884, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2121853719757985, 
-          41.43492339068895
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2121853719757985, 
-        "x_end": 2.215721046073696, 
-        "Name": "Paula", 
-        "OBJECTID": 32, 
-        "Facility": "Llar d'Infants Patufet", 
-        "id_start": 11, 
-        "id_end": 175, 
-        "y_end": 41.43296366580729, 
-        "Sex": "Female", 
-        "y_start": 41.43492339068895, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211986461500992, 
-          41.435216137776436
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211986461500992, 
-        "x_end": 2.216000705915493, 
-        "Name": "Ignasi", 
-        "OBJECTID": 33, 
-        "Facility": "Complex Esportiu Municipal Llefia", 
-        "id_start": 14, 
-        "id_end": 152, 
-        "y_end": 41.437301964393484, 
-        "Sex": "Female", 
-        "y_start": 41.435216137776436, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211800807503496, 
-          41.43550326190429
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211800807503496, 
-        "x_end": 2.2137804567171777, 
-        "Name": "Carles", 
-        "OBJECTID": 34, 
-        "Facility": "Escola Pere de Tera", 
-        "id_start": 15, 
-        "id_end": 138, 
-        "y_end": 41.43974356959644, 
-        "Sex": "Male", 
-        "y_start": 41.43550326190429, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211487592490779, 
-          41.43595444682911
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211487592490779, 
-        "x_end": 2.215493905613285, 
-        "Name": "Paula", 
-        "OBJECTID": 35, 
-        "Facility": "Escola Rafael Alberti", 
-        "id_start": 18, 
-        "id_end": 139, 
-        "y_end": 41.43649329150851, 
-        "Sex": "Female", 
-        "y_start": 41.43595444682911, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2118949245619586, 
-          41.43628240868057
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2118949245619586, 
-        "x_end": 2.2137804567171777, 
-        "Name": "Carles", 
-        "OBJECTID": 36, 
-        "Facility": "Escola Pere de Tera", 
-        "id_start": 23, 
-        "id_end": 138, 
-        "y_end": 41.43974356959644, 
-        "Sex": "Male", 
-        "y_start": 41.43628240868057, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2121148227366114, 
-          41.43602348710105
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2121148227366114, 
-        "x_end": 2.2172702023306496, 
-        "Name": "Roger", 
-        "OBJECTID": 37, 
-        "Facility": "Escola Rafael Casanova", 
-        "id_start": 27, 
-        "id_end": 140, 
-        "y_end": 41.43606996765561, 
-        "Sex": "Male", 
-        "y_start": 41.43602348710105, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212179939051119, 
-          41.43589451584334
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212179939051119, 
-        "x_end": 2.217185409981995, 
-        "Name": "Manel", 
-        "OBJECTID": 38, 
-        "Facility": "Mercat Municipal", 
-        "id_start": 29, 
-        "id_end": 169, 
-        "y_end": 41.43199106414017, 
-        "Sex": "Female", 
-        "y_start": 41.43589451584334, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212190819126402, 
-          41.43575862473028
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212190819126402, 
-        "x_end": 2.2201936573828527, 
-        "Name": "Tania", 
-        "OBJECTID": 39, 
-        "Facility": "Salo del Regne dels Testimonis Cristians de Jehova", 
-        "id_start": 31, 
-        "id_end": 159, 
-        "y_end": 41.43449429046408, 
-        "Sex": "Female", 
-        "y_start": 41.43575862473028, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2120976000053596, 
-          41.435805441159346
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2120976000053596, 
-        "x_end": 2.2175583975058792, 
-        "Name": "Roger", 
-        "OBJECTID": 40, 
-        "Facility": "Oficina de Benestar Social i Familia - Llefia", 
-        "id_start": 34, 
-        "id_end": 162, 
-        "y_end": 41.43992295391707, 
-        "Sex": "Female", 
-        "y_start": 41.435805441159346, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2120463851124117, 
-          41.43585918551083
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2120463851124117, 
-        "x_end": 2.217185409981995, 
-        "Name": "Manel", 
-        "OBJECTID": 41, 
-        "Facility": "Mercat Municipal", 
-        "id_start": 35, 
-        "id_end": 169, 
-        "y_end": 41.43199106414017, 
-        "Sex": "Male", 
-        "y_start": 41.43585918551083, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2119663200911694, 
-          41.43598418289438
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2119663200911694, 
-        "x_end": 2.215721046073696, 
-        "Name": "Mateu", 
-        "OBJECTID": 42, 
-        "Facility": "Llar d'Infants Patufet", 
-        "id_start": 36, 
-        "id_end": 175, 
-        "y_end": 41.43296366580729, 
-        "Sex": "Male", 
-        "y_start": 41.43598418289438, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213686503053529, 
-          41.43517866699649
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213686503053529, 
-        "x_end": 2.2137804567171777, 
-        "Name": "Gerard", 
-        "OBJECTID": 43, 
-        "Facility": "Escola Pere de Tera", 
-        "id_start": 63, 
-        "id_end": 138, 
-        "y_end": 41.43974356959644, 
-        "Sex": "Female", 
-        "y_start": 41.43517866699649, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213339519736525, 
-          41.43482199221403
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213339519736525, 
-        "x_end": 2.2166250465032054, 
-        "Name": "Roger", 
-        "OBJECTID": 44, 
-        "Facility": "ASEPEYO Badalona", 
-        "id_start": 75, 
-        "id_end": 165, 
-        "y_end": 41.43505972245471, 
-        "Sex": "Female", 
-        "y_start": 41.43482199221403, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213421611729627, 
-          41.43485949488608
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213421611729627, 
-        "x_end": 2.2114563295908276, 
-        "Name": "Isabel", 
-        "OBJECTID": 45, 
-        "Facility": "Centre de Creacio Musical Molinet", 
-        "id_start": 76, 
-        "id_end": 168, 
-        "y_end": 41.43746226767798, 
-        "Sex": "Female", 
-        "y_start": 41.43485949488608, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2131808291883055, 
-          41.43474298352423
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2131808291883055, 
-        "x_end": 2.217185409981995, 
-        "Name": "Ignasi", 
-        "OBJECTID": 46, 
-        "Facility": "Mercat Municipal", 
-        "id_start": 77, 
-        "id_end": 169, 
-        "y_end": 41.43199106414017, 
-        "Sex": "Male", 
-        "y_start": 41.43474298352423, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212915755872033, 
-          41.43464084709614
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212915755872033, 
-        "x_end": 2.214536381329788, 
-        "Name": "Mateu", 
-        "OBJECTID": 47, 
-        "Facility": "Institut Julia Minguell", 
-        "id_start": 79, 
-        "id_end": 141, 
-        "y_end": 41.438161823999984, 
-        "Sex": "Female", 
-        "y_start": 41.43464084709614, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213049388644868, 
-          41.4358251986557
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213049388644868, 
-        "x_end": 2.2124007545649937, 
-        "Name": "Manel", 
-        "OBJECTID": 48, 
-        "Facility": "Casal Safaretjos", 
-        "id_start": 88, 
-        "id_end": 167, 
-        "y_end": 41.4354030420922, 
-        "Sex": "Male", 
-        "y_start": 41.4358251986557, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.21318475550838, 
-          41.4360261160296
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.21318475550838, 
-        "x_end": 2.214332764047791, 
-        "Name": "Carles", 
-        "OBJECTID": 49, 
-        "Facility": "Escola de Dansa Dansa 2001, Generacio Innovadora Segle XXI", 
-        "id_start": 122, 
-        "id_end": 172, 
-        "y_end": 41.43250907976681, 
-        "Sex": "Female", 
-        "y_start": 41.4360261160296, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.21245952716707, 
-          41.43627872514975
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.21245952716707, 
-        "x_end": 2.2124007545649937, 
-        "Name": "Tania", 
-        "OBJECTID": 50, 
-        "Facility": "Casal Safaretjos", 
-        "id_start": 131, 
-        "id_end": 167, 
-        "y_end": 41.4354030420922, 
-        "Sex": "Male", 
-        "y_start": 41.43627872514975, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212278688513953, 
-          41.43634243793072
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212278688513953, 
-        "x_end": 2.214536381329788, 
-        "Name": "Carles", 
-        "OBJECTID": 51, 
-        "Facility": "Institut Julia Minguell", 
-        "id_start": 132, 
-        "id_end": 141, 
-        "y_end": 41.438161823999984, 
-        "Sex": "Female", 
-        "y_start": 41.43634243793072, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212152098088515, 
-          41.434976386937045
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212152098088515, 
-        "x_end": 2.214489465134903, 
-        "Name": "Gerard", 
-        "OBJECTID": 52, 
-        "Facility": "Llar d'infants Arrels-Timbals", 
-        "id_start": 12, 
-        "id_end": 174, 
-        "y_end": 41.4333962617349, 
-        "Sex": "Female", 
-        "y_start": 41.434976386937045, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212113325382896, 
-          41.435032160342985
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212113325382896, 
-        "x_end": 2.2172702023306496, 
-        "Name": "Paula", 
-        "OBJECTID": 53, 
-        "Facility": "Escola Rafael Casanova", 
-        "id_start": 13, 
-        "id_end": 140, 
-        "y_end": 41.43606996765561, 
-        "Sex": "Male", 
-        "y_start": 41.435032160342985, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2116982447203197, 
-          41.43567169020266
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2116982447203197, 
-        "x_end": 2.2166250465032054, 
-        "Name": "Paula", 
-        "OBJECTID": 54, 
-        "Facility": "ASEPEYO Badalona", 
-        "id_start": 16, 
-        "id_end": 165, 
-        "y_end": 41.43505972245471, 
-        "Sex": "Male", 
-        "y_start": 41.43567169020266, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211323793491909, 
-          41.43617586739547
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211323793491909, 
-        "x_end": 2.2124007545649937, 
-        "Name": "Mateu", 
-        "OBJECTID": 55, 
-        "Facility": "Casal Safaretjos", 
-        "id_start": 19, 
-        "id_end": 167, 
-        "y_end": 41.4354030420922, 
-        "Sex": "Female", 
-        "y_start": 41.43617586739547, 
-        "Age": "16-40 years old"
+        "id_start": 6
       }
     }
     ,
@@ -1332,64 +112,17 @@ var local_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2119249792546527, 
-        "x_end": 2.2201936573828527, 
-        "Name": "Gerard", 
-        "OBJECTID": 56, 
-        "Facility": "Salo del Regne dels Testimonis Cristians de Jehova", 
-        "id_start": 22, 
-        "id_end": 159, 
-        "y_end": 41.43449429046408, 
-        "Sex": "Female", 
-        "y_start": 41.43635935621647, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212190819126402, 
-          41.43575862473028
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212190819126402, 
-        "x_end": 2.218790661155026, 
-        "Name": "Tania", 
-        "OBJECTID": 57, 
-        "Facility": "Espai ludic i de Salut per a la Gent Gran - Llefia", 
-        "id_start": 31, 
-        "id_end": 163, 
-        "y_end": 41.437076185406994, 
-        "Sex": "Female", 
-        "y_start": 41.43575862473028, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2120976000053596, 
-          41.435805441159346
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2120976000053596, 
         "x_end": 2.217185409981995, 
-        "Name": "Roger", 
-        "OBJECTID": 58, 
+        "Name": "Isabel", 
+        "OBJECTID": 5, 
         "Facility": "Mercat Municipal", 
-        "id_start": 34, 
-        "id_end": 169, 
+        "Age": "16-40 years old", 
+        "id_end": 213, 
         "y_end": 41.43199106414017, 
         "Sex": "Female", 
-        "y_start": 41.435805441159346, 
-        "Age": "+ than 40 years old"
+        "Family_members": 1, 
+        "y_start": 41.43635935621647, 
+        "id_start": 7
       }
     }
     ,
@@ -1397,431 +130,24 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.2118874797746053, 
-          41.4361347625529
+          2.2118949245619586, 
+          41.43628240868057
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.2118874797746053, 
-        "x_end": 2.2114563295908276, 
-        "Name": "Mateu", 
-        "OBJECTID": 59, 
-        "Facility": "Centre de Creacio Musical Molinet", 
-        "id_start": 37, 
-        "id_end": 168, 
-        "y_end": 41.43746226767798, 
-        "Sex": "Male", 
-        "y_start": 41.4361347625529, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2138623209022277, 
-          41.43552709583037
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2138623209022277, 
-        "x_end": 2.2124007545649937, 
-        "Name": "Paula", 
-        "OBJECTID": 60, 
-        "Facility": "Casal Safaretjos", 
-        "id_start": 40, 
-        "id_end": 167, 
-        "y_end": 41.4354030420922, 
-        "Sex": "Female", 
-        "y_start": 41.43552709583037, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213804340222745, 
-          41.43550138867264
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213804340222745, 
-        "x_end": 2.2137804567171777, 
-        "Name": "Paula", 
-        "OBJECTID": 61, 
-        "Facility": "Escola Pere de Tera", 
-        "id_start": 41, 
-        "id_end": 138, 
-        "y_end": 41.43974356959644, 
-        "Sex": "Female", 
-        "y_start": 41.43550138867264, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2128795105695893, 
-          41.43518109380539
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2128795105695893, 
-        "x_end": 2.2114563295908276, 
-        "Name": "Manel", 
-        "OBJECTID": 62, 
-        "Facility": "Centre de Creacio Musical Molinet", 
-        "id_start": 47, 
-        "id_end": 168, 
-        "y_end": 41.43746226767798, 
-        "Sex": "Female", 
-        "y_start": 41.43518109380539, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2126308573172233, 
-          41.43532204410111
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2126308573172233, 
-        "x_end": 2.213012346302462, 
-        "Name": "Isabel", 
-        "OBJECTID": 63, 
-        "Facility": "Escola Municipal de Musica Benet Bails", 
-        "id_start": 53, 
-        "id_end": 173, 
-        "y_end": 41.43389727430007, 
-        "Sex": "Female", 
-        "y_start": 41.43532204410111, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213941515335818, 
-          41.43555574922752
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213941515335818, 
-        "x_end": 2.2166250465032054, 
-        "Name": "Carles", 
-        "OBJECTID": 64, 
-        "Facility": "ASEPEYO Badalona", 
-        "id_start": 56, 
-        "id_end": 165, 
-        "y_end": 41.43505972245471, 
-        "Sex": "Female", 
-        "y_start": 41.43555574922752, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212728894477279, 
-          41.43478697630127
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212728894477279, 
-        "x_end": 2.2206295759114503, 
-        "Name": "Gerard", 
-        "OBJECTID": 65, 
-        "Facility": "Escola Antoni Botey", 
-        "id_start": 57, 
-        "id_end": 137, 
-        "y_end": 41.440097491931006, 
-        "Sex": "Male", 
-        "y_start": 41.43478697630127, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2130669335030615, 
-          41.43492155271287
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2130669335030615, 
-        "x_end": 2.214489465134903, 
-        "Name": "Roger", 
-        "OBJECTID": 66, 
-        "Facility": "Llar d'infants Arrels-Timbals", 
-        "id_start": 59, 
-        "id_end": 174, 
-        "y_end": 41.4333962617349, 
-        "Sex": "Female", 
-        "y_start": 41.43492155271287, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2132517634053643, 
-          41.43500676180313
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2132517634053643, 
-        "x_end": 2.218603292998955, 
-        "Name": "Manel", 
-        "OBJECTID": 67, 
-        "Facility": "Policia Nacional", 
-        "id_start": 60, 
-        "id_end": 171, 
-        "y_end": 41.43213229605353, 
-        "Sex": "Male", 
-        "y_start": 41.43500676180313, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213686503053529, 
-          41.43517866699649
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213686503053529, 
-        "x_end": 2.2129166422526314, 
-        "Name": "Gerard", 
-        "OBJECTID": 68, 
-        "Facility": "Fundacio Hospital de l'Esperit Sant", 
-        "id_start": 63, 
-        "id_end": 166, 
-        "y_end": 41.43868129343892, 
-        "Sex": "Female", 
-        "y_start": 41.43517866699649, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213900386927888, 
-          41.435043217276906
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213900386927888, 
-        "x_end": 2.214332764047791, 
-        "Name": "Isabel", 
-        "OBJECTID": 69, 
-        "Facility": "Escola de Dansa Dansa 2001, Generacio Innovadora Segle XXI", 
-        "id_start": 80, 
-        "id_end": 172, 
-        "y_end": 41.43250907976681, 
-        "Sex": "Female", 
-        "y_start": 41.435043217276906, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.21323108535727, 
-          41.43583366990441
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.21323108535727, 
+        "x_start": 2.2118949245619586, 
         "x_end": 2.2177266417969395, 
-        "Name": "Paula", 
-        "OBJECTID": 70, 
+        "Name": "Ignasi", 
+        "OBJECTID": 6, 
         "Facility": "Llar d'Infants Tam - Tam", 
-        "id_start": 98, 
-        "id_end": 161, 
+        "Age": "16-40 years old", 
+        "id_end": 210, 
         "y_end": 41.432617924257734, 
         "Sex": "Male", 
-        "y_start": 41.43583366990441, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213631351150813, 
-          41.435811016440994
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213631351150813, 
-        "x_end": 2.216000705915493, 
-        "Name": "Gerard", 
-        "OBJECTID": 71, 
-        "Facility": "Complex Esportiu Municipal Llefia", 
-        "id_start": 104, 
-        "id_end": 152, 
-        "y_end": 41.437301964393484, 
-        "Sex": "Female", 
-        "y_start": 41.435811016440994, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2125586065652, 
-          41.43636959314474
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2125586065652, 
-        "x_end": 2.2172702023306496, 
-        "Name": "Isabel", 
-        "OBJECTID": 72, 
-        "Facility": "Escola Rafael Casanova", 
-        "id_start": 134, 
-        "id_end": 140, 
-        "y_end": 41.43606996765561, 
-        "Sex": "Male", 
-        "y_start": 41.43636959314474, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212460124013772, 
-          41.43448158474258
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212460124013772, 
-        "x_end": 2.2124007545649937, 
-        "Name": "Ignasi", 
-        "OBJECTID": 73, 
-        "Facility": "Casal Safaretjos", 
-        "id_start": 5, 
-        "id_end": 167, 
-        "y_end": 41.4354030420922, 
-        "Sex": "Male", 
-        "y_start": 41.43448158474258, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212219365067016, 
-          41.43486961030305
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212219365067016, 
-        "x_end": 2.2124007545649937, 
-        "Name": "Manel", 
-        "OBJECTID": 74, 
-        "Facility": "Casal Safaretjos", 
-        "id_start": 10, 
-        "id_end": 167, 
-        "y_end": 41.4354030420922, 
-        "Sex": "Female", 
-        "y_start": 41.43486961030305, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212152098088515, 
-          41.434976386937045
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212152098088515, 
-        "x_end": 2.214489465134903, 
-        "Name": "Gerard", 
-        "OBJECTID": 75, 
-        "Facility": "Llar d'infants Arrels-Timbals", 
-        "id_start": 12, 
-        "id_end": 174, 
-        "y_end": 41.4333962617349, 
-        "Sex": "Female", 
-        "y_start": 41.434976386937045, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211986461500992, 
-          41.435216137776436
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211986461500992, 
-        "x_end": 2.216000705915493, 
-        "Name": "Ignasi", 
-        "OBJECTID": 76, 
-        "Facility": "Complex Esportiu Municipal Llefia", 
-        "id_start": 14, 
-        "id_end": 152, 
-        "y_end": 41.437301964393484, 
-        "Sex": "Female", 
-        "y_start": 41.435216137776436, 
-        "Age": "0-15 years old"
+        "Family_members": 1, 
+        "y_start": 41.43628240868057, 
+        "id_start": 8
       }
     }
     ,
@@ -1836,16 +162,17 @@ var local_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2120086457026806, 
-        "x_end": 2.213012346302462, 
-        "Name": "Isabel", 
-        "OBJECTID": 77, 
-        "Facility": "Escola Municipal de Musica Benet Bails", 
-        "id_start": 26, 
-        "id_end": 173, 
-        "y_end": 41.43389727430007, 
+        "x_end": 2.215223251520091, 
+        "Name": "Ignasi", 
+        "OBJECTID": 7, 
+        "Facility": "Biblioteca Sant Adria", 
+        "Age": "16-40 years old", 
+        "id_end": 214, 
+        "y_end": 41.431512463393254, 
         "Sex": "Male", 
+        "Family_members": 1, 
         "y_start": 41.43608093447195, 
-        "Age": "16-40 years old"
+        "id_start": 11
       }
     }
     ,
@@ -1853,71 +180,24 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.2121148227366114, 
-          41.43602348710105
+          2.2120878029217717, 
+          41.43594093974879
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.2121148227366114, 
+        "x_start": 2.2120878029217717, 
         "x_end": 2.2177266417969395, 
-        "Name": "Roger", 
-        "OBJECTID": 78, 
+        "Name": "Carles", 
+        "OBJECTID": 8, 
         "Facility": "Llar d'Infants Tam - Tam", 
-        "id_start": 27, 
-        "id_end": 161, 
+        "Age": "16-40 years old", 
+        "id_end": 210, 
         "y_end": 41.432617924257734, 
         "Sex": "Male", 
-        "y_start": 41.43602348710105, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2120976000053596, 
-          41.435805441159346
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2120976000053596, 
-        "x_end": 2.220579193410011, 
-        "Name": "Roger", 
-        "OBJECTID": 79, 
-        "Facility": "Escola Cultural (Artigues)", 
-        "id_start": 34, 
-        "id_end": 157, 
-        "y_end": 41.43638578570834, 
-        "Sex": "Female", 
-        "y_start": 41.435805441159346, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2120463851124117, 
-          41.43585918551083
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2120463851124117, 
-        "x_end": 2.216000705915493, 
-        "Name": "Manel", 
-        "OBJECTID": 80, 
-        "Facility": "Complex Esportiu Municipal Llefia", 
-        "id_start": 35, 
-        "id_end": 152, 
-        "y_end": 41.437301964393484, 
-        "Sex": "Male", 
-        "y_start": 41.43585918551083, 
-        "Age": "0-15 years old"
+        "Family_members": 4, 
+        "y_start": 41.43594093974879, 
+        "id_start": 13
       }
     }
     ,
@@ -1932,16 +212,17 @@ var local_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2119663200911694, 
-        "x_end": 2.2201936573828527, 
-        "Name": "Mateu", 
-        "OBJECTID": 81, 
-        "Facility": "Salo del Regne dels Testimonis Cristians de Jehova", 
-        "id_start": 36, 
-        "id_end": 159, 
-        "y_end": 41.43449429046408, 
+        "x_end": 2.2155253480897628, 
+        "Name": "Manel", 
+        "OBJECTID": 9, 
+        "Facility": "Camp de Futbol LLefia", 
+        "Age": "16-40 years old", 
+        "id_end": 206, 
+        "y_end": 41.43784282076269, 
         "Sex": "Male", 
+        "Family_members": 6, 
         "y_start": 41.43598418289438, 
-        "Age": "0-15 years old"
+        "id_start": 19
       }
     }
     ,
@@ -1949,23 +230,24 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.211766129914262, 
-          41.43631714893162
+          2.213804340222745, 
+          41.43550138867264
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.211766129914262, 
-        "x_end": 2.220579193410011, 
-        "Name": "Mateu", 
-        "OBJECTID": 82, 
-        "Facility": "Escola Cultural (Artigues)", 
-        "id_start": 38, 
-        "id_end": 157, 
-        "y_end": 41.43638578570834, 
+        "x_start": 2.213804340222745, 
+        "x_end": 2.213012346302462, 
+        "Name": "Roger", 
+        "OBJECTID": 10, 
+        "Facility": "Escola Municipal de Musica Benet Bails", 
+        "Age": "16-40 years old", 
+        "id_end": 215, 
+        "y_end": 41.43389727430007, 
         "Sex": "Male", 
-        "y_start": 41.43631714893162, 
-        "Age": "0-15 years old"
+        "Family_members": 6, 
+        "y_start": 41.43550138867264, 
+        "id_start": 22
       }
     }
     ,
@@ -1973,47 +255,24 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.2138623209022277, 
-          41.43552709583037
+          2.2137434502438302, 
+          41.43547435822407
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.2138623209022277, 
-        "x_end": 2.2177266417969395, 
-        "Name": "Paula", 
-        "OBJECTID": 83, 
-        "Facility": "Llar d'Infants Tam - Tam", 
-        "id_start": 40, 
-        "id_end": 161, 
-        "y_end": 41.432617924257734, 
-        "Sex": "Female", 
-        "y_start": 41.43552709583037, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212797732011491, 
-          41.4350312618977
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212797732011491, 
-        "x_end": 2.216000705915493, 
-        "Name": "Isabel", 
-        "OBJECTID": 84, 
-        "Facility": "Complex Esportiu Municipal Llefia", 
-        "id_start": 48, 
-        "id_end": 152, 
-        "y_end": 41.437301964393484, 
+        "x_start": 2.2137434502438302, 
+        "x_end": 2.213012346302462, 
+        "Name": "Carles", 
+        "OBJECTID": 11, 
+        "Facility": "Escola Municipal de Musica Benet Bails", 
+        "Age": "16-40 years old", 
+        "id_end": 215, 
+        "y_end": 41.43389727430007, 
         "Sex": "Male", 
-        "y_start": 41.4350312618977, 
-        "Age": "16-40 years old"
+        "Family_members": 4, 
+        "y_start": 41.43547435822407, 
+        "id_start": 23
       }
     }
     ,
@@ -2021,23 +280,74 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.2126315830626075, 
-          41.43507044940651
+          2.213686894827919, 
+          41.43544927775836
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.2126315830626075, 
-        "x_end": 2.220579193410011, 
-        "Name": "Isabel", 
-        "OBJECTID": 85, 
-        "Facility": "Escola Cultural (Artigues)", 
-        "id_start": 50, 
-        "id_end": 157, 
-        "y_end": 41.43638578570834, 
+        "x_start": 2.213686894827919, 
+        "x_end": 2.2172702023306496, 
+        "Name": "Elvira", 
+        "OBJECTID": 12, 
+        "Facility": "Escola Rafael Casanova", 
+        "Age": "16-40 years old", 
+        "id_end": 202, 
+        "y_end": 41.43606996765561, 
+        "Sex": "Male", 
+        "Family_members": 5, 
+        "y_start": 41.43544927775836, 
+        "id_start": 24
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2132019483022227, 
+          41.43529835884255
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2132019483022227, 
+        "x_end": 2.2176796608790434, 
+        "Name": "Tania", 
+        "OBJECTID": 13, 
+        "Facility": "CAP Doctor Barraquer", 
+        "Age": "16-40 years old", 
+        "id_end": 220, 
+        "y_end": 41.42991947032742, 
         "Sex": "Female", 
-        "y_start": 41.43507044940651, 
-        "Age": "+ than 40 years old"
+        "Family_members": 3, 
+        "y_start": 41.43529835884255, 
+        "id_start": 26
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2128795105695893, 
+          41.43518109380539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2128795105695893, 
+        "x_end": 2.213012346302462, 
+        "Name": "Tania", 
+        "OBJECTID": 14, 
+        "Facility": "Escola Municipal de Musica Benet Bails", 
+        "Age": "16-40 years old", 
+        "id_end": 215, 
+        "y_end": 41.43389727430007, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43518109380539, 
+        "id_start": 28
       }
     }
     ,
@@ -2052,16 +362,17 @@ var local_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.212553003520491, 
-        "x_end": 2.2137804567171777, 
-        "Name": "Manel", 
-        "OBJECTID": 86, 
-        "Facility": "Escola Pere de Tera", 
-        "id_start": 51, 
-        "id_end": 138, 
-        "y_end": 41.43974356959644, 
+        "x_end": 2.2169845619125828, 
+        "Name": "Roger", 
+        "OBJECTID": 15, 
+        "Facility": "Col\u00b7legi de FP Llefia", 
+        "Age": "16-40 years old", 
+        "id_end": 204, 
+        "y_end": 41.43810739597739, 
         "Sex": "Male", 
+        "Family_members": 3, 
         "y_start": 41.4351501598272, 
-        "Age": "0-15 years old"
+        "id_start": 29
       }
     }
     ,
@@ -2069,23 +380,24 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.212728894477279, 
-          41.43478697630127
+          2.2124552742350945, 
+          41.435314515404635
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.212728894477279, 
-        "x_end": 2.2166250465032054, 
-        "Name": "Gerard", 
-        "OBJECTID": 87, 
-        "Facility": "ASEPEYO Badalona", 
-        "id_start": 57, 
-        "id_end": 165, 
-        "y_end": 41.43505972245471, 
+        "x_start": 2.2124552742350945, 
+        "x_end": 2.2124004682611083, 
+        "Name": "Paula", 
+        "OBJECTID": 16, 
+        "Facility": "Casal Els Safaretjos", 
+        "Age": "16-40 years old", 
+        "id_end": 221, 
+        "y_end": 41.43541203064415, 
         "Sex": "Male", 
-        "y_start": 41.43478697630127, 
-        "Age": "0-15 years old"
+        "Family_members": 5, 
+        "y_start": 41.435314515404635, 
+        "id_start": 30
       }
     }
     ,
@@ -2093,47 +405,24 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.213542136820687, 
-          41.4351276581883
+          2.212851846755286, 
+          41.43530307255195
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.213542136820687, 
-        "x_end": 2.2114563295908276, 
-        "Name": "Gerard", 
-        "OBJECTID": 88, 
-        "Facility": "Centre de Creacio Musical Molinet", 
-        "id_start": 62, 
-        "id_end": 168, 
-        "y_end": 41.43746226767798, 
-        "Sex": "Male", 
-        "y_start": 41.4351276581883, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213937304806328, 
-          41.43533807077166
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213937304806328, 
-        "x_end": 2.214454863299662, 
+        "x_start": 2.212851846755286, 
+        "x_end": 2.2172702023306496, 
         "Name": "Ignasi", 
-        "OBJECTID": 89, 
-        "Facility": "Petanca Pl. de la Torre de l'Ou (Ronda Llefia)", 
-        "id_start": 66, 
-        "id_end": 158, 
-        "y_end": 41.440134045493586, 
-        "Sex": "Male", 
-        "y_start": 41.43533807077166, 
-        "Age": "0-15 years old"
+        "OBJECTID": 17, 
+        "Facility": "Escola Rafael Casanova", 
+        "Age": "16-40 years old", 
+        "id_end": 202, 
+        "y_end": 41.43606996765561, 
+        "Sex": "Female", 
+        "Family_members": 4, 
+        "y_start": 41.43530307255195, 
+        "id_start": 32
       }
     }
     ,
@@ -2141,23 +430,49 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.213982390638945, 
-          41.4353899834038
+          2.213941515335818, 
+          41.43555574922752
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.213982390638945, 
-        "x_end": 2.2114563295908276, 
-        "Name": "Gerard", 
-        "OBJECTID": 90, 
-        "Facility": "Centre de Creacio Musical Molinet", 
-        "id_start": 67, 
-        "id_end": 168, 
-        "y_end": 41.43746226767798, 
+        "x_start": 2.213941515335818, 
+        "x_end": 2.2129166422526314, 
+        "Name": "Roger", 
+        "OBJECTID": 18, 
+        "Facility": "Fundacio Hospital de l'Esperit Sant", 
+        "Age": "16-40 years old", 
+        "id_end": 211, 
+        "y_end": 41.43868129343892, 
         "Sex": "Male", 
-        "y_start": 41.4353899834038, 
-        "Age": "0-15 years old"
+        "Family_members": 2, 
+        "y_start": 41.43555574922752, 
+        "id_start": 34
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.214299562438492, 
+          41.435218335093765
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.214299562438492, 
+        "x_end": 2.218380295196833, 
+        "Name": "Manel", 
+        "OBJECTID": 19, 
+        "Facility": "Pista Poliesportiva Artigas", 
+        "Age": "16-40 years old", 
+        "id_end": 208, 
+        "y_end": 41.432842028822364, 
+        "Sex": "Female", 
+        "Family_members": 1, 
+        "y_start": 41.435218335093765, 
+        "id_start": 42
       }
     }
     ,
@@ -2172,64 +487,17 @@ var local_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2142386143730057, 
-        "x_end": 2.2114563295908276, 
-        "Name": "Carles", 
-        "OBJECTID": 91, 
-        "Facility": "Centre de Creacio Musical Molinet", 
-        "id_start": 68, 
-        "id_end": 168, 
-        "y_end": 41.43746226767798, 
-        "Sex": "Male", 
-        "y_start": 41.435202675513295, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.21413141888308, 
-          41.43513931900104
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.21413141888308, 
-        "x_end": 2.214454863299662, 
-        "Name": "Ignasi", 
-        "OBJECTID": 92, 
-        "Facility": "Petanca Pl. de la Torre de l'Ou (Ronda Llefia)", 
-        "id_start": 70, 
-        "id_end": 158, 
-        "y_end": 41.440134045493586, 
-        "Sex": "Male", 
-        "y_start": 41.43513931900104, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213339519736525, 
-          41.43482199221403
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213339519736525, 
-        "x_end": 2.213012346302462, 
+        "x_end": 2.2176796608790434, 
         "Name": "Roger", 
-        "OBJECTID": 93, 
-        "Facility": "Escola Municipal de Musica Benet Bails", 
-        "id_start": 75, 
-        "id_end": 173, 
-        "y_end": 41.43389727430007, 
+        "OBJECTID": 20, 
+        "Facility": "CAP Doctor Barraquer", 
+        "Age": "16-40 years old", 
+        "id_end": 220, 
+        "y_end": 41.42991947032742, 
         "Sex": "Female", 
-        "y_start": 41.43482199221403, 
-        "Age": "0-15 years old"
+        "Family_members": 5, 
+        "y_start": 41.435202675513295, 
+        "id_start": 43
       }
     }
     ,
@@ -2237,23 +505,24 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.2131808291883055, 
-          41.43474298352423
+          2.2131993107745718, 
+          41.43478600790489
         ]
       }, 
       "type": "Feature", 
       "properties": {
         "x_start": 2.2131808291883055, 
-        "x_end": 2.218603292998955, 
-        "Name": "Ignasi", 
-        "OBJECTID": 94, 
-        "Facility": "Policia Nacional", 
-        "id_start": 77, 
-        "id_end": 171, 
-        "y_end": 41.43213229605353, 
+        "x_end": 2.214536381329788, 
+        "Name": "Tania", 
+        "OBJECTID": 21, 
+        "Facility": "Institut Julia Minguell", 
+        "Age": "16-40 years old", 
+        "id_end": 203, 
+        "y_end": 41.438161823999984, 
         "Sex": "Male", 
+        "Family_members": 5, 
         "y_start": 41.43474298352423, 
-        "Age": "0-15 years old"
+        "id_start": 51
       }
     }
     ,
@@ -2268,16 +537,17 @@ var local_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.21410723516534, 
-        "x_end": 2.218380295196833, 
-        "Name": "Ignasi", 
-        "OBJECTID": 95, 
-        "Facility": "Pista Poliesportiva Artigas", 
-        "id_start": 78, 
-        "id_end": 156, 
-        "y_end": 41.432842028822364, 
-        "Sex": "Male", 
+        "x_end": 2.2176796608790434, 
+        "Name": "Gerard", 
+        "OBJECTID": 22, 
+        "Facility": "CAP Doctor Barraquer", 
+        "Age": "16-40 years old", 
+        "id_end": 220, 
+        "y_end": 41.42991947032742, 
+        "Sex": "Female", 
+        "Family_members": 4, 
         "y_start": 41.43534945611357, 
-        "Age": "16-40 years old"
+        "id_start": 52
       }
     }
     ,
@@ -2285,23 +555,49 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.213900386927888, 
-          41.435043217276906
+          2.212532957927962, 
+          41.43585478428305
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.213900386927888, 
+        "x_start": 2.212532957927962, 
+        "x_end": 2.216267016422964, 
+        "Name": "Roger", 
+        "OBJECTID": 23, 
+        "Facility": "Col\u00b7legi Sant Gabriel", 
+        "Age": "16-40 years old", 
+        "id_end": 216, 
+        "y_end": 41.430642274851046, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.43585478428305, 
+        "id_start": 56
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212604564383331, 
+          41.43585682639697
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212604564383331, 
         "x_end": 2.2172702023306496, 
-        "Name": "Isabel", 
-        "OBJECTID": 96, 
+        "Name": "Elvira", 
+        "OBJECTID": 24, 
         "Facility": "Escola Rafael Casanova", 
-        "id_start": 80, 
-        "id_end": 140, 
+        "Age": "16-40 years old", 
+        "id_end": 202, 
         "y_end": 41.43606996765561, 
         "Sex": "Female", 
-        "y_start": 41.435043217276906, 
-        "Age": "0-15 years old"
+        "Family_members": 5, 
+        "y_start": 41.43585682639697, 
+        "id_start": 57
       }
     }
     ,
@@ -2316,16 +612,17 @@ var local_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2128136617060186, 
-        "x_end": 2.2137804567171777, 
-        "Name": "Manel", 
-        "OBJECTID": 97, 
-        "Facility": "Escola Pere de Tera", 
-        "id_start": 85, 
-        "id_end": 138, 
-        "y_end": 41.43974356959644, 
+        "x_end": 2.214536381329788, 
+        "Name": "Gerard", 
+        "OBJECTID": 25, 
+        "Facility": "Institut Julia Minguell", 
+        "Age": "16-40 years old", 
+        "id_end": 203, 
+        "y_end": 41.438161823999984, 
         "Sex": "Female", 
+        "Family_members": 4, 
         "y_start": 41.43581446856083, 
-        "Age": "0-15 years old"
+        "id_start": 58
       }
     }
     ,
@@ -2333,23 +630,24 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.213106246457339, 
-          41.43582297001905
+          2.2129433903142783, 
+          41.43582039133889
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.213106246457339, 
-        "x_end": 2.2175583975058792, 
+        "x_start": 2.2129433903142783, 
+        "x_end": 2.2177266417969395, 
         "Name": "Ignasi", 
-        "OBJECTID": 98, 
-        "Facility": "Oficina de Benestar Social i Familia - Llefia", 
-        "id_start": 89, 
-        "id_end": 162, 
-        "y_end": 41.43992295391707, 
+        "OBJECTID": 26, 
+        "Facility": "Llar d'Infants Tam - Tam", 
+        "Age": "16-40 years old", 
+        "id_end": 210, 
+        "y_end": 41.432617924257734, 
         "Sex": "Male", 
-        "y_start": 41.43582297001905, 
-        "Age": "0-15 years old"
+        "Family_members": 4, 
+        "y_start": 41.43582039133889, 
+        "id_start": 59
       }
     }
     ,
@@ -2357,23 +655,49 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.2129742007323387, 
-          41.435591917430486
+          2.2129958547923962, 
+          41.43582276613082
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.2129742007323387, 
-        "x_end": 2.2129166422526314, 
+        "x_start": 2.2129958547923962, 
+        "x_end": 2.217185409981995, 
+        "Name": "Tania", 
+        "OBJECTID": 27, 
+        "Facility": "Mercat Municipal", 
+        "Age": "16-40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Female", 
+        "Family_members": 6, 
+        "y_start": 41.43582276613082, 
+        "id_start": 60
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2128044203952806, 
+          41.4355941335884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2128044203952806, 
+        "x_end": 2.217185409981995, 
         "Name": "Isabel", 
-        "OBJECTID": 99, 
-        "Facility": "Fundacio Hospital de l'Esperit Sant", 
-        "id_start": 91, 
-        "id_end": 166, 
-        "y_end": 41.43868129343892, 
+        "OBJECTID": 28, 
+        "Facility": "Mercat Municipal", 
+        "Age": "16-40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
         "Sex": "Male", 
-        "y_start": 41.435591917430486, 
-        "Age": "16-40 years old"
+        "Family_members": 2, 
+        "y_start": 41.4355941335884, 
+        "id_start": 66
       }
     }
     ,
@@ -2381,191 +705,24 @@ var local_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.21290539616869, 
-          41.43552828647333
+          2.213071884399192, 
+          41.43631310311985
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.21290539616869, 
-        "x_end": 2.2114563295908276, 
-        "Name": "Elvira", 
-        "OBJECTID": 100, 
-        "Facility": "Centre de Creacio Musical Molinet", 
-        "id_start": 92, 
-        "id_end": 168, 
-        "y_end": 41.43746226767798, 
-        "Sex": "Female", 
-        "y_start": 41.43552828647333, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2134323845784425, 
-          41.43582537782391
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2134323845784425, 
-        "x_end": 2.213012346302462, 
-        "Name": "Manel", 
-        "OBJECTID": 101, 
-        "Facility": "Escola Municipal de Musica Benet Bails", 
-        "id_start": 101, 
-        "id_end": 173, 
-        "y_end": 41.43389727430007, 
+        "x_start": 2.213071884399192, 
+        "x_end": 2.2124004682611083, 
+        "Name": "Isabel", 
+        "OBJECTID": 29, 
+        "Facility": "Casal Els Safaretjos", 
+        "Age": "16-40 years old", 
+        "id_end": 221, 
+        "y_end": 41.43541203064415, 
         "Sex": "Male", 
-        "y_start": 41.43582537782391, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2138068809714357, 
-          41.435826949631796
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2138068809714357, 
-        "x_end": 2.2172280562788034, 
-        "Name": "Mateu", 
-        "OBJECTID": 102, 
-        "Facility": "Llar d'Infants El Petit Gegant", 
-        "id_start": 102, 
-        "id_end": 160, 
-        "y_end": 41.43419300404735, 
-        "Sex": "Male", 
-        "y_start": 41.435826949631796, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2133708988667564, 
-          41.43566507340725
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2133708988667564, 
-        "x_end": 2.216000705915493, 
-        "Name": "Paula", 
-        "OBJECTID": 103, 
-        "Facility": "Complex Esportiu Municipal Llefia", 
-        "id_start": 103, 
-        "id_end": 152, 
-        "y_end": 41.437301964393484, 
-        "Sex": "Female", 
-        "y_start": 41.43566507340725, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213631351150813, 
-          41.435811016440994
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213631351150813, 
-        "x_end": 2.2137804567171777, 
-        "Name": "Gerard", 
-        "OBJECTID": 104, 
-        "Facility": "Escola Pere de Tera", 
-        "id_start": 104, 
-        "id_end": 138, 
-        "y_end": 41.43974356959644, 
-        "Sex": "Female", 
-        "y_start": 41.435811016440994, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.214437599973549, 
-          41.43501522751394
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.214437599973549, 
-        "x_end": 2.2114563295908276, 
-        "Name": "Roger", 
-        "OBJECTID": 105, 
-        "Facility": "Centre de Creacio Musical Molinet", 
-        "id_start": 106, 
-        "id_end": 168, 
-        "y_end": 41.43746226767798, 
-        "Sex": "Female", 
-        "y_start": 41.43501522751394, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.214206229582106, 
-          41.43487454171898
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.214206229582106, 
-        "x_end": 2.218603292998955, 
-        "Name": "Gerard", 
-        "OBJECTID": 106, 
-        "Facility": "Policia Nacional", 
-        "id_start": 110, 
-        "id_end": 171, 
-        "y_end": 41.43213229605353, 
-        "Sex": "Male", 
-        "y_start": 41.43487454171898, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.214149989167827, 
-          41.43482377078107
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.214149989167827, 
-        "x_end": 2.2124007545649937, 
-        "Name": "Roger", 
-        "OBJECTID": 107, 
-        "Facility": "Casal Safaretjos", 
-        "id_start": 111, 
-        "id_end": 167, 
-        "y_end": 41.4354030420922, 
-        "Sex": "Male", 
-        "y_start": 41.43482377078107, 
-        "Age": "16-40 years old"
+        "Family_members": 3, 
+        "y_start": 41.43631310311985, 
+        "id_start": 73
       }
     }
     ,
@@ -2580,16 +737,1067 @@ var local_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2132930619333875, 
+        "x_end": 2.218380295196833, 
+        "Name": "Elvira", 
+        "OBJECTID": 30, 
+        "Facility": "Pista Poliesportiva Artigas", 
+        "Age": "16-40 years old", 
+        "id_end": 208, 
+        "y_end": 41.432842028822364, 
+        "Sex": "Male", 
+        "Family_members": 1, 
+        "y_start": 41.434467849285525, 
+        "id_start": 78
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213129332689434, 
+          41.436026162107126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213129332689434, 
+        "x_end": 2.2177266417969395, 
+        "Name": "Roger", 
+        "OBJECTID": 31, 
+        "Facility": "Llar d'Infants Tam - Tam", 
+        "Age": "16-40 years old", 
+        "id_end": 210, 
+        "y_end": 41.432617924257734, 
+        "Sex": "Male", 
+        "Family_members": 5, 
+        "y_start": 41.436026162107126, 
+        "id_start": 83
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212483662078482, 
+          41.43609527806135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212483662078482, 
+        "x_end": 2.2172280562788034, 
+        "Name": "Gerard", 
+        "OBJECTID": 32, 
+        "Facility": "Llar d'Infants El Petit Gegant", 
+        "Age": "16-40 years old", 
+        "id_end": 209, 
+        "y_end": 41.43419300404735, 
+        "Sex": "Female", 
+        "Family_members": 6, 
+        "y_start": 41.43609527806135, 
+        "id_start": 88
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2133309812670285, 
+          41.436025962183884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2133309812670285, 
+        "x_end": 2.215223251520091, 
+        "Name": "Mateu", 
+        "OBJECTID": 33, 
+        "Facility": "Biblioteca Sant Adria", 
+        "Age": "16-40 years old", 
+        "id_end": 214, 
+        "y_end": 41.431512463393254, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.436025962183884, 
+        "id_start": 93
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2132879398925915, 
+          41.43612293027099
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2132879398925915, 
+        "x_end": 2.2189668218139924, 
+        "Name": "Manel", 
+        "OBJECTID": 34, 
+        "Facility": "Oficina de Treball de la Generalitat", 
+        "Age": "16-40 years old", 
+        "id_end": 205, 
+        "y_end": 41.43527256782731, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.43612293027099, 
+        "id_start": 95
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213196095210675, 
+          41.43617568658969
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213196095210675, 
+        "x_end": 2.216658679948552, 
+        "Name": "Carles", 
+        "OBJECTID": 35, 
+        "Facility": "Club de Petanca Sant Antoni Llefia", 
+        "Age": "16-40 years old", 
+        "id_end": 207, 
+        "y_end": 41.43783209966768, 
+        "Sex": "Female", 
+        "Family_members": 2, 
+        "y_start": 41.43617568658969, 
+        "id_start": 96
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2132560204212464, 
+          41.43624854602429
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2132560204212464, 
+        "x_end": 2.213012346302462, 
+        "Name": "Roger", 
+        "OBJECTID": 36, 
+        "Facility": "Escola Municipal de Musica Benet Bails", 
+        "Age": "16-40 years old", 
+        "id_end": 215, 
+        "y_end": 41.43389727430007, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43624854602429, 
+        "id_start": 100
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212572914208606, 
+          41.435593251802786
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212572914208606, 
+        "x_end": 2.217185409981995, 
+        "Name": "Carles", 
+        "OBJECTID": 37, 
+        "Facility": "Mercat Municipal", 
+        "Age": "16-40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.435593251802786, 
+        "id_start": 103
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212825502918221, 
+          41.43586619198612
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212825502918221, 
+        "x_end": 2.218380295196833, 
+        "Name": "Ignasi", 
+        "OBJECTID": 38, 
+        "Facility": "Pista Poliesportiva Artigas", 
+        "Age": "16-40 years old", 
+        "id_end": 208, 
+        "y_end": 41.432842028822364, 
+        "Sex": "Male", 
+        "Family_members": 6, 
+        "y_start": 41.43586619198612, 
+        "id_start": 107
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2128669347922005, 
+          41.43579211899639
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2128669347922005, 
+        "x_end": 2.2140934694291405, 
+        "Name": "Carles", 
+        "OBJECTID": 39, 
+        "Facility": "Parroquia de Sant Adria", 
+        "Age": "16-40 years old", 
+        "id_end": 218, 
+        "y_end": 41.43402727362011, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43579211899639, 
+        "id_start": 108
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.211811930139178, 
+          41.43619337974973
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.211811930139178, 
+        "x_end": 2.217185409981995, 
+        "Name": "Isabel", 
+        "OBJECTID": 40, 
+        "Facility": "Mercat Municipal", 
+        "Age": "16-40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Male", 
+        "Family_members": 3, 
+        "y_start": 41.43619337974973, 
+        "id_start": 110
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2120005928717648, 
+          41.43630525391785
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2120005928717648, 
+        "x_end": 2.215493905613285, 
+        "Name": "Tania", 
+        "OBJECTID": 41, 
+        "Facility": "Escola Rafael Alberti", 
+        "Age": "16-40 years old", 
+        "id_end": 201, 
+        "y_end": 41.43649329150851, 
+        "Sex": "Female", 
+        "Family_members": 2, 
+        "y_start": 41.43630525391785, 
+        "id_start": 112
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212223977090221, 
+          41.4358388820657
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212223977090221, 
+        "x_end": 2.217185409981995, 
+        "Name": "Gerard", 
+        "OBJECTID": 42, 
+        "Facility": "Mercat Municipal", 
+        "Age": "16-40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.4358388820657, 
+        "id_start": 117
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213824393299674, 
+          41.435221113023175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213824393299674, 
+        "x_end": 2.2189668218139924, 
+        "Name": "Paula", 
+        "OBJECTID": 43, 
+        "Facility": "Oficina de Treball de la Generalitat", 
+        "Age": "16-40 years old", 
+        "id_end": 205, 
+        "y_end": 41.43527256782731, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.435221113023175, 
+        "id_start": 123
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2126768404242716, 
+          41.43585892709352
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2126768404242716, 
+        "x_end": 2.2140934694291405, 
+        "Name": "Tania", 
+        "OBJECTID": 44, 
+        "Facility": "Parroquia de Sant Adria", 
+        "Age": "16-40 years old", 
+        "id_end": 218, 
+        "y_end": 41.43402727362011, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.43585892709352, 
+        "id_start": 126
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.21323108535727, 
+          41.43583366990441
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.21323108535727, 
+        "x_end": 2.2140934694291405, 
+        "Name": "Isabel", 
+        "OBJECTID": 45, 
+        "Facility": "Parroquia de Sant Adria", 
+        "Age": "16-40 years old", 
+        "id_end": 218, 
+        "y_end": 41.43402727362011, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43583366990441, 
+        "id_start": 127
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.214437632014235, 
+          41.43501515116942
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.214437632014235, 
+        "x_end": 2.215223251520091, 
+        "Name": "Elvira", 
+        "OBJECTID": 46, 
+        "Facility": "Biblioteca Sant Adria", 
+        "Age": "16-40 years old", 
+        "id_end": 214, 
+        "y_end": 41.431512463393254, 
+        "Sex": "Female", 
+        "Family_members": 4, 
+        "y_start": 41.43501515116942, 
+        "id_start": 128
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2122094057128963, 
+          41.435903204449204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2122094057128963, 
+        "x_end": 2.217185409981995, 
+        "Name": "Isabel", 
+        "OBJECTID": 47, 
+        "Facility": "Mercat Municipal", 
+        "Age": "16-40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.435903204449204, 
+        "id_start": 135
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2126590052737547, 
+          41.434430578537366
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2126590052737547, 
+        "x_end": 2.217185409981995, 
+        "Name": "Carles", 
+        "OBJECTID": 48, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Female", 
+        "Family_members": 2, 
+        "y_start": 41.434430578537366, 
+        "id_start": 3
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.211902503706219, 
+          41.43621373648447
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.211902503706219, 
+        "x_end": 2.215223251520091, 
+        "Name": "Isabel", 
+        "OBJECTID": 51, 
+        "Facility": "Biblioteca Sant Adria", 
+        "Age": "0-15 years old", 
+        "id_end": 214, 
+        "y_end": 41.431512463393254, 
+        "Sex": "Female", 
+        "Family_members": 5, 
+        "y_start": 41.43621373648447, 
+        "id_start": 9
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.211766129914262, 
+          41.43631714893162
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.211766129914262, 
+        "x_end": 2.216267016422964, 
+        "Name": "Mateu", 
+        "OBJECTID": 52, 
+        "Facility": "Col\u00b7legi Sant Gabriel", 
+        "Age": "+ than 40 years old", 
+        "id_end": 216, 
+        "y_end": 41.430642274851046, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.43631714893162, 
+        "id_start": 20
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2136056836240883, 
+          41.43543124909735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2136056836240883, 
+        "x_end": 2.216658679948552, 
+        "Name": "Gerard", 
+        "OBJECTID": 54, 
+        "Facility": "Club de Petanca Sant Antoni Llefia", 
+        "Age": "0-15 years old", 
+        "id_end": 207, 
+        "y_end": 41.43783209966768, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.43543124909735, 
+        "id_start": 25
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213071409495562, 
+          41.43525534895045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213071409495562, 
         "x_end": 2.2172702023306496, 
         "Name": "Isabel", 
-        "OBJECTID": 108, 
+        "OBJECTID": 55, 
         "Facility": "Escola Rafael Casanova", 
-        "id_start": 114, 
-        "id_end": 140, 
+        "Age": "+ than 40 years old", 
+        "id_end": 202, 
         "y_end": 41.43606996765561, 
+        "Sex": "Female", 
+        "Family_members": 5, 
+        "y_start": 41.43525534895045, 
+        "id_start": 27
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2132517634053643, 
+          41.43500676180313
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2132517634053643, 
+        "x_end": 2.215223251520091, 
+        "Name": "Elvira", 
+        "OBJECTID": 59, 
+        "Facility": "Biblioteca Sant Adria", 
+        "Age": "+ than 40 years old", 
+        "id_end": 214, 
+        "y_end": 41.431512463393254, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.43500676180313, 
+        "id_start": 37
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2133982687798612, 
+          41.43507099502654
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2133982687798612, 
+        "x_end": 2.214489465134903, 
+        "Name": "Isabel", 
+        "OBJECTID": 60, 
+        "Facility": "Llar d'infants Arrels-Timbals", 
+        "Age": "0-15 years old", 
+        "id_end": 217, 
+        "y_end": 41.4333962617349, 
+        "Sex": "Female", 
+        "Family_members": 2, 
+        "y_start": 41.43507099502654, 
+        "id_start": 38
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213542136820687, 
+          41.4351276581883
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213542136820687, 
+        "x_end": 2.217185409981995, 
+        "Name": "Paula", 
+        "OBJECTID": 61, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Female", 
+        "Family_members": 5, 
+        "y_start": 41.4351276581883, 
+        "id_start": 39
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2140000133841355, 
+          41.4352447154768
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2140000133841355, 
+        "x_end": 2.215493905613285, 
+        "Name": "Paula", 
+        "OBJECTID": 62, 
+        "Facility": "Escola Rafael Alberti", 
+        "Age": "0-15 years old", 
+        "id_end": 201, 
+        "y_end": 41.43649329150851, 
         "Sex": "Male", 
-        "y_start": 41.434467849285525, 
-        "Age": "+ than 40 years old"
+        "Family_members": 4, 
+        "y_start": 41.4352447154768, 
+        "id_start": 40
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213982390638945, 
+          41.4353899834038
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213982390638945, 
+        "x_end": 2.214489465134903, 
+        "Name": "Elvira", 
+        "OBJECTID": 63, 
+        "Facility": "Llar d'infants Arrels-Timbals", 
+        "Age": "0-15 years old", 
+        "id_end": 217, 
+        "y_end": 41.4333962617349, 
+        "Sex": "Female", 
+        "Family_members": 4, 
+        "y_start": 41.4353899834038, 
+        "id_start": 41
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.214194922379636, 
+          41.43516916391044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.214194922379636, 
+        "x_end": 2.215223251520091, 
+        "Name": "Ignasi", 
+        "OBJECTID": 66, 
+        "Facility": "Biblioteca Sant Adria", 
+        "Age": "0-15 years old", 
+        "id_end": 214, 
+        "y_end": 41.431512463393254, 
+        "Sex": "Female", 
+        "Family_members": 5, 
+        "y_start": 41.43516916391044, 
+        "id_start": 44
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.21413141888308, 
+          41.43513931900104
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.21413141888308, 
+        "x_end": 2.2169845619125828, 
+        "Name": "Tania", 
+        "OBJECTID": 67, 
+        "Facility": "Col\u00b7legi de FP Llefia", 
+        "Age": "0-15 years old", 
+        "id_end": 204, 
+        "y_end": 41.43810739597739, 
+        "Sex": "Male", 
+        "Family_members": 6, 
+        "y_start": 41.43513931900104, 
+        "id_start": 45
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2140667924389335, 
+          41.43511287120068
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2140667924389335, 
+        "x_end": 2.216658679948552, 
+        "Name": "Paula", 
+        "OBJECTID": 68, 
+        "Facility": "Club de Petanca Sant Antoni Llefia", 
+        "Age": "0-15 years old", 
+        "id_end": 207, 
+        "y_end": 41.43783209966768, 
+        "Sex": "Male", 
+        "Family_members": 3, 
+        "y_start": 41.43511287120068, 
+        "id_start": 46
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2137017905324865, 
+          41.43498198123902
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2137017905324865, 
+        "x_end": 2.2129166422526314, 
+        "Name": "Gerard", 
+        "OBJECTID": 69, 
+        "Facility": "Fundacio Hospital de l'Esperit Sant", 
+        "Age": "+ than 40 years old", 
+        "id_end": 211, 
+        "y_end": 41.43868129343892, 
+        "Sex": "Female", 
+        "Family_members": 1, 
+        "y_start": 41.43498198123902, 
+        "id_start": 47
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213527771595856, 
+          41.43490731163409
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213527771595856, 
+        "x_end": 2.2159157766362116, 
+        "Name": "Roger", 
+        "OBJECTID": 70, 
+        "Facility": "Pista Poliesportiva Carrer Major", 
+        "Age": "+ than 40 years old", 
+        "id_end": 219, 
+        "y_end": 41.43353289315195, 
+        "Sex": "Female", 
+        "Family_members": 2, 
+        "y_start": 41.43490731163409, 
+        "id_start": 48
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213339519736525, 
+          41.43482199221403
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213339519736525, 
+        "x_end": 2.217185409981995, 
+        "Name": "Roger", 
+        "OBJECTID": 71, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Male", 
+        "Family_members": 5, 
+        "y_start": 41.43482199221403, 
+        "id_start": 49
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213421611729627, 
+          41.43485949488608
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213421611729627, 
+        "x_end": 2.2176796608790434, 
+        "Name": "Mateu", 
+        "OBJECTID": 72, 
+        "Facility": "CAP Doctor Barraquer", 
+        "Age": "+ than 40 years old", 
+        "id_end": 220, 
+        "y_end": 41.42991947032742, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43485949488608, 
+        "id_start": 50
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212915755872033, 
+          41.43464084709614
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212915755872033, 
+        "x_end": 2.2124004682611083, 
+        "Name": "Elvira", 
+        "OBJECTID": 75, 
+        "Facility": "Casal Els Safaretjos", 
+        "Age": "+ than 40 years old", 
+        "id_end": 221, 
+        "y_end": 41.43541203064415, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.43464084709614, 
+        "id_start": 53
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213900386927888, 
+          41.435043217276906
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213900386927888, 
+        "x_end": 2.217185409981995, 
+        "Name": "Mateu", 
+        "OBJECTID": 76, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Female", 
+        "Family_members": 4, 
+        "y_start": 41.435043217276906, 
+        "id_start": 54
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212450990597266, 
+          41.43585641649324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212450990597266, 
+        "x_end": 2.214536381329788, 
+        "Name": "Ignasi", 
+        "OBJECTID": 77, 
+        "Facility": "Institut Julia Minguell", 
+        "Age": "0-15 years old", 
+        "id_end": 203, 
+        "y_end": 41.438161823999984, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43585641649324, 
+        "id_start": 55
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2134323845784425, 
+          41.43582537782391
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2134323845784425, 
+        "x_end": 2.215493905613285, 
+        "Name": "Gerard", 
+        "OBJECTID": 82, 
+        "Facility": "Escola Rafael Alberti", 
+        "Age": "0-15 years old", 
+        "id_end": 201, 
+        "y_end": 41.43649329150851, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.43582537782391, 
+        "id_start": 72
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.214373404139694, 
+          41.43496597326117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.214373404139694, 
+        "x_end": 2.2176796608790434, 
+        "Name": "Tania", 
+        "OBJECTID": 84, 
+        "Facility": "CAP Doctor Barraquer", 
+        "Age": "+ than 40 years old", 
+        "id_end": 220, 
+        "y_end": 41.42991947032742, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.43496597326117, 
+        "id_start": 74
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2143287313896054, 
+          41.43492059760359
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2143287313896054, 
+        "x_end": 2.217185409981995, 
+        "Name": "Gerard", 
+        "OBJECTID": 85, 
+        "Facility": "Mercat Municipal", 
+        "Age": "0-15 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Male", 
+        "Family_members": 1, 
+        "y_start": 41.43492059760359, 
+        "id_start": 75
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.214206229582106, 
+          41.43487454171898
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.214206229582106, 
+        "x_end": 2.2176796608790434, 
+        "Name": "Carles", 
+        "OBJECTID": 86, 
+        "Facility": "CAP Doctor Barraquer", 
+        "Age": "0-15 years old", 
+        "id_end": 220, 
+        "y_end": 41.42991947032742, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.43487454171898, 
+        "id_start": 76
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213019947727346, 
+          41.43438788759332
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213019947727346, 
+        "x_end": 2.217185409981995, 
+        "Name": "Manel", 
+        "OBJECTID": 87, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43438788759332, 
+        "id_start": 77
       }
     }
     ,
@@ -2604,16 +1812,17 @@ var local_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213589231540642, 
-        "x_end": 2.2114563295908276, 
+        "x_end": 2.217185409981995, 
         "Name": "Mateu", 
-        "OBJECTID": 109, 
-        "Facility": "Centre de Creacio Musical Molinet", 
-        "id_start": 118, 
-        "id_end": 168, 
-        "y_end": 41.43746226767798, 
-        "Sex": "Female", 
+        "OBJECTID": 89, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Male", 
+        "Family_members": 5, 
         "y_start": 41.43602066871432, 
-        "Age": "16-40 years old"
+        "id_start": 79
       }
     }
     ,
@@ -2628,40 +1837,17 @@ var local_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213436901744508, 
-        "x_end": 2.2137804567171777, 
-        "Name": "Mateu", 
-        "OBJECTID": 110, 
-        "Facility": "Escola Pere de Tera", 
-        "id_start": 119, 
-        "id_end": 138, 
-        "y_end": 41.43974356959644, 
-        "Sex": "Female", 
+        "x_end": 2.216267016422964, 
+        "Name": "Isabel", 
+        "OBJECTID": 90, 
+        "Facility": "Col\u00b7legi Sant Gabriel", 
+        "Age": "+ than 40 years old", 
+        "id_end": 216, 
+        "y_end": 41.430642274851046, 
+        "Sex": "Male", 
+        "Family_members": 6, 
         "y_start": 41.436025846942336, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212278688513953, 
-          41.43634243793072
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212278688513953, 
-        "x_end": 2.2166250465032054, 
-        "Name": "Carles", 
-        "OBJECTID": 111, 
-        "Facility": "ASEPEYO Badalona", 
-        "id_start": 132, 
-        "id_end": 165, 
-        "y_end": 41.43505972245471, 
-        "Sex": "Female", 
-        "y_start": 41.43634243793072, 
-        "Age": "+ than 40 years old"
+        "id_start": 80
       }
     }
     ,
@@ -2676,16 +1862,1567 @@ var local_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2125586065652, 
-        "x_end": 2.214332764047791, 
+        "x_end": 2.2176796608790434, 
+        "Name": "Isabel", 
+        "OBJECTID": 91, 
+        "Facility": "CAP Doctor Barraquer", 
+        "Age": "+ than 40 years old", 
+        "id_end": 220, 
+        "y_end": 41.42991947032742, 
+        "Sex": "Female", 
+        "Family_members": 5, 
+        "y_start": 41.43636959314474, 
+        "id_start": 91
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213369156061308, 
+          41.43602591696974
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213369156061308, 
+        "x_end": 2.2169845619125828, 
+        "Name": "Tania", 
+        "OBJECTID": 92, 
+        "Facility": "Col\u00b7legi de FP Llefia", 
+        "Age": "0-15 years old", 
+        "id_end": 204, 
+        "y_end": 41.43810739597739, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43602591696974, 
+        "id_start": 92
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2133437514101066, 
+          41.43616930845727
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2133437514101066, 
+        "x_end": 2.214489465134903, 
+        "Name": "Paula", 
+        "OBJECTID": 94, 
+        "Facility": "Llar d'infants Arrels-Timbals", 
+        "Age": "+ than 40 years old", 
+        "id_end": 217, 
+        "y_end": 41.4333962617349, 
+        "Sex": "Female", 
+        "Family_members": 5, 
+        "y_start": 41.43616930845727, 
+        "id_start": 94
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212954391145441, 
+          41.43625982917509
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212954391145441, 
+        "x_end": 2.213012346302462, 
+        "Name": "Carles", 
+        "OBJECTID": 95, 
+        "Facility": "Escola Municipal de Musica Benet Bails", 
+        "Age": "+ than 40 years old", 
+        "id_end": 215, 
+        "y_end": 41.43389727430007, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43625982917509, 
+        "id_start": 97
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2133593586446976, 
+          41.43629310454582
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2133593586446976, 
+        "x_end": 2.2159157766362116, 
+        "Name": "Mateu", 
+        "OBJECTID": 96, 
+        "Facility": "Pista Poliesportiva Carrer Major", 
+        "Age": "+ than 40 years old", 
+        "id_end": 219, 
+        "y_end": 41.43353289315195, 
+        "Sex": "Female", 
+        "Family_members": 5, 
+        "y_start": 41.43629310454582, 
+        "id_start": 99
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2123572536189147, 
+          41.43469019018795
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2123572536189147, 
+        "x_end": 2.213012346302462, 
+        "Name": "Manel", 
+        "OBJECTID": 97, 
+        "Facility": "Escola Municipal de Musica Benet Bails", 
+        "Age": "0-15 years old", 
+        "id_end": 215, 
+        "y_end": 41.43389727430007, 
+        "Sex": "Female", 
+        "Family_members": 1, 
+        "y_start": 41.43469019018795, 
+        "id_start": 1
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2120313283069453, 
+          41.43617283519091
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2120313283069453, 
+        "x_end": 2.217185409981995, 
+        "Name": "Paula", 
+        "OBJECTID": 106, 
+        "Facility": "Mercat Municipal", 
+        "Age": "0-15 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43617283519091, 
+        "id_start": 10
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2121148227366114, 
+          41.43602348710105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2121148227366114, 
+        "x_end": 2.213012346302462, 
+        "Name": "Carles", 
+        "OBJECTID": 108, 
+        "Facility": "Escola Municipal de Musica Benet Bails", 
+        "Age": "+ than 40 years old", 
+        "id_end": 215, 
+        "y_end": 41.43389727430007, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43602348710105, 
+        "id_start": 12
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212190819126402, 
+          41.43575862473028
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212190819126402, 
+        "x_end": 2.217185409981995, 
+        "Name": "Ignasi", 
+        "OBJECTID": 110, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.43575862473028, 
+        "id_start": 14
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2122327084693603, 
+          41.43570200793274
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2122327084693603, 
+        "x_end": 2.2177266417969395, 
+        "Name": "Gerard", 
+        "OBJECTID": 111, 
+        "Facility": "Llar d'Infants Tam - Tam", 
+        "Age": "+ than 40 years old", 
+        "id_end": 210, 
+        "y_end": 41.432617924257734, 
+        "Sex": "Female", 
+        "Family_members": 1, 
+        "y_start": 41.43570200793274, 
+        "id_start": 15
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2122815379574585, 
+          41.43565298417969
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2122815379574585, 
+        "x_end": 2.2124004682611083, 
         "Name": "Isabel", 
         "OBJECTID": 112, 
-        "Facility": "Escola de Dansa Dansa 2001, Generacio Innovadora Segle XXI", 
-        "id_start": 134, 
-        "id_end": 172, 
-        "y_end": 41.43250907976681, 
+        "Facility": "Casal Els Safaretjos", 
+        "Age": "0-15 years old", 
+        "id_end": 221, 
+        "y_end": 41.43541203064415, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.43565298417969, 
+        "id_start": 16
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2120976000053596, 
+          41.435805441159346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2120976000053596, 
+        "x_end": 2.215223251520091, 
+        "Name": "Manel", 
+        "OBJECTID": 113, 
+        "Facility": "Biblioteca Sant Adria", 
+        "Age": "+ than 40 years old", 
+        "id_end": 214, 
+        "y_end": 41.431512463393254, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.435805441159346, 
+        "id_start": 17
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2120463851124117, 
+          41.43585918551083
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2120463851124117, 
+        "x_end": 2.2177266417969395, 
+        "Name": "Carles", 
+        "OBJECTID": 114, 
+        "Facility": "Llar d'Infants Tam - Tam", 
+        "Age": "+ than 40 years old", 
+        "id_end": 210, 
+        "y_end": 41.432617924257734, 
         "Sex": "Male", 
-        "y_start": 41.43636959314474, 
-        "Age": "16-40 years old"
+        "Family_members": 1, 
+        "y_start": 41.43585918551083, 
+        "id_start": 18
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2138623209022277, 
+          41.43552709583037
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2138623209022277, 
+        "x_end": 2.215223251520091, 
+        "Name": "Carles", 
+        "OBJECTID": 117, 
+        "Facility": "Biblioteca Sant Adria", 
+        "Age": "+ than 40 years old", 
+        "id_end": 214, 
+        "y_end": 41.431512463393254, 
+        "Sex": "Female", 
+        "Family_members": 4, 
+        "y_start": 41.43552709583037, 
+        "id_start": 21
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2126308573172233, 
+          41.43532204410111
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2126308573172233, 
+        "x_end": 2.2124004682611083, 
+        "Name": "Tania", 
+        "OBJECTID": 127, 
+        "Facility": "Casal Els Safaretjos", 
+        "Age": "+ than 40 years old", 
+        "id_end": 221, 
+        "y_end": 41.43541203064415, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.43532204410111, 
+        "id_start": 31
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213347074821033, 
+          41.43534866348831
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213347074821033, 
+        "x_end": 2.2159157766362116, 
+        "Name": "Paula", 
+        "OBJECTID": 129, 
+        "Facility": "Pista Poliesportiva Carrer Major", 
+        "Age": "0-15 years old", 
+        "id_end": 219, 
+        "y_end": 41.43353289315195, 
+        "Sex": "Female", 
+        "Family_members": 6, 
+        "y_start": 41.43534866348831, 
+        "id_start": 33
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212728894477279, 
+          41.43478697630127
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212728894477279, 
+        "x_end": 2.217185409981995, 
+        "Name": "Paula", 
+        "OBJECTID": 131, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Female", 
+        "Family_members": 5, 
+        "y_start": 41.43478697630127, 
+        "id_start": 35
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2130669335030615, 
+          41.43492155271287
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2130669335030615, 
+        "x_end": 2.2159157766362116, 
+        "Name": "Mateu", 
+        "OBJECTID": 132, 
+        "Facility": "Pista Poliesportiva Carrer Major", 
+        "Age": "0-15 years old", 
+        "id_end": 219, 
+        "y_end": 41.43353289315195, 
+        "Sex": "Male", 
+        "Family_members": 3, 
+        "y_start": 41.43492155271287, 
+        "id_start": 36
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213049388644868, 
+          41.4358251986557
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213049388644868, 
+        "x_end": 2.215493905613285, 
+        "Name": "Gerard", 
+        "OBJECTID": 157, 
+        "Facility": "Escola Rafael Alberti", 
+        "Age": "0-15 years old", 
+        "id_end": 201, 
+        "y_end": 41.43649329150851, 
+        "Sex": "Female", 
+        "Family_members": 4, 
+        "y_start": 41.4358251986557, 
+        "id_start": 61
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213106246457339, 
+          41.43582297001905
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213106246457339, 
+        "x_end": 2.2189668218139924, 
+        "Name": "Gerard", 
+        "OBJECTID": 158, 
+        "Facility": "Oficina de Treball de la Generalitat", 
+        "Age": "+ than 40 years old", 
+        "id_end": 205, 
+        "y_end": 41.43527256782731, 
+        "Sex": "Male", 
+        "Family_members": 3, 
+        "y_start": 41.43582297001905, 
+        "id_start": 62
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2130673482923746, 
+          41.435627349510405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2130673482923746, 
+        "x_end": 2.2124004682611083, 
+        "Name": "Gerard", 
+        "OBJECTID": 159, 
+        "Facility": "Casal Els Safaretjos", 
+        "Age": "0-15 years old", 
+        "id_end": 221, 
+        "y_end": 41.43541203064415, 
+        "Sex": "Male", 
+        "Family_members": 3, 
+        "y_start": 41.435627349510405, 
+        "id_start": 63
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2129742007323387, 
+          41.435591917430486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2129742007323387, 
+        "x_end": 2.216658679948552, 
+        "Name": "Carles", 
+        "OBJECTID": 160, 
+        "Facility": "Club de Petanca Sant Antoni Llefia", 
+        "Age": "+ than 40 years old", 
+        "id_end": 207, 
+        "y_end": 41.43783209966768, 
+        "Sex": "Female", 
+        "Family_members": 1, 
+        "y_start": 41.435591917430486, 
+        "id_start": 64
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.21290539616869, 
+          41.43552828647333
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.21290539616869, 
+        "x_end": 2.2176796608790434, 
+        "Name": "Gerard", 
+        "OBJECTID": 161, 
+        "Facility": "CAP Doctor Barraquer", 
+        "Age": "0-15 years old", 
+        "id_end": 220, 
+        "y_end": 41.42991947032742, 
+        "Sex": "Female", 
+        "Family_members": 1, 
+        "y_start": 41.43552828647333, 
+        "id_start": 65
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212697523958954, 
+          41.43560276351648
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212697523958954, 
+        "x_end": 2.214489465134903, 
+        "Name": "Ignasi", 
+        "OBJECTID": 163, 
+        "Facility": "Llar d'infants Arrels-Timbals", 
+        "Age": "0-15 years old", 
+        "id_end": 217, 
+        "y_end": 41.4333962617349, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.43560276351648, 
+        "id_start": 67
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2125933956068917, 
+          41.43562212304806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2125933956068917, 
+        "x_end": 2.2124004682611083, 
+        "Name": "Paula", 
+        "OBJECTID": 164, 
+        "Facility": "Casal Els Safaretjos", 
+        "Age": "+ than 40 years old", 
+        "id_end": 221, 
+        "y_end": 41.43541203064415, 
+        "Sex": "Male", 
+        "Family_members": 1, 
+        "y_start": 41.43562212304806, 
+        "id_start": 68
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2125818712796335, 
+          41.43574682074259
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2125818712796335, 
+        "x_end": 2.214489465134903, 
+        "Name": "Paula", 
+        "OBJECTID": 165, 
+        "Facility": "Llar d'infants Arrels-Timbals", 
+        "Age": "0-15 years old", 
+        "id_end": 217, 
+        "y_end": 41.4333962617349, 
+        "Sex": "Female", 
+        "Family_members": 5, 
+        "y_start": 41.43574682074259, 
+        "id_start": 69
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2131978380581874, 
+          41.43583464321333
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2131978380581874, 
+        "x_end": 2.215223251520091, 
+        "Name": "Elvira", 
+        "OBJECTID": 166, 
+        "Facility": "Biblioteca Sant Adria", 
+        "Age": "0-15 years old", 
+        "id_end": 214, 
+        "y_end": 41.431512463393254, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.43583464321333, 
+        "id_start": 70
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2132779767537287, 
+          41.43582535064218
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2132779767537287, 
+        "x_end": 2.2124004682611083, 
+        "Name": "Tania", 
+        "OBJECTID": 167, 
+        "Facility": "Casal Els Safaretjos", 
+        "Age": "+ than 40 years old", 
+        "id_end": 221, 
+        "y_end": 41.43541203064415, 
+        "Sex": "Male", 
+        "Family_members": 3, 
+        "y_start": 41.43582535064218, 
+        "id_start": 71
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2132362341782157, 
+          41.43602608708797
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2132362341782157, 
+        "x_end": 2.217185409981995, 
+        "Name": "Roger", 
+        "OBJECTID": 177, 
+        "Facility": "Mercat Municipal", 
+        "Age": "0-15 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.43602608708797, 
+        "id_start": 81
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.21318475550838, 
+          41.4360261160296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.21318475550838, 
+        "x_end": 2.2129166422526314, 
+        "Name": "Elvira", 
+        "OBJECTID": 178, 
+        "Facility": "Fundacio Hospital de l'Esperit Sant", 
+        "Age": "0-15 years old", 
+        "id_end": 211, 
+        "y_end": 41.43868129343892, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.4360261160296, 
+        "id_start": 82
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2130155686242103, 
+          41.43602627655243
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2130155686242103, 
+        "x_end": 2.2176796608790434, 
+        "Name": "Elvira", 
+        "OBJECTID": 180, 
+        "Facility": "CAP Doctor Barraquer", 
+        "Age": "+ than 40 years old", 
+        "id_end": 220, 
+        "y_end": 41.42991947032742, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43602627655243, 
+        "id_start": 84
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212959201307746, 
+          41.436026331399404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212959201307746, 
+        "x_end": 2.2177266417969395, 
+        "Name": "Carles", 
+        "OBJECTID": 181, 
+        "Facility": "Llar d'Infants Tam - Tam", 
+        "Age": "+ than 40 years old", 
+        "id_end": 210, 
+        "y_end": 41.432617924257734, 
+        "Sex": "Male", 
+        "Family_members": 1, 
+        "y_start": 41.436026331399404, 
+        "id_start": 85
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212826398081579, 
+          41.43602638926269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212826398081579, 
+        "x_end": 2.218380295196833, 
+        "Name": "Ignasi", 
+        "OBJECTID": 182, 
+        "Facility": "Pista Poliesportiva Artigas", 
+        "Age": "0-15 years old", 
+        "id_end": 208, 
+        "y_end": 41.432842028822364, 
+        "Sex": "Female", 
+        "Family_members": 1, 
+        "y_start": 41.43602638926269, 
+        "id_start": 86
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212671071254191, 
+          41.43602204311189
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212671071254191, 
+        "x_end": 2.2159157766362116, 
+        "Name": "Ignasi", 
+        "OBJECTID": 183, 
+        "Facility": "Pista Poliesportiva Carrer Major", 
+        "Age": "+ than 40 years old", 
+        "id_end": 219, 
+        "y_end": 41.43353289315195, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.43602204311189, 
+        "id_start": 87
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.21245952716707, 
+          41.43627872514975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.21245952716707, 
+        "x_end": 2.2140934694291405, 
+        "Name": "Mateu", 
+        "OBJECTID": 185, 
+        "Facility": "Parroquia de Sant Adria", 
+        "Age": "+ than 40 years old", 
+        "id_end": 218, 
+        "y_end": 41.43402727362011, 
+        "Sex": "Female", 
+        "Family_members": 2, 
+        "y_start": 41.43627872514975, 
+        "id_start": 89
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212278688513953, 
+          41.43634243793072
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212278688513953, 
+        "x_end": 2.2177266417969395, 
+        "Name": "Elvira", 
+        "OBJECTID": 186, 
+        "Facility": "Llar d'Infants Tam - Tam", 
+        "Age": "0-15 years old", 
+        "id_end": 210, 
+        "y_end": 41.432617924257734, 
+        "Sex": "Female", 
+        "Family_members": 2, 
+        "y_start": 41.43634243793072, 
+        "id_start": 90
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212841404368028, 
+          41.43638489016283
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212841404368028, 
+        "x_end": 2.217185409981995, 
+        "Name": "Gerard", 
+        "OBJECTID": 194, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Female", 
+        "Family_members": 2, 
+        "y_start": 41.43638489016283, 
+        "id_start": 98
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213112426869186, 
+          41.436390558048664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213112426869186, 
+        "x_end": 2.2129166422526314, 
+        "Name": "Tania", 
+        "OBJECTID": 197, 
+        "Facility": "Fundacio Hospital de l'Esperit Sant", 
+        "Age": "+ than 40 years old", 
+        "id_end": 211, 
+        "y_end": 41.43868129343892, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.436390558048664, 
+        "id_start": 101
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2129461232110534, 
+          41.43631506392388
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2129461232110534, 
+        "x_end": 2.218380295196833, 
+        "Name": "Manel", 
+        "OBJECTID": 198, 
+        "Facility": "Pista Poliesportiva Artigas", 
+        "Age": "+ than 40 years old", 
+        "id_end": 208, 
+        "y_end": 41.432842028822364, 
+        "Sex": "Female", 
+        "Family_members": 5, 
+        "y_start": 41.43631506392388, 
+        "id_start": 102
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212629067009627, 
+          41.435663703277605
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212629067009627, 
+        "x_end": 2.217185409981995, 
+        "Name": "Gerard", 
+        "OBJECTID": 200, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Male", 
+        "Family_members": 1, 
+        "y_start": 41.435663703277605, 
+        "id_start": 104
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2122476866569736, 
+          41.43577548696933
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2122476866569736, 
+        "x_end": 2.215223251520091, 
+        "Name": "Carles", 
+        "OBJECTID": 201, 
+        "Facility": "Biblioteca Sant Adria", 
+        "Age": "0-15 years old", 
+        "id_end": 214, 
+        "y_end": 41.431512463393254, 
+        "Sex": "Male", 
+        "Family_members": 5, 
+        "y_start": 41.43577548696933, 
+        "id_start": 105
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2122788471573727, 
+          41.435712783315864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2122788471573727, 
+        "x_end": 2.213012346302462, 
+        "Name": "Tania", 
+        "OBJECTID": 202, 
+        "Facility": "Escola Municipal de Musica Benet Bails", 
+        "Age": "+ than 40 years old", 
+        "id_end": 215, 
+        "y_end": 41.43389727430007, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.435712783315864, 
+        "id_start": 106
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2120854226903526, 
+          41.43609944821466
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2120854226903526, 
+        "x_end": 2.2172280562788034, 
+        "Name": "Manel", 
+        "OBJECTID": 205, 
+        "Facility": "Llar d'Infants El Petit Gegant", 
+        "Age": "+ than 40 years old", 
+        "id_end": 209, 
+        "y_end": 41.43419300404735, 
+        "Sex": "Female", 
+        "Family_members": 4, 
+        "y_start": 41.43609944821466, 
+        "id_start": 109
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2122053092919436, 
+          41.436346694090545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2122053092919436, 
+        "x_end": 2.215493905613285, 
+        "Name": "Carles", 
+        "OBJECTID": 207, 
+        "Facility": "Escola Rafael Alberti", 
+        "Age": "0-15 years old", 
+        "id_end": 201, 
+        "y_end": 41.43649329150851, 
+        "Sex": "Female", 
+        "Family_members": 2, 
+        "y_start": 41.436346694090545, 
+        "id_start": 111
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.21422708028276, 
+          41.43494250212727
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.21422708028276, 
+        "x_end": 2.217185409981995, 
+        "Name": "Isabel", 
+        "OBJECTID": 209, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Female", 
+        "Family_members": 4, 
+        "y_start": 41.43494250212727, 
+        "id_start": 113
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212432678107554, 
+          41.43453202952985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212432678107554, 
+        "x_end": 2.2155253480897628, 
+        "Name": "Gerard", 
+        "OBJECTID": 210, 
+        "Facility": "Camp de Futbol LLefia", 
+        "Age": "0-15 years old", 
+        "id_end": 206, 
+        "y_end": 41.43784282076269, 
+        "Sex": "Female", 
+        "Family_members": 1, 
+        "y_start": 41.43453202952985, 
+        "id_start": 114
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212460124013772, 
+          41.43448158474258
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212460124013772, 
+        "x_end": 2.2172280562788034, 
+        "Name": "Paula", 
+        "OBJECTID": 211, 
+        "Facility": "Llar d'Infants El Petit Gegant", 
+        "Age": "+ than 40 years old", 
+        "id_end": 209, 
+        "y_end": 41.43419300404735, 
+        "Sex": "Male", 
+        "Family_members": 5, 
+        "y_start": 41.43448158474258, 
+        "id_start": 115
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212179939051119, 
+          41.43589451584334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212179939051119, 
+        "x_end": 2.214536381329788, 
+        "Name": "Ignasi", 
+        "OBJECTID": 212, 
+        "Facility": "Institut Julia Minguell", 
+        "Age": "+ than 40 years old", 
+        "id_end": 203, 
+        "y_end": 41.438161823999984, 
+        "Sex": "Male", 
+        "Family_members": 5, 
+        "y_start": 41.43589451584334, 
+        "id_start": 116
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2118874797746053, 
+          41.4361347625529
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2118874797746053, 
+        "x_end": 2.2169845619125828, 
+        "Name": "Paula", 
+        "OBJECTID": 214, 
+        "Facility": "Col\u00b7legi de FP Llefia", 
+        "Age": "+ than 40 years old", 
+        "id_end": 204, 
+        "y_end": 41.43810739597739, 
+        "Sex": "Female", 
+        "Family_members": 4, 
+        "y_start": 41.4361347625529, 
+        "id_start": 118
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212797732011491, 
+          41.4350312618977
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.212797732011491, 
+        "x_end": 2.2176796608790434, 
+        "Name": "Carles", 
+        "OBJECTID": 215, 
+        "Facility": "CAP Doctor Barraquer", 
+        "Age": "+ than 40 years old", 
+        "id_end": 220, 
+        "y_end": 41.42991947032742, 
+        "Sex": "Female", 
+        "Family_members": 5, 
+        "y_start": 41.4350312618977, 
+        "id_start": 119
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2126257736457577, 
+          41.43495879203919
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2126257736457577, 
+        "x_end": 2.2129166422526314, 
+        "Name": "Paula", 
+        "OBJECTID": 216, 
+        "Facility": "Fundacio Hospital de l'Esperit Sant", 
+        "Age": "0-15 years old", 
+        "id_end": 211, 
+        "y_end": 41.43868129343892, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43495879203919, 
+        "id_start": 120
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2126315830626075, 
+          41.43507044940651
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2126315830626075, 
+        "x_end": 2.217185409981995, 
+        "Name": "Ignasi", 
+        "OBJECTID": 217, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43507044940651, 
+        "id_start": 121
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2128797078943685, 
+          41.434848524821774
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2128797078943685, 
+        "x_end": 2.217185409981995, 
+        "Name": "Tania", 
+        "OBJECTID": 218, 
+        "Facility": "Mercat Municipal", 
+        "Age": "0-15 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Female", 
+        "Family_members": 2, 
+        "y_start": 41.434848524821774, 
+        "id_start": 122
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213937304806328, 
+          41.43533807077166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213937304806328, 
+        "x_end": 2.217185409981995, 
+        "Name": "Elvira", 
+        "OBJECTID": 220, 
+        "Facility": "Mercat Municipal", 
+        "Age": "+ than 40 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Female", 
+        "Family_members": 1, 
+        "y_start": 41.43533807077166, 
+        "id_start": 124
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2140049312805052, 
+          41.43508351933993
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2140049312805052, 
+        "x_end": 2.217185409981995, 
+        "Name": "Elvira", 
+        "OBJECTID": 221, 
+        "Facility": "Mercat Municipal", 
+        "Age": "0-15 years old", 
+        "id_end": 213, 
+        "y_end": 41.43199106414017, 
+        "Sex": "Female", 
+        "Family_members": 3, 
+        "y_start": 41.43508351933993, 
+        "id_start": 125
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.214149989167827, 
+          41.43482377078107
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.214149989167827, 
+        "x_end": 2.2129166422526314, 
+        "Name": "Manel", 
+        "OBJECTID": 225, 
+        "Facility": "Fundacio Hospital de l'Esperit Sant", 
+        "Age": "0-15 years old", 
+        "id_end": 211, 
+        "y_end": 41.43868129343892, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43482377078107, 
+        "id_start": 129
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213705585804435, 
+          41.43472949504004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213705585804435, 
+        "x_end": 2.2189668218139924, 
+        "Name": "Gerard", 
+        "OBJECTID": 226, 
+        "Facility": "Oficina de Treball de la Generalitat", 
+        "Age": "0-15 years old", 
+        "id_end": 205, 
+        "y_end": 41.43527256782731, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.43472949504004, 
+        "id_start": 130
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213155787591016, 
+          41.436146080854904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213155787591016, 
+        "x_end": 2.2129166422526314, 
+        "Name": "Paula", 
+        "OBJECTID": 227, 
+        "Facility": "Fundacio Hospital de l'Esperit Sant", 
+        "Age": "0-15 years old", 
+        "id_end": 211, 
+        "y_end": 41.43868129343892, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.436146080854904, 
+        "id_start": 131
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2132860375320558, 
+          41.436026024147935
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2132860375320558, 
+        "x_end": 2.214489465134903, 
+        "Name": "Ignasi", 
+        "OBJECTID": 228, 
+        "Facility": "Llar d'infants Arrels-Timbals", 
+        "Age": "+ than 40 years old", 
+        "id_end": 217, 
+        "y_end": 41.4333962617349, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.436026024147935, 
+        "id_start": 132
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213073104184982, 
+          41.43602621976089
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213073104184982, 
+        "x_end": 2.2169845619125828, 
+        "Name": "Elvira", 
+        "OBJECTID": 229, 
+        "Facility": "Col\u00b7legi de FP Llefia", 
+        "Age": "0-15 years old", 
+        "id_end": 204, 
+        "y_end": 41.43810739597739, 
+        "Sex": "Female", 
+        "Family_members": 4, 
+        "y_start": 41.43602621976089, 
+        "id_start": 133
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2124720418167416, 
+          41.43622115325158
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2124720418167416, 
+        "x_end": 2.2140934694291405, 
+        "Name": "Elvira", 
+        "OBJECTID": 230, 
+        "Facility": "Parroquia de Sant Adria", 
+        "Age": "0-15 years old", 
+        "id_end": 218, 
+        "y_end": 41.43402727362011, 
+        "Sex": "Male", 
+        "Family_members": 4, 
+        "y_start": 41.43622115325158, 
+        "id_start": 134
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2123660720982143, 
+          41.43629095518249
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.2123660720982143, 
+        "x_end": 2.2140934694291405, 
+        "Name": "Roger", 
+        "OBJECTID": 232, 
+        "Facility": "Parroquia de Sant Adria", 
+        "Age": "+ than 40 years old", 
+        "id_end": 218, 
+        "y_end": 41.43402727362011, 
+        "Sex": "Male", 
+        "Family_members": 2, 
+        "y_start": 41.43629095518249, 
+        "id_start": 136
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.213145916399215, 
+          41.43467963133716
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "x_start": 2.213145916399215, 
+        "x_end": 2.215493905613285, 
+        "Name": "Mateu", 
+        "OBJECTID": 233, 
+        "Facility": "Escola Rafael Alberti", 
+        "Age": "+ than 40 years old", 
+        "id_end": 201, 
+        "y_end": 41.43649329150851, 
+        "Sex": "Female", 
+        "Family_members": 2, 
+        "y_start": 41.43467963133716, 
+        "id_start": 137
       }
     }
   ]

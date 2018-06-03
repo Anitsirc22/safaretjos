@@ -403,7 +403,7 @@
 .leaflet-control-attribution,
 .leaflet-control-scale-line {
 	padding: 0 5px;
-	color: #333;
+	color: white;
 	}
 .leaflet-control-attribution a {
 	text-decoration: none;
@@ -433,7 +433,7 @@
 	     box-sizing: border-box;
 
 	background: #fff;
-	background: rgba(255, 255, 255, 0.5);
+	background: none;
 	}
 .leaflet-control-scale-line:not(:first-child) {
 	border-top: 2px solid #777;

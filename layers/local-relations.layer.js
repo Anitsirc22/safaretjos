@@ -11,9 +11,9 @@ function style_flows_local(geoJsonFeature) {
   if (geoJsonFeature.properties.isOrigin) {
     return {
       renderer: canvasRenderer, // recommended to use your own L.canvas()
-      radius: 5,
+      radius: 3,
       weight: 1,
-      color: 'rgb(187, 223, 0)',
+      color: '#04FFFF',
       fillColor: 'rgba(0, 0, 0, 1)',
       fillOpacity: 1
     };
@@ -24,7 +24,7 @@ function style_flows_local(geoJsonFeature) {
       weight: 1,
       color: 'rgb(255, 255, 255)',
       fillColor: 'rgb(255, 255, 255)',
-      fillOpacity: 0.7
+      fillOpacity: 0.25
     };
   }
 }

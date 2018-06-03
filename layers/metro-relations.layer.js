@@ -11,20 +11,20 @@ function style_flows_metro(geoJsonFeature) {
   if (geoJsonFeature.properties.isOrigin) {
     return {
       renderer: canvasRenderer, // recommended to use your own L.canvas()
-      radius: 5,
+      radius: 2,
       weight: 1,
-      color: 'rgb(187, 223, 0)',
+      color: '#04FFFF',
       fillColor: 'rgba(0, 0, 0, 1)',
       fillOpacity: 1
     };
   } else {
     return {
       renderer: canvasRenderer,
-      radius: 7.5,
+      radius: 5,
       weight: 1,
       color: 'rgb(255, 255, 255)',
       fillColor: 'rgb(255, 255, 255)',
-      fillOpacity: 0.7
+      fillOpacity: 0.25
     };
   }
 }
@@ -33,8 +33,8 @@ function style_flows_metro(geoJsonFeature) {
 function metroRelationsGen( ) {
 
   canvasRenderer = L.canvas();
-
-  var data = JSON.parse(JSON.stringify(metro_relationships));
+  //to make a copy of the json (to not replace the original data)
+  var data = JSON.parse(JSON.stringify(metro_relationships));//stringify makes a string, parse creates an object again
   // if ( filterFn ) {
   var filteredFeatures = [];
   for (let feature of metro_relationships.features) {
@@ -77,7 +77,7 @@ function metroRelationsGen( ) {
     if ( selection.lng === e.latlng.lng && selection.lat === e.latlng.lat ) {
       layer.selectFeaturesForPathDisplay( data.features, 'SELECTION_NEW' );
       selection = {};
-      return;
+      return;// do nothing and stop function
     } else {
       selection = e.latlng;
     }

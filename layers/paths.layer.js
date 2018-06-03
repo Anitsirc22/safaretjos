@@ -1,6 +1,6 @@
 var paths_layer;
 
-function pathsLayerGen( filterFn ) {
+function pathsLayerGen( ) {
   var layer =  new L.geoJson(paths,{
     filter: filterFn,
     style: stylePaths,
@@ -10,7 +10,11 @@ function pathsLayerGen( filterFn ) {
   return layer;
 }
 
+var blurredDelay;
 function highlightFeaturePaths( event ) {
+  var mean_transport = "<span class=label3>Mean of transport: </span>"+event.target.feature.properties.Transport;
+  label.style.fontSize="30px";
+  label.innerHTML = mean_transport;
   var layer = event.target;
   layer.setStyle({
       weight: 10,
@@ -19,10 +23,19 @@ function highlightFeaturePaths( event ) {
       opacity: 1,
   });
   //info.update(layer.feature.properties);
+  clearTimeout(blurredDelay);
 };
+
+
+
 
 function resetHighlightPaths( e ) {
   paths_layer.resetStyle( e.target );
+  clearTimeout(blurredDelay);//si li passo una funcio amb delay la para i no sexecuta
+
+  blurredDelay = setTimeout(function(){//setTimeout executa una funcio en un temps
+    label.innerHTML = '';
+  }, 600 );
     //info.update();
 };
 
@@ -31,7 +44,7 @@ function zoomToFeature( e ) {
 };
 
 function onEachFeaturePaths( feature_A, layer_B ) {
-  layer_B.bindPopup(feature_A.properties.Name+"<span><br /></span>" + feature_A.properties.Reason)
+  layer_B.bindPopup("<span>On my way </span>" + feature_A.properties.Reason+"<span>.</span>")
   layer_B.on({
       mouseover: highlightFeaturePaths,
       mouseout: resetHighlightPaths,
@@ -50,4 +63,4 @@ function stylePaths(feature) {
   };
 }
 
-paths_layer = pathsLayerGen();
+//paths_layer = pathsLayerGen();

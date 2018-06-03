@@ -11,18 +11,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Carles", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Mateu", 
         "OBJECTID": 1, 
-        "neighborhood_esteem": 5, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 2, 
-        "Sex": "Male", 
-        "Words": "Memories", 
-        "relationship_neighbors": 6
+        "Sex": "Female", 
+        "Words": "Forgotten", 
+        "Safaretjos_description": "has culture"
       }
     }
     ,
@@ -36,18 +32,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Roger", 
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 2, 
-        "neighborhood_esteem": 4, 
-        "Age": "16-40 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 6, 
-        "Sex": "Male", 
-        "Words": "Culture", 
-        "relationship_neighbors": 2
+        "Sex": "Female", 
+        "Words": "Welcome", 
+        "Safaretjos_description": "creates community"
       }
     }
     ,
@@ -61,18 +53,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Roger", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Ignasi", 
         "OBJECTID": 3, 
-        "neighborhood_esteem": 5, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 4, 
-        "Sex": "Male", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 2
+        "Sex": "Female", 
+        "Words": "Homely", 
+        "Safaretjos_description": "is welcoming"
       }
     }
     ,
@@ -86,18 +74,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Ignasi", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Isabel", 
         "OBJECTID": 4, 
-        "neighborhood_esteem": 3, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Male", 
-        "Words": "Joy", 
-        "relationship_neighbors": 2
+        "Sex": "Female", 
+        "Words": "Peaceful", 
+        "Safaretjos_description": "is not active"
       }
     }
     ,
@@ -111,43 +95,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Isabel", 
+        "What_is_identity": "Own character", 
+        "Name": "Mateu", 
         "OBJECTID": 5, 
-        "neighborhood_esteem": 8, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 8, 
         "Sex": "Male", 
-        "Words": "Reception", 
-        "relationship_neighbors": 5
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212488670856611, 
-          41.43442907577117
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 5, 
-        "Name": "Tania", 
-        "OBJECTID": 6, 
-        "neighborhood_esteem": 7, 
-        "Age": "+ than 40 years old", 
-        "neighborhood_identity": 5, 
-        "What_is_identity": "Exact likeness in nature or qualities", 
-        "involvement_neighborhood": 3, 
-        "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 1
+        "Words": "Memories", 
+        "Safaretjos_description": "need a school"
       }
     }
     ,
@@ -161,43 +116,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 4, 
+        "What_is_identity": "Sameness or likeness in different instances", 
         "Name": "Paula", 
         "OBJECTID": 7, 
-        "neighborhood_esteem": 1, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 6, 
         "Sex": "Female", 
-        "Words": "Youth", 
-        "relationship_neighbors": 1
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2124527207552918, 
-          41.43435288605931
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Isabel", 
-        "OBJECTID": 8, 
-        "neighborhood_esteem": 4, 
-        "Age": "0-15 years old", 
-        "neighborhood_identity": 2, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 1, 
-        "Sex": "Male", 
-        "Words": "Reception", 
-        "relationship_neighbors": 5
+        "Words": "Quiet", 
+        "Safaretjos_description": "is welcoming"
       }
     }
     ,
@@ -211,18 +137,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Paula", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Mateu", 
         "OBJECTID": 9, 
-        "neighborhood_esteem": 1, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 4, 
         "Sex": "Female", 
-        "Words": "Community", 
-        "relationship_neighbors": 1
+        "Words": "Forgotten", 
+        "Safaretjos_description": "need more jobs"
       }
     }
     ,
@@ -236,18 +158,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 5, 
-        "Name": "Paula", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Gerard", 
         "OBJECTID": 10, 
-        "neighborhood_esteem": 4, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 7, 
-        "Sex": "Male", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 8
+        "Sex": "Female", 
+        "Words": "Peaceful", 
+        "Safaretjos_description": "has no recognition"
       }
     }
     ,
@@ -261,18 +179,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Mateu", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 11, 
-        "neighborhood_esteem": 2, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 3, 
         "Sex": "Female", 
-        "Words": "Felicitat", 
-        "relationship_neighbors": 8
+        "Words": "Traditions", 
+        "Safaretjos_description": "must change of municipality"
       }
     }
     ,
@@ -286,18 +200,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Mateu", 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Jos\u00e9", 
         "OBJECTID": 12, 
-        "neighborhood_esteem": 1, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 5, 
         "Sex": "Male", 
-        "Words": "Culture", 
-        "relationship_neighbors": 8
+        "Words": "Youth", 
+        "Safaretjos_description": "is identity"
       }
     }
     ,
@@ -311,168 +221,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Elvira", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Manel", 
         "OBJECTID": 13, 
-        "neighborhood_esteem": 5, 
-        "Age": "0-15 years old", 
-        "neighborhood_identity": 1, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 1, 
-        "Sex": "Male", 
-        "Words": "Experiences", 
-        "relationship_neighbors": 7
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211986461500992, 
-          41.435216137776436
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 5, 
-        "Name": "Gerard", 
-        "OBJECTID": 14, 
-        "neighborhood_esteem": 1, 
-        "Age": "16-40 years old", 
-        "neighborhood_identity": 8, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Female", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 6
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211800807503496, 
-          41.43550326190429
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Elvira", 
-        "OBJECTID": 15, 
-        "neighborhood_esteem": 7, 
-        "Age": "16-40 years old", 
-        "neighborhood_identity": 8, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 9, 
-        "Sex": "Male", 
-        "Words": "Childhood", 
-        "relationship_neighbors": 1
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2116982447203197, 
-          41.43567169020266
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Roger", 
-        "OBJECTID": 16, 
-        "neighborhood_esteem": 8, 
-        "Age": "16-40 years old", 
-        "neighborhood_identity": 3, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 3, 
-        "Sex": "Female", 
-        "Words": "Welcome", 
-        "relationship_neighbors": 9
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2116583422624867, 
-          41.43573361499826
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Roger", 
-        "OBJECTID": 17, 
-        "neighborhood_esteem": 2, 
-        "Age": "16-40 years old", 
-        "neighborhood_identity": 6, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 9, 
-        "Sex": "Female", 
-        "Words": "Joy", 
-        "relationship_neighbors": 5
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211487592490779, 
-          41.43595444682911
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Carles", 
-        "OBJECTID": 18, 
-        "neighborhood_esteem": 7, 
-        "Age": "0-15 years old", 
-        "neighborhood_identity": 7, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 2, 
-        "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 4
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211323793491909, 
-          41.43617586739547
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 5, 
-        "Name": "Isabel", 
-        "OBJECTID": 19, 
-        "neighborhood_esteem": 4, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 2, 
         "Sex": "Female", 
-        "Words": "Felicitat", 
-        "relationship_neighbors": 4
+        "Words": "Community", 
+        "Safaretjos_description": "has culture"
       }
     }
     ,
@@ -480,49 +236,20 @@ var punts_per_identitats2={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.2112839209907795, 
-          41.43623743736649
+          2.2116746663296114, 
+          41.43573587603796
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Roger", 
-        "OBJECTID": 20, 
-        "neighborhood_esteem": 4, 
-        "Age": "0-15 years old", 
+        "What_is_identity": "People close to me", 
+        "Name": "Jos\u00e9", 
+        "OBJECTID": 16, 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 1, 
         "Sex": "Female", 
-        "Words": "Joy", 
-        "relationship_neighbors": 9
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211164704743438, 
-          41.43647378693143
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Isabel", 
-        "OBJECTID": 21, 
-        "neighborhood_esteem": 4, 
-        "Age": "0-15 years old", 
-        "neighborhood_identity": 5, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 5, 
-        "Sex": "Female", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 6
+        "Words": "Youth", 
+        "Safaretjos_description": "lacks facilities"
       }
     }
     ,
@@ -536,43 +263,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Manel", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Tania", 
         "OBJECTID": 22, 
-        "neighborhood_esteem": 7, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 4, 
         "Sex": "Male", 
-        "Words": "Felicitat", 
-        "relationship_neighbors": 6
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2118949245619586, 
-          41.43628240868057
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Manel", 
-        "OBJECTID": 23, 
-        "neighborhood_esteem": 9, 
-        "Age": "0-15 years old", 
-        "neighborhood_identity": 9, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 3, 
-        "Sex": "Female", 
-        "Words": "Reception", 
-        "relationship_neighbors": 9
+        "Words": "Youth", 
+        "Safaretjos_description": "is obsolete"
       }
     }
     ,
@@ -586,18 +284,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Elvira", 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Carles", 
         "OBJECTID": 24, 
-        "neighborhood_esteem": 4, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 6, 
         "Sex": "Female", 
-        "Words": "Childhood", 
-        "relationship_neighbors": 7
+        "Words": "Community", 
+        "Safaretjos_description": "is welcoming"
       }
     }
     ,
@@ -611,18 +305,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Manel", 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Paula", 
         "OBJECTID": 25, 
-        "neighborhood_esteem": 4, 
-        "Age": "+ than 40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 4, 
         "Sex": "Male", 
-        "Words": "Experiences", 
-        "relationship_neighbors": 5
+        "Words": "Obsolete", 
+        "Safaretjos_description": "create traditions"
       }
     }
     ,
@@ -636,18 +326,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 4, 
+        "What_is_identity": "People close to me", 
         "Name": "Tania", 
         "OBJECTID": 26, 
-        "neighborhood_esteem": 6, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 5, 
         "Sex": "Male", 
-        "Words": "Welcome", 
-        "relationship_neighbors": 5
+        "Words": "Peaceful", 
+        "Safaretjos_description": "must change of municipality"
       }
     }
     ,
@@ -661,18 +347,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Isabel", 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Roger", 
         "OBJECTID": 27, 
-        "neighborhood_esteem": 5, 
-        "Age": "0-15 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 9, 
         "Sex": "Female", 
-        "Words": "Memories", 
-        "relationship_neighbors": 6
+        "Words": "Welcome", 
+        "Safaretjos_description": "is my childhood"
       }
     }
     ,
@@ -686,43 +368,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Isabel", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Elvira", 
         "OBJECTID": 28, 
-        "neighborhood_esteem": 5, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 9, 
         "Sex": "Male", 
-        "Words": "Youth", 
-        "relationship_neighbors": 4
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212179939051119, 
-          41.43589451584334
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Paula", 
-        "OBJECTID": 29, 
-        "neighborhood_esteem": 1, 
-        "Age": "+ than 40 years old", 
-        "neighborhood_identity": 8, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 3, 
-        "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 3
+        "Words": "Forgotten", 
+        "Safaretjos_description": "lays on the edge"
       }
     }
     ,
@@ -736,43 +389,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Manel", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Mateu", 
         "OBJECTID": 30, 
-        "neighborhood_esteem": 8, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 5, 
         "Sex": "Male", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 6
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212190819126402, 
-          41.43575862473028
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Elvira", 
-        "OBJECTID": 31, 
-        "neighborhood_esteem": 5, 
-        "Age": "+ than 40 years old", 
-        "neighborhood_identity": 3, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 5, 
-        "Sex": "Male", 
-        "Words": "Welcome", 
-        "relationship_neighbors": 9
+        "Words": "Culture", 
+        "Safaretjos_description": "has potential"
       }
     }
     ,
@@ -786,18 +410,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Paula", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Gerard", 
         "OBJECTID": 32, 
-        "neighborhood_esteem": 9, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 6, 
-        "Sex": "Male", 
-        "Words": "Experiences", 
-        "relationship_neighbors": 9
+        "Sex": "Female", 
+        "Words": "Community", 
+        "Safaretjos_description": "create traditions"
       }
     }
     ,
@@ -811,18 +431,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Tania", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Carles", 
         "OBJECTID": 33, 
-        "neighborhood_esteem": 6, 
-        "Age": "16-40 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 4, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 8, 
         "Sex": "Male", 
-        "Words": "Childhood", 
-        "relationship_neighbors": 1
+        "Words": "Happiness", 
+        "Safaretjos_description": "must change of municipality"
       }
     }
     ,
@@ -836,18 +452,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Ignasi", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Tania", 
         "OBJECTID": 34, 
-        "neighborhood_esteem": 7, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 4, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 5, 
-        "Sex": "Female", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 4
+        "Sex": "Male", 
+        "Words": "Memories", 
+        "Safaretjos_description": "need more jobs"
       }
     }
     ,
@@ -861,18 +473,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Manel", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Elvira", 
         "OBJECTID": 35, 
-        "neighborhood_esteem": 7, 
-        "Age": "+ than 40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 7, 
-        "Sex": "Male", 
-        "Words": "Reception", 
-        "relationship_neighbors": 4
+        "Sex": "Female", 
+        "Words": "Quiet", 
+        "Safaretjos_description": "is my childhood"
       }
     }
     ,
@@ -886,18 +494,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Paula", 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Ignasi", 
         "OBJECTID": 36, 
-        "neighborhood_esteem": 4, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 3, 
         "Sex": "Female", 
-        "Words": "Culture", 
-        "relationship_neighbors": 9
+        "Words": "Childhood", 
+        "Safaretjos_description": "is obsolete"
       }
     }
     ,
@@ -911,18 +515,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Gerard", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Ignasi", 
         "OBJECTID": 37, 
-        "neighborhood_esteem": 6, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 6, 
         "Sex": "Female", 
-        "Words": "Joy", 
-        "relationship_neighbors": 9
+        "Words": "Childhood", 
+        "Safaretjos_description": "is forgotten"
       }
     }
     ,
@@ -936,43 +536,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Ignasi", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Roger", 
         "OBJECTID": 38, 
-        "neighborhood_esteem": 9, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 3, 
-        "Sex": "Female", 
+        "Sex": "Male", 
         "Words": "Childhood", 
-        "relationship_neighbors": 5
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2119043291549105, 
-          41.436519768886775
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 5, 
-        "Name": "Manel", 
-        "OBJECTID": 39, 
-        "neighborhood_esteem": 4, 
-        "Age": "16-40 years old", 
-        "neighborhood_identity": 8, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 2, 
-        "Sex": "Female", 
-        "Words": "Community", 
-        "relationship_neighbors": 4
+        "Safaretjos_description": "lays on the edge"
       }
     }
     ,
@@ -986,18 +557,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Paula", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Gerard", 
         "OBJECTID": 40, 
-        "neighborhood_esteem": 8, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 4, 
         "Sex": "Male", 
-        "Words": "Memories", 
-        "relationship_neighbors": 6
+        "Words": "Happiness", 
+        "Safaretjos_description": "is obsolete"
       }
     }
     ,
@@ -1011,18 +578,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Elvira", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 41, 
-        "neighborhood_esteem": 2, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 1, 
         "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 2
+        "Words": "Community", 
+        "Safaretjos_description": "should recover trades"
       }
     }
     ,
@@ -1036,18 +599,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Ignasi", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Isabel", 
         "OBJECTID": 42, 
-        "neighborhood_esteem": 9, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 8, 
         "Sex": "Female", 
-        "Words": "Experiences", 
-        "relationship_neighbors": 9
+        "Words": "Homely", 
+        "Safaretjos_description": "feels homely"
       }
     }
     ,
@@ -1061,18 +620,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Roger", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Ignasi", 
         "OBJECTID": 43, 
-        "neighborhood_esteem": 4, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 4, 
         "Sex": "Male", 
-        "Words": "Reception", 
-        "relationship_neighbors": 4
+        "Words": "Traditions", 
+        "Safaretjos_description": "is peaceful"
       }
     }
     ,
@@ -1086,18 +641,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Mateu", 
+        "What_is_identity": "Own character", 
+        "Name": "Ignasi", 
         "OBJECTID": 44, 
-        "neighborhood_esteem": 6, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 3, 
         "Sex": "Female", 
         "Words": "Culture", 
-        "relationship_neighbors": 4
+        "Safaretjos_description": "is peaceful"
       }
     }
     ,
@@ -1111,18 +662,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Ignasi", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Elvira", 
         "OBJECTID": 45, 
-        "neighborhood_esteem": 5, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 7, 
         "Sex": "Male", 
-        "Words": "Reception", 
-        "relationship_neighbors": 1
+        "Words": "Community", 
+        "Safaretjos_description": "lays on the edge"
       }
     }
     ,
@@ -1136,18 +683,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Tania", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 46, 
-        "neighborhood_esteem": 3, 
-        "Age": "+ than 40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 4, 
         "Sex": "Male", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 1
+        "Words": "Happiness", 
+        "Safaretjos_description": "is happiness"
       }
     }
     ,
@@ -1161,18 +704,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Gerard", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Manel", 
         "OBJECTID": 47, 
-        "neighborhood_esteem": 4, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 8, 
         "Sex": "Male", 
-        "Words": "Felicitat", 
-        "relationship_neighbors": 2
+        "Words": "Forgotten", 
+        "Safaretjos_description": "is moving forward"
       }
     }
     ,
@@ -1186,18 +725,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Paula", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Elvira", 
         "OBJECTID": 48, 
-        "neighborhood_esteem": 9, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 7, 
         "Sex": "Female", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 4
+        "Words": "Youth", 
+        "Safaretjos_description": "should recover trades"
       }
     }
     ,
@@ -1211,18 +746,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Paula", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Jos\u00e9", 
         "OBJECTID": 49, 
-        "neighborhood_esteem": 6, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 9, 
         "Sex": "Male", 
-        "Words": "Welcome", 
-        "relationship_neighbors": 2
+        "Words": "Memories", 
+        "Safaretjos_description": "will change"
       }
     }
     ,
@@ -1236,18 +767,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Tania", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Gerard", 
         "OBJECTID": 50, 
-        "neighborhood_esteem": 9, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 8, 
         "Sex": "Male", 
-        "Words": "Childhood", 
-        "relationship_neighbors": 3
+        "Words": "Memories", 
+        "Safaretjos_description": "is peaceful"
       }
     }
     ,
@@ -1261,18 +788,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Isabel", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Gerard", 
         "OBJECTID": 51, 
-        "neighborhood_esteem": 3, 
-        "Age": "0-15 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 7, 
         "Sex": "Female", 
-        "Words": "Memories", 
-        "relationship_neighbors": 9
+        "Words": "Familiar", 
+        "Safaretjos_description": "lacks facilities"
       }
     }
     ,
@@ -1280,24 +803,20 @@ var punts_per_identitats2={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.2124552742350945, 
-          41.435314515404635
+          2.212489819466877, 
+          41.435286153238444
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Paula", 
+        "What_is_identity": "Own character", 
+        "Name": "Roger", 
         "OBJECTID": 52, 
-        "neighborhood_esteem": 8, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 4, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 4, 
         "Sex": "Male", 
-        "Words": "Experiences", 
-        "relationship_neighbors": 8
+        "Words": "Youth", 
+        "Safaretjos_description": "lays on the edge"
       }
     }
     ,
@@ -1311,18 +830,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Carles", 
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Tania", 
         "OBJECTID": 53, 
-        "neighborhood_esteem": 4, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 8, 
         "Sex": "Male", 
-        "Words": "Experiences", 
-        "relationship_neighbors": 1
+        "Words": "Happiness", 
+        "Safaretjos_description": "has changed"
       }
     }
     ,
@@ -1336,18 +851,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Tania", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Isabel", 
         "OBJECTID": 54, 
-        "neighborhood_esteem": 1, 
-        "Age": "+ than 40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Female", 
-        "Words": "Memories", 
-        "relationship_neighbors": 4
+        "Sex": "Male", 
+        "Words": "Quiet", 
+        "Safaretjos_description": "is not what it was"
       }
     }
     ,
@@ -1361,18 +872,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Gerard", 
+        "What_is_identity": "Own character", 
+        "Name": "Manel", 
         "OBJECTID": 55, 
-        "neighborhood_esteem": 7, 
-        "Age": "+ than 40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Male", 
-        "Words": "Welcome", 
-        "relationship_neighbors": 1
+        "Sex": "Female", 
+        "Words": "Familiar", 
+        "Safaretjos_description": "has culture"
       }
     }
     ,
@@ -1386,18 +893,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Elvira", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Carles", 
         "OBJECTID": 56, 
-        "neighborhood_esteem": 6, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 2, 
-        "Sex": "Male", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 6
+        "Sex": "Female", 
+        "Words": "Traditions", 
+        "Safaretjos_description": "is forgotten"
       }
     }
     ,
@@ -1411,18 +914,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 7, 
+        "What_is_identity": "A psychological identification", 
         "Name": "Mateu", 
         "OBJECTID": 57, 
-        "neighborhood_esteem": 7, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 5, 
         "Sex": "Male", 
-        "Words": "Felicitat", 
-        "relationship_neighbors": 2
+        "Words": "Childhood", 
+        "Safaretjos_description": "feels homely"
       }
     }
     ,
@@ -1436,18 +935,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Ignasi", 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Paula", 
         "OBJECTID": 58, 
-        "neighborhood_esteem": 8, 
-        "Age": "+ than 40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 6, 
-        "Sex": "Female", 
+        "Sex": "Male", 
         "Words": "Memories", 
-        "relationship_neighbors": 9
+        "Safaretjos_description": "has potential"
       }
     }
     ,
@@ -1461,18 +956,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Gerard", 
+        "What_is_identity": "People close to me", 
+        "Name": "Carles", 
         "OBJECTID": 59, 
-        "neighborhood_esteem": 8, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 5, 
-        "Sex": "Male", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 4
+        "Sex": "Female", 
+        "Words": "Homely", 
+        "Safaretjos_description": "has changed"
       }
     }
     ,
@@ -1486,18 +977,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Tania", 
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Elvira", 
         "OBJECTID": 60, 
-        "neighborhood_esteem": 1, 
-        "Age": "+ than 40 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 5, 
         "Sex": "Male", 
-        "Words": "Culture", 
-        "relationship_neighbors": 1
+        "Words": "Welcome", 
+        "Safaretjos_description": "has no recognition"
       }
     }
     ,
@@ -1511,18 +998,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 5, 
-        "Name": "Gerard", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Tania", 
         "OBJECTID": 61, 
-        "neighborhood_esteem": 7, 
-        "Age": "16-40 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 7, 
-        "Sex": "Male", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 7
+        "Sex": "Female", 
+        "Words": "Culture", 
+        "Safaretjos_description": "feels quiet"
       }
     }
     ,
@@ -1536,18 +1019,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Isabel", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Elvira", 
         "OBJECTID": 62, 
-        "neighborhood_esteem": 4, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "Exact likeness in nature or qualities", 
-        "involvement_neighborhood": 6, 
         "Sex": "Female", 
-        "Words": "Youth", 
-        "relationship_neighbors": 2
+        "Words": "Forgotten", 
+        "Safaretjos_description": "has no recognition"
       }
     }
     ,
@@ -1561,18 +1040,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Ignasi", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Carles", 
         "OBJECTID": 63, 
-        "neighborhood_esteem": 9, 
-        "Age": "+ than 40 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 7, 
-        "Sex": "Male", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 6
+        "Sex": "Female", 
+        "Words": "Forgotten", 
+        "Safaretjos_description": "has no activity"
       }
     }
     ,
@@ -1586,18 +1061,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Mateu", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Roger", 
         "OBJECTID": 64, 
-        "neighborhood_esteem": 6, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 9, 
-        "Sex": "Male", 
-        "Words": "Community", 
-        "relationship_neighbors": 8
+        "Sex": "Female", 
+        "Words": "Culture", 
+        "Safaretjos_description": "must change of municipality"
       }
     }
     ,
@@ -1611,18 +1082,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Mateu", 
+        "What_is_identity": "Own character", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 65, 
-        "neighborhood_esteem": 1, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Female", 
-        "Words": "Reception", 
-        "relationship_neighbors": 8
+        "Sex": "Male", 
+        "Words": "Peaceful", 
+        "Safaretjos_description": "is obsolete"
       }
     }
     ,
@@ -1636,18 +1103,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Roger", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Jos\u00e9", 
         "OBJECTID": 66, 
-        "neighborhood_esteem": 7, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 8, 
         "Sex": "Male", 
-        "Words": "Felicitat", 
-        "relationship_neighbors": 5
+        "Words": "Homely", 
+        "Safaretjos_description": "is welcoming"
       }
     }
     ,
@@ -1661,18 +1124,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Mateu", 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Manel", 
         "OBJECTID": 67, 
-        "neighborhood_esteem": 7, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 4, 
         "Sex": "Male", 
-        "Words": "Experiences", 
-        "relationship_neighbors": 6
+        "Words": "Homely", 
+        "Safaretjos_description": "is not what it was"
       }
     }
     ,
@@ -1686,18 +1145,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Ignasi", 
+        "What_is_identity": "Own character", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 68, 
-        "neighborhood_esteem": 4, 
-        "Age": "+ than 40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 5, 
-        "Sex": "Male", 
-        "Words": "Reception", 
-        "relationship_neighbors": 5
+        "Sex": "Female", 
+        "Words": "Peaceful", 
+        "Safaretjos_description": "should recover trades"
       }
     }
     ,
@@ -1711,18 +1166,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Paula", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Isabel", 
         "OBJECTID": 69, 
-        "neighborhood_esteem": 6, 
-        "Age": "16-40 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 2, 
-        "Sex": "Male", 
-        "Words": "Memories", 
-        "relationship_neighbors": 1
+        "Sex": "Female", 
+        "Words": "Childhood", 
+        "Safaretjos_description": "is forgotten"
       }
     }
     ,
@@ -1736,18 +1187,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Paula", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Mateu", 
         "OBJECTID": 70, 
-        "neighborhood_esteem": 7, 
-        "Age": "0-15 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 6, 
-        "Sex": "Female", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 5
+        "Sex": "Male", 
+        "Words": "Peaceful", 
+        "Safaretjos_description": "is happiness"
       }
     }
     ,
@@ -1761,18 +1208,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Carles", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Roger", 
         "OBJECTID": 71, 
-        "neighborhood_esteem": 2, 
-        "Age": "0-15 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 6, 
-        "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 1
+        "Sex": "Male", 
+        "Words": "Obsolete", 
+        "Safaretjos_description": "creates community"
       }
     }
     ,
@@ -1786,18 +1229,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Roger", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 72, 
-        "neighborhood_esteem": 2, 
-        "Age": "16-40 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 5, 
         "Sex": "Female", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 3
+        "Words": "Culture", 
+        "Safaretjos_description": "is welcoming"
       }
     }
     ,
@@ -1811,18 +1250,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Elvira", 
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Gerard", 
         "OBJECTID": 73, 
-        "neighborhood_esteem": 7, 
-        "Age": "+ than 40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 4, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 9, 
         "Sex": "Male", 
-        "Words": "Joy", 
-        "relationship_neighbors": 3
+        "Words": "Traditions", 
+        "Safaretjos_description": "should recover trades"
       }
     }
     ,
@@ -1836,18 +1271,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Paula", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Mateu", 
         "OBJECTID": 74, 
-        "neighborhood_esteem": 2, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 8, 
         "Sex": "Female", 
-        "Words": "Community", 
-        "relationship_neighbors": 4
+        "Words": "Youth", 
+        "Safaretjos_description": "is moving forward"
       }
     }
     ,
@@ -1861,18 +1292,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Elvira", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Paula", 
         "OBJECTID": 75, 
-        "neighborhood_esteem": 9, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 6, 
         "Sex": "Female", 
-        "Words": "Community", 
-        "relationship_neighbors": 1
+        "Words": "Homely", 
+        "Safaretjos_description": "has culture"
       }
     }
     ,
@@ -1886,18 +1313,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Isabel", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Gerard", 
         "OBJECTID": 76, 
-        "neighborhood_esteem": 1, 
-        "Age": "+ than 40 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 1, 
         "Sex": "Female", 
-        "Words": "Welcome", 
-        "relationship_neighbors": 5
+        "Words": "Peaceful", 
+        "Safaretjos_description": "is obsolete"
       }
     }
     ,
@@ -1911,18 +1334,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Elvira", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 77, 
-        "neighborhood_esteem": 4, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 4, 
-        "Sex": "Male", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 8
+        "Sex": "Female", 
+        "Words": "Youth", 
+        "Safaretjos_description": "is my childhood"
       }
     }
     ,
@@ -1936,18 +1355,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Paula", 
-        "OBJECTID": 78, 
-        "neighborhood_esteem": 3, 
-        "Age": "16-40 years old", 
-        "neighborhood_identity": 5, 
         "What_is_identity": "Exact likeness in nature or qualities", 
-        "involvement_neighborhood": 2, 
-        "Sex": "Female", 
-        "Words": "Felicitat", 
-        "relationship_neighbors": 1
+        "Name": "Isabel", 
+        "OBJECTID": 78, 
+        "Age": "0-15 years old", 
+        "neighborhood_identity": 5, 
+        "Sex": "Male", 
+        "Words": "Happiness", 
+        "Safaretjos_description": "has borders"
       }
     }
     ,
@@ -1961,18 +1376,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Mateu", 
+        "What_is_identity": "People close to me", 
+        "Name": "Elvira", 
         "OBJECTID": 79, 
-        "neighborhood_esteem": 9, 
-        "Age": "16-40 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 3, 
-        "Sex": "Female", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 7
+        "Sex": "Male", 
+        "Words": "Familiar", 
+        "Safaretjos_description": "is not active"
       }
     }
     ,
@@ -1986,18 +1397,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Paula", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Elvira", 
         "OBJECTID": 80, 
-        "neighborhood_esteem": 8, 
-        "Age": "+ than 40 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 4, 
-        "Sex": "Male", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 6
+        "Sex": "Female", 
+        "Words": "Youth", 
+        "Safaretjos_description": "has changed"
       }
     }
     ,
@@ -2011,18 +1418,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Ignasi", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Gerard", 
         "OBJECTID": 81, 
-        "neighborhood_esteem": 4, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 3, 
         "Sex": "Female", 
-        "Words": "Joy", 
-        "relationship_neighbors": 5
+        "Words": "Welcome", 
+        "Safaretjos_description": "has memories"
       }
     }
     ,
@@ -2036,18 +1439,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Elvira", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Gerard", 
         "OBJECTID": 82, 
-        "neighborhood_esteem": 9, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 6, 
-        "Sex": "Female", 
-        "Words": "Experiences", 
-        "relationship_neighbors": 3
+        "Sex": "Male", 
+        "Words": "Peaceful", 
+        "Safaretjos_description": "is identity"
       }
     }
     ,
@@ -2061,18 +1460,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Gerard", 
+        "What_is_identity": "People close to me", 
+        "Name": "Ignasi", 
         "OBJECTID": 83, 
-        "neighborhood_esteem": 5, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 4, 
         "Sex": "Male", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 8
+        "Words": "Peaceful", 
+        "Safaretjos_description": "is obsolete"
       }
     }
     ,
@@ -2086,18 +1481,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Tania", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Gerard", 
         "OBJECTID": 84, 
-        "neighborhood_esteem": 4, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 8, 
         "Sex": "Male", 
-        "Words": "Experiences", 
-        "relationship_neighbors": 5
+        "Words": "Obsolete", 
+        "Safaretjos_description": "has memories"
       }
     }
     ,
@@ -2111,18 +1502,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Tania", 
+        "What_is_identity": "Own character", 
+        "Name": "Elvira", 
         "OBJECTID": 85, 
-        "neighborhood_esteem": 7, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Female", 
-        "Words": "Culture", 
-        "relationship_neighbors": 5
+        "Sex": "Male", 
+        "Words": "Happiness", 
+        "Safaretjos_description": "is my childhood"
       }
     }
     ,
@@ -2136,18 +1523,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 2, 
+        "What_is_identity": "A psychological identification", 
         "Name": "Gerard", 
         "OBJECTID": 86, 
-        "neighborhood_esteem": 6, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 5, 
         "Sex": "Male", 
-        "Words": "Childhood", 
-        "relationship_neighbors": 5
+        "Words": "Memories", 
+        "Safaretjos_description": "will change"
       }
     }
     ,
@@ -2161,18 +1544,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 5, 
+        "What_is_identity": "Sameness or likeness in different instances", 
         "Name": "Tania", 
         "OBJECTID": 87, 
-        "neighborhood_esteem": 3, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 3, 
         "Sex": "Male", 
-        "Words": "Culture", 
-        "relationship_neighbors": 7
+        "Words": "Community", 
+        "Safaretjos_description": "has potential"
       }
     }
     ,
@@ -2186,18 +1565,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Gerard", 
+        "What_is_identity": "People close to me", 
+        "Name": "Jos\u00e9", 
         "OBJECTID": 88, 
-        "neighborhood_esteem": 6, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 4, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 3, 
-        "Sex": "Male", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 8
+        "Sex": "Female", 
+        "Words": "Traditions", 
+        "Safaretjos_description": "will change"
       }
     }
     ,
@@ -2211,18 +1586,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Elvira", 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Isabel", 
         "OBJECTID": 89, 
-        "neighborhood_esteem": 7, 
-        "Age": "16-40 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 1, 
-        "Sex": "Female", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 8
+        "Sex": "Male", 
+        "Words": "Welcome", 
+        "Safaretjos_description": "is identity"
       }
     }
     ,
@@ -2236,18 +1607,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Elvira", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Carles", 
         "OBJECTID": 90, 
-        "neighborhood_esteem": 6, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 6, 
-        "Sex": "Male", 
-        "Words": "Youth", 
-        "relationship_neighbors": 7
+        "Sex": "Female", 
+        "Words": "Culture", 
+        "Safaretjos_description": "is moving forward"
       }
     }
     ,
@@ -2261,18 +1628,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Roger", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 91, 
-        "neighborhood_esteem": 3, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 1, 
-        "Sex": "Female", 
-        "Words": "Culture", 
-        "relationship_neighbors": 4
+        "Sex": "Male", 
+        "Words": "Peaceful", 
+        "Safaretjos_description": "must change of municipality"
       }
     }
     ,
@@ -2286,18 +1649,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Manel", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Paula", 
         "OBJECTID": 92, 
-        "neighborhood_esteem": 3, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 1, 
         "Sex": "Female", 
-        "Words": "Experiences", 
-        "relationship_neighbors": 9
+        "Words": "Homely", 
+        "Safaretjos_description": "creates community"
       }
     }
     ,
@@ -2311,18 +1670,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Mateu", 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Paula", 
         "OBJECTID": 93, 
-        "neighborhood_esteem": 5, 
-        "Age": "+ than 40 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 4, 
         "Sex": "Female", 
-        "Words": "Culture", 
-        "relationship_neighbors": 2
+        "Words": "Welcome", 
+        "Safaretjos_description": "creates community"
       }
     }
     ,
@@ -2336,18 +1691,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Isabel", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Mateu", 
         "OBJECTID": 94, 
-        "neighborhood_esteem": 8, 
-        "Age": "0-15 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 1, 
         "Sex": "Male", 
-        "Words": "Culture", 
-        "relationship_neighbors": 3
+        "Words": "Welcome", 
+        "Safaretjos_description": "is not what it was"
       }
     }
     ,
@@ -2361,18 +1712,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Roger", 
+        "What_is_identity": "Own character", 
+        "Name": "Jos\u00e9", 
         "OBJECTID": 95, 
-        "neighborhood_esteem": 5, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 1, 
-        "Sex": "Male", 
-        "Words": "Culture", 
-        "relationship_neighbors": 2
+        "Sex": "Female", 
+        "Words": "Welcome", 
+        "Safaretjos_description": "feels quiet"
       }
     }
     ,
@@ -2386,18 +1733,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Isabel", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Roger", 
         "OBJECTID": 96, 
-        "neighborhood_esteem": 5, 
-        "Age": "0-15 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 3, 
-        "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 9
+        "Sex": "Male", 
+        "Words": "Memories", 
+        "Safaretjos_description": "has no recognition"
       }
     }
     ,
@@ -2411,18 +1754,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Roger", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Elvira", 
         "OBJECTID": 97, 
-        "neighborhood_esteem": 8, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 9, 
         "Sex": "Female", 
-        "Words": "Reception", 
-        "relationship_neighbors": 1
+        "Words": "Peaceful", 
+        "Safaretjos_description": "is welcoming"
       }
     }
     ,
@@ -2436,18 +1775,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 3, 
+        "What_is_identity": "The way a person behaves", 
         "Name": "Elvira", 
         "OBJECTID": 98, 
-        "neighborhood_esteem": 5, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 3, 
-        "Sex": "Female", 
-        "Words": "Youth", 
-        "relationship_neighbors": 2
+        "Sex": "Male", 
+        "Words": "Homely", 
+        "Safaretjos_description": "feels quiet"
       }
     }
     ,
@@ -2461,18 +1796,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 5, 
-        "Name": "Roger", 
+        "What_is_identity": "People close to me", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 99, 
-        "neighborhood_esteem": 8, 
-        "Age": "16-40 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 1, 
         "Sex": "Male", 
-        "Words": "Reception", 
-        "relationship_neighbors": 5
+        "Words": "Happiness", 
+        "Safaretjos_description": "is obsolete"
       }
     }
     ,
@@ -2486,18 +1817,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Elvira", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Paula", 
         "OBJECTID": 100, 
-        "neighborhood_esteem": 5, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 4, 
-        "What_is_identity": "Exact likeness in nature or qualities", 
-        "involvement_neighborhood": 5, 
-        "Sex": "Female", 
-        "Words": "Reception", 
-        "relationship_neighbors": 6
+        "Sex": "Male", 
+        "Words": "Traditions", 
+        "Safaretjos_description": "must change of municipality"
       }
     }
     ,
@@ -2511,18 +1838,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 5, 
-        "Name": "Roger", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Carles", 
         "OBJECTID": 101, 
-        "neighborhood_esteem": 3, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "Exact likeness in nature or qualities", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Female", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 7
+        "Sex": "Male", 
+        "Words": "Culture", 
+        "Safaretjos_description": "has no recognition"
       }
     }
     ,
@@ -2536,18 +1859,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Elvira", 
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Carles", 
         "OBJECTID": 102, 
-        "neighborhood_esteem": 4, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 3, 
-        "Sex": "Female", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 7
+        "Sex": "Male", 
+        "Words": "Forgotten", 
+        "Safaretjos_description": "will change"
       }
     }
     ,
@@ -2561,18 +1880,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Ignasi", 
+        "What_is_identity": "People close to me", 
+        "Name": "Manel", 
         "OBJECTID": 103, 
-        "neighborhood_esteem": 8, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 1
+        "Sex": "Male", 
+        "Words": "Obsolete", 
+        "Safaretjos_description": "is my childhood"
       }
     }
     ,
@@ -2586,18 +1901,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Gerard", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Roger", 
         "OBJECTID": 104, 
-        "neighborhood_esteem": 3, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 4, 
         "Sex": "Female", 
-        "Words": "Experiences", 
-        "relationship_neighbors": 3
+        "Words": "Familiar", 
+        "Safaretjos_description": "is happiness"
       }
     }
     ,
@@ -2611,18 +1922,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 5, 
-        "Name": "Elvira", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Ignasi", 
         "OBJECTID": 105, 
-        "neighborhood_esteem": 9, 
-        "Age": "0-15 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 5, 
         "Sex": "Female", 
-        "Words": "Culture", 
-        "relationship_neighbors": 3
+        "Words": "Forgotten", 
+        "Safaretjos_description": "feels secured"
       }
     }
     ,
@@ -2636,18 +1943,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Ignasi", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Carles", 
         "OBJECTID": 106, 
-        "neighborhood_esteem": 1, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 8, 
         "Sex": "Female", 
-        "Words": "Childhood", 
-        "relationship_neighbors": 1
+        "Words": "Youth", 
+        "Safaretjos_description": "feels secured"
       }
     }
     ,
@@ -2661,18 +1964,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Paula", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Jos\u00e9", 
         "OBJECTID": 107, 
-        "neighborhood_esteem": 9, 
-        "Age": "0-15 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 2, 
         "Sex": "Male", 
-        "Words": "Youth", 
-        "relationship_neighbors": 9
+        "Words": "Traditions", 
+        "Safaretjos_description": "lays on the edge"
       }
     }
     ,
@@ -2686,18 +1985,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Gerard", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Tania", 
         "OBJECTID": 108, 
-        "neighborhood_esteem": 2, 
-        "Age": "+ than 40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 1, 
         "Sex": "Male", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 3
+        "Words": "Culture", 
+        "Safaretjos_description": "feels quiet"
       }
     }
     ,
@@ -2711,18 +2006,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Carles", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Jos\u00e9", 
         "OBJECTID": 109, 
-        "neighborhood_esteem": 2, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 5, 
-        "Sex": "Male", 
-        "Words": "Joy", 
-        "relationship_neighbors": 6
+        "Sex": "Female", 
+        "Words": "Obsolete", 
+        "Safaretjos_description": "is identity"
       }
     }
     ,
@@ -2736,18 +2027,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Elvira", 
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Paula", 
         "OBJECTID": 110, 
-        "neighborhood_esteem": 2, 
-        "Age": "16-40 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 4, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Male", 
-        "Words": "Youth", 
-        "relationship_neighbors": 6
+        "Sex": "Female", 
+        "Words": "Homely", 
+        "Safaretjos_description": "need more jobs"
       }
     }
     ,
@@ -2761,18 +2048,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Elvira", 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Tania", 
         "OBJECTID": 111, 
-        "neighborhood_esteem": 1, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 4, 
         "Sex": "Male", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 9
+        "Words": "Quiet", 
+        "Safaretjos_description": "is peaceful"
       }
     }
     ,
@@ -2786,18 +2069,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Gerard", 
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Paula", 
         "OBJECTID": 112, 
-        "neighborhood_esteem": 2, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 6, 
         "Sex": "Female", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 6
+        "Words": "Youth", 
+        "Safaretjos_description": "should recover trades"
       }
     }
     ,
@@ -2811,18 +2090,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Isabel", 
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Ignasi", 
         "OBJECTID": 113, 
-        "neighborhood_esteem": 6, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "Exact likeness in nature or qualities", 
-        "involvement_neighborhood": 1, 
-        "Sex": "Female", 
-        "Words": "Community", 
-        "relationship_neighbors": 2
+        "Sex": "Male", 
+        "Words": "Homely", 
+        "Safaretjos_description": "is my childhood"
       }
     }
     ,
@@ -2836,18 +2111,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Manel", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Ignasi", 
         "OBJECTID": 114, 
-        "neighborhood_esteem": 2, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 9, 
         "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 4
+        "Words": "Community", 
+        "Safaretjos_description": "is my childhood"
       }
     }
     ,
@@ -2861,68 +2132,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Isabel", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Roger", 
         "OBJECTID": 115, 
-        "neighborhood_esteem": 4, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 2, 
-        "Sex": "Male", 
-        "Words": "Experiences", 
-        "relationship_neighbors": 5
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2138550882596073, 
-          41.43462220759181
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Elvira", 
-        "OBJECTID": 116, 
-        "neighborhood_esteem": 7, 
-        "Age": "+ than 40 years old", 
-        "neighborhood_identity": 4, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 8, 
         "Sex": "Female", 
-        "Words": "Joy", 
-        "relationship_neighbors": 7
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2134443306464906, 
-          41.434587044259004
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Elvira", 
-        "OBJECTID": 117, 
-        "neighborhood_esteem": 6, 
-        "Age": "+ than 40 years old", 
-        "neighborhood_identity": 9, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 5, 
-        "Sex": "Female", 
-        "Words": "Felicitat", 
-        "relationship_neighbors": 6
+        "Words": "Community", 
+        "Safaretjos_description": "creates community"
       }
     }
     ,
@@ -2936,18 +2153,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 8, 
+        "What_is_identity": "Own character", 
         "Name": "Ignasi", 
         "OBJECTID": 118, 
-        "neighborhood_esteem": 7, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 4, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 5, 
         "Sex": "Female", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 3
+        "Words": "Obsolete", 
+        "Safaretjos_description": "must change of municipality"
       }
     }
     ,
@@ -2961,18 +2174,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Carles", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Elvira", 
         "OBJECTID": 119, 
-        "neighborhood_esteem": 2, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 4, 
-        "Sex": "Male", 
-        "Words": "Community", 
-        "relationship_neighbors": 2
+        "Sex": "Female", 
+        "Words": "Peaceful", 
+        "Safaretjos_description": "has no activity"
       }
     }
     ,
@@ -2986,18 +2195,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Ignasi", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 120, 
-        "neighborhood_esteem": 4, 
-        "Age": "+ than 40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 1, 
         "Sex": "Female", 
         "Words": "Community", 
-        "relationship_neighbors": 3
+        "Safaretjos_description": "is not what it was"
       }
     }
     ,
@@ -3011,18 +2216,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Ignasi", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 121, 
-        "neighborhood_esteem": 5, 
-        "Age": "+ than 40 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 3, 
         "Sex": "Female", 
-        "Words": "Community", 
-        "relationship_neighbors": 5
+        "Words": "Homely", 
+        "Safaretjos_description": "is obsolete"
       }
     }
     ,
@@ -3036,18 +2237,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Ignasi", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Jos\u00e9", 
         "OBJECTID": 122, 
-        "neighborhood_esteem": 5, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 3, 
         "Sex": "Male", 
-        "Words": "Welcome", 
-        "relationship_neighbors": 4
+        "Words": "Familiar", 
+        "Safaretjos_description": "is not what it was"
       }
     }
     ,
@@ -3061,18 +2258,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 9, 
+        "What_is_identity": "People close to me", 
         "Name": "Elvira", 
         "OBJECTID": 123, 
-        "neighborhood_esteem": 8, 
-        "Age": "+ than 40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 9, 
-        "Sex": "Male", 
-        "Words": "Culture", 
-        "relationship_neighbors": 2
+        "Sex": "Female", 
+        "Words": "Obsolete", 
+        "Safaretjos_description": "create traditions"
       }
     }
     ,
@@ -3086,18 +2279,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 5, 
-        "Name": "Tania", 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Carles", 
         "OBJECTID": 124, 
-        "neighborhood_esteem": 1, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 2, 
-        "Sex": "Female", 
-        "Words": "Community", 
-        "relationship_neighbors": 6
+        "Sex": "Male", 
+        "Words": "Peaceful", 
+        "Safaretjos_description": "has changed"
       }
     }
     ,
@@ -3111,18 +2300,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Ignasi", 
+        "What_is_identity": "Own character", 
+        "Name": "Gerard", 
         "OBJECTID": 125, 
-        "neighborhood_esteem": 8, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 4, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Male", 
-        "Words": "Felicitat", 
-        "relationship_neighbors": 9
+        "Sex": "Female", 
+        "Words": "Homely", 
+        "Safaretjos_description": "has potential"
       }
     }
     ,
@@ -3136,18 +2321,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Isabel", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Mateu", 
         "OBJECTID": 126, 
-        "neighborhood_esteem": 2, 
-        "Age": "+ than 40 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 9, 
         "Sex": "Female", 
         "Words": "Happiness", 
-        "relationship_neighbors": 9
+        "Safaretjos_description": "is forgotten"
       }
     }
     ,
@@ -3161,18 +2342,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Elvira", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Juan Miguel", 
         "OBJECTID": 127, 
-        "neighborhood_esteem": 2, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 1, 
         "Sex": "Male", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 6
+        "Words": "Obsolete", 
+        "Safaretjos_description": "lacks facilities"
       }
     }
     ,
@@ -3186,18 +2363,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Manel", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Jos\u00e9", 
         "OBJECTID": 128, 
-        "neighborhood_esteem": 4, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 9, 
         "Sex": "Male", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 9
+        "Words": "Familiar", 
+        "Safaretjos_description": "must change of municipality"
       }
     }
     ,
@@ -3211,18 +2384,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Mateu", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Elvira", 
         "OBJECTID": 129, 
-        "neighborhood_esteem": 2, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 5, 
         "Sex": "Female", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 9
+        "Words": "Welcome", 
+        "Safaretjos_description": "lacks facilities"
       }
     }
     ,
@@ -3236,18 +2405,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Gerard", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Paula", 
         "OBJECTID": 130, 
-        "neighborhood_esteem": 5, 
-        "Age": "0-15 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 4, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 1, 
         "Sex": "Female", 
         "Words": "Happiness", 
-        "relationship_neighbors": 4
+        "Safaretjos_description": "is happiness"
       }
     }
     ,
@@ -3261,18 +2426,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Carles", 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Mateu", 
         "OBJECTID": 131, 
-        "neighborhood_esteem": 6, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 9, 
         "Sex": "Female", 
-        "Words": "Memories", 
-        "relationship_neighbors": 7
+        "Words": "Traditions", 
+        "Safaretjos_description": "has no recognition"
       }
     }
     ,
@@ -3286,18 +2447,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Carles", 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Tania", 
         "OBJECTID": 132, 
-        "neighborhood_esteem": 8, 
-        "Age": "16-40 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "Exact likeness in nature or qualities", 
-        "involvement_neighborhood": 2, 
         "Sex": "Female", 
-        "Words": "Joy", 
-        "relationship_neighbors": 3
+        "Words": "Welcome", 
+        "Safaretjos_description": "has culture"
       }
     }
     ,
@@ -3311,18 +2468,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Gerard", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Isabel", 
         "OBJECTID": 133, 
-        "neighborhood_esteem": 2, 
-        "Age": "16-40 years old", 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 2, 
         "Sex": "Female", 
-        "Words": "Joy", 
-        "relationship_neighbors": 7
+        "Words": "Happiness", 
+        "Safaretjos_description": "need more jobs"
       }
     }
     ,
@@ -3336,18 +2489,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Tania", 
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Gerard", 
         "OBJECTID": 134, 
-        "neighborhood_esteem": 5, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 3, 
-        "Sex": "Male", 
-        "Words": "Community", 
-        "relationship_neighbors": 5
+        "Sex": "Female", 
+        "Words": "Culture", 
+        "Safaretjos_description": "create traditions"
       }
     }
     ,
@@ -3361,18 +2510,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 8, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Mateu", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Manel", 
         "OBJECTID": 135, 
-        "neighborhood_esteem": 8, 
-        "Age": "16-40 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 5, 
-        "Sex": "Female", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 3
+        "Sex": "Male", 
+        "Words": "Homely", 
+        "Safaretjos_description": "is not what it was"
       }
     }
     ,
@@ -3386,18 +2531,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Tania", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Isabel", 
         "OBJECTID": 136, 
-        "neighborhood_esteem": 1, 
-        "Age": "0-15 years old", 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "Sameness of essential or generic character in different instances", 
-        "involvement_neighborhood": 7, 
-        "Sex": "Female", 
-        "Words": "Culture", 
-        "relationship_neighbors": 4
+        "Sex": "Male", 
+        "Words": "Youth", 
+        "Safaretjos_description": "has potential"
       }
     }
     ,
@@ -3411,18 +2552,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Manel", 
+        "What_is_identity": "Own character", 
+        "Name": "Mateu", 
         "OBJECTID": 137, 
-        "neighborhood_esteem": 3, 
-        "Age": "16-40 years old", 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 7
+        "Sex": "Male", 
+        "Words": "Familiar", 
+        "Safaretjos_description": "is not what it was"
       }
     }
     ,
@@ -3436,18 +2573,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Mateu", 
-        "OBJECTID": 140, 
-        "neighborhood_esteem": 7, 
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Isabel", 
+        "OBJECTID": 138, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 8, 
         "Sex": "Male", 
-        "Words": "Joy", 
-        "relationship_neighbors": 5
+        "Words": "Traditions", 
+        "Safaretjos_description": "is welcoming"
       }
     }
     ,
@@ -3461,18 +2594,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 6, 
+        "What_is_identity": "The qualities that make someone different from others", 
         "Name": "Paula", 
-        "OBJECTID": 142, 
-        "neighborhood_esteem": 7, 
-        "Age": "+ than 40 years old", 
+        "OBJECTID": 139, 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 1, 
         "Sex": "Female", 
-        "Words": "Felicitat", 
-        "relationship_neighbors": 6
+        "Words": "Forgotten", 
+        "Safaretjos_description": "must change of municipality"
       }
     }
     ,
@@ -3486,18 +2615,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Mateu", 
-        "OBJECTID": 143, 
-        "neighborhood_esteem": 5, 
+        "What_is_identity": "People close to me", 
+        "Name": "Gerard", 
+        "OBJECTID": 140, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 6, 
-        "Sex": "Male", 
-        "Words": "Memories", 
-        "relationship_neighbors": 9
+        "Sex": "Female", 
+        "Words": "Peaceful", 
+        "Safaretjos_description": "is not active"
       }
     }
     ,
@@ -3511,18 +2636,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Paula", 
-        "OBJECTID": 146, 
-        "neighborhood_esteem": 4, 
-        "Age": "0-15 years old", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Carles", 
+        "OBJECTID": 141, 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 6, 
         "Sex": "Female", 
-        "Words": "Youth", 
-        "relationship_neighbors": 8
+        "Words": "Childhood", 
+        "Safaretjos_description": "will change"
       }
     }
     ,
@@ -3536,18 +2657,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Tania", 
-        "OBJECTID": 149, 
-        "neighborhood_esteem": 1, 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Jos\u00e9", 
+        "OBJECTID": 142, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 2, 
         "Sex": "Male", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 5
+        "Words": "Culture", 
+        "Safaretjos_description": "lacks facilities"
       }
     }
     ,
@@ -3561,18 +2678,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Manel", 
-        "OBJECTID": 151, 
-        "neighborhood_esteem": 1, 
-        "Age": "0-15 years old", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Roger", 
+        "OBJECTID": 143, 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 5, 
-        "Sex": "Male", 
-        "Words": "Joy", 
-        "relationship_neighbors": 8
+        "Sex": "Female", 
+        "Words": "Happiness", 
+        "Safaretjos_description": "need more jobs"
       }
     }
     ,
@@ -3586,18 +2699,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 8, 
-        "Name": "Isabel", 
-        "OBJECTID": 152, 
-        "neighborhood_esteem": 3, 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Roger", 
+        "OBJECTID": 144, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 4, 
         "Sex": "Female", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 8
+        "Words": "Peaceful", 
+        "Safaretjos_description": "creates community"
       }
     }
     ,
@@ -3611,18 +2720,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Mateu", 
-        "OBJECTID": 154, 
-        "neighborhood_esteem": 2, 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Manel", 
+        "OBJECTID": 145, 
         "Age": "+ than 40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 1, 
         "Sex": "Female", 
-        "Words": "Culture", 
-        "relationship_neighbors": 4
+        "Words": "Obsolete", 
+        "Safaretjos_description": "has potential"
       }
     }
     ,
@@ -3636,18 +2741,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Isabel", 
-        "OBJECTID": 155, 
-        "neighborhood_esteem": 6, 
-        "Age": "+ than 40 years old", 
+        "What_is_identity": "People close to me", 
+        "Name": "Roger", 
+        "OBJECTID": 146, 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 7
+        "Sex": "Male", 
+        "Words": "Peaceful", 
+        "Safaretjos_description": "is identity"
       }
     }
     ,
@@ -3661,18 +2762,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Manel", 
-        "OBJECTID": 157, 
-        "neighborhood_esteem": 5, 
-        "Age": "+ than 40 years old", 
+        "What_is_identity": "A psychological identification", 
+        "Name": "Tania", 
+        "OBJECTID": 147, 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 5, 
-        "Sex": "Male", 
+        "Sex": "Female", 
         "Words": "Happiness", 
-        "relationship_neighbors": 5
+        "Safaretjos_description": "is identity"
       }
     }
     ,
@@ -3686,18 +2783,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Carles", 
-        "OBJECTID": 160, 
-        "neighborhood_esteem": 1, 
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Ignasi", 
+        "OBJECTID": 148, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Female", 
-        "Words": "Joy", 
-        "relationship_neighbors": 6
+        "Sex": "Male", 
+        "Words": "Culture", 
+        "Safaretjos_description": "is welcoming"
       }
     }
     ,
@@ -3711,18 +2804,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Roger", 
-        "OBJECTID": 161, 
-        "neighborhood_esteem": 9, 
-        "Age": "+ than 40 years old", 
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Tania", 
+        "OBJECTID": 149, 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 9, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 9, 
-        "Sex": "Female", 
+        "Sex": "Male", 
         "Words": "Childhood", 
-        "relationship_neighbors": 3
+        "Safaretjos_description": "is my childhood"
       }
     }
     ,
@@ -3736,18 +2825,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Paula", 
-        "OBJECTID": 164, 
-        "neighborhood_esteem": 8, 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Tania", 
+        "OBJECTID": 150, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 9, 
         "Sex": "Female", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 1
+        "Words": "Traditions", 
+        "Safaretjos_description": "has changed"
       }
     }
     ,
@@ -3761,18 +2846,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Gerard", 
-        "OBJECTID": 165, 
-        "neighborhood_esteem": 5, 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Jos\u00e9", 
+        "OBJECTID": 151, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 9, 
         "Sex": "Male", 
-        "Words": "Culture", 
-        "relationship_neighbors": 2
+        "Words": "Happiness", 
+        "Safaretjos_description": "lays on the edge"
       }
     }
     ,
@@ -3786,18 +2867,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Manel", 
-        "OBJECTID": 168, 
-        "neighborhood_esteem": 9, 
-        "Age": "+ than 40 years old", 
+        "What_is_identity": "Own character", 
+        "Name": "Mateu", 
+        "OBJECTID": 152, 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 1, 
         "Sex": "Male", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 5
+        "Words": "Community", 
+        "Safaretjos_description": "must change of municipality"
       }
     }
     ,
@@ -3811,18 +2888,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Manel", 
-        "OBJECTID": 169, 
-        "neighborhood_esteem": 2, 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Carles", 
+        "OBJECTID": 153, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "The relation established by psychological identification", 
-        "involvement_neighborhood": 2, 
-        "Sex": "Male", 
-        "Words": "Happiness", 
-        "relationship_neighbors": 8
+        "Sex": "Female", 
+        "Words": "Culture", 
+        "Safaretjos_description": "is forgotten"
       }
     }
     ,
@@ -3836,18 +2909,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Mateu", 
-        "OBJECTID": 171, 
-        "neighborhood_esteem": 3, 
-        "Age": "16-40 years old", 
+        "What_is_identity": "People close to me", 
+        "Name": "Jos\u00e9", 
+        "OBJECTID": 154, 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "Sameness in all that constitutes the objective reality of a thing", 
-        "involvement_neighborhood": 6, 
-        "Sex": "Female", 
-        "Words": "Felicitat", 
-        "relationship_neighbors": 2
+        "Sex": "Male", 
+        "Words": "Welcome", 
+        "Safaretjos_description": "has no recognition"
       }
     }
     ,
@@ -3861,18 +2930,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 1, 
-        "Name": "Mateu", 
-        "OBJECTID": 172, 
-        "neighborhood_esteem": 5, 
+        "What_is_identity": "People close to me", 
+        "Name": "Manel", 
+        "OBJECTID": 155, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 7, 
         "Sex": "Male", 
-        "Words": "Welcome", 
-        "relationship_neighbors": 6
+        "Words": "Obsolete", 
+        "Safaretjos_description": "is peaceful"
       }
     }
     ,
@@ -3886,18 +2951,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Gerard", 
-        "OBJECTID": 174, 
-        "neighborhood_esteem": 2, 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Ignasi", 
+        "OBJECTID": 156, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 5, 
         "Sex": "Male", 
-        "Words": "Memories", 
-        "relationship_neighbors": 6
+        "Words": "Happiness", 
+        "Safaretjos_description": "lacks facilities"
       }
     }
     ,
@@ -3911,68 +2972,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 5, 
-        "Name": "Gerard", 
-        "OBJECTID": 178, 
-        "neighborhood_esteem": 3, 
+        "What_is_identity": "People close to me", 
+        "Name": "Manel", 
+        "OBJECTID": 157, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "The qualities of a person or group that make them different from others", 
-        "involvement_neighborhood": 6, 
         "Sex": "Male", 
-        "Words": "Reception", 
-        "relationship_neighbors": 6
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212140141956859, 
-          41.43586936472921
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Tania", 
-        "OBJECTID": 179, 
-        "neighborhood_esteem": 7, 
-        "Age": "0-15 years old", 
-        "neighborhood_identity": 4, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 3, 
-        "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 8
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211811930139178, 
-          41.43619337974973
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Paula", 
-        "OBJECTID": 182, 
-        "neighborhood_esteem": 9, 
-        "Age": "0-15 years old", 
-        "neighborhood_identity": 9, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 8, 
-        "Sex": "Female", 
-        "Words": "Welcome", 
-        "relationship_neighbors": 5
+        "Words": "Familiar", 
+        "Safaretjos_description": "lays on the edge"
       }
     }
     ,
@@ -3986,18 +2993,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 6, 
-        "activities_in_neighborhood": 6, 
-        "Name": "Elvira", 
-        "OBJECTID": 186, 
-        "neighborhood_esteem": 1, 
-        "Age": "16-40 years old", 
+        "What_is_identity": "Own character", 
+        "Name": "Tania", 
+        "OBJECTID": 160, 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 7, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 4, 
-        "Sex": "Male", 
-        "Words": "Youth", 
-        "relationship_neighbors": 3
+        "Sex": "Female", 
+        "Words": "Quiet", 
+        "Safaretjos_description": "has no recognition"
       }
     }
     ,
@@ -4011,18 +3014,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Manel", 
-        "OBJECTID": 187, 
-        "neighborhood_esteem": 6, 
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Paula", 
+        "OBJECTID": 161, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 9, 
-        "Sex": "Female", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 3
+        "Sex": "Male", 
+        "Words": "Welcome", 
+        "Safaretjos_description": "has no recognition"
       }
     }
     ,
@@ -4036,18 +3035,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 4, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Manel", 
-        "OBJECTID": 188, 
-        "neighborhood_esteem": 1, 
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Carles", 
+        "OBJECTID": 162, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 2, 
         "Sex": "Female", 
-        "Words": "Fantasy", 
-        "relationship_neighbors": 4
+        "Words": "Forgotten", 
+        "Safaretjos_description": "create traditions"
       }
     }
     ,
@@ -4061,18 +3056,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Tania", 
-        "OBJECTID": 192, 
-        "neighborhood_esteem": 4, 
-        "Age": "0-15 years old", 
+        "What_is_identity": "People close to me", 
+        "Name": "Gerard", 
+        "OBJECTID": 163, 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 2, 
-        "What_is_identity": "Who a person is", 
-        "involvement_neighborhood": 6, 
-        "Sex": "Female", 
-        "Words": "Culture", 
-        "relationship_neighbors": 5
+        "Sex": "Male", 
+        "Words": "Forgotten", 
+        "Safaretjos_description": "is welcoming"
       }
     }
     ,
@@ -4086,43 +3077,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 5, 
-        "activities_in_neighborhood": 5, 
-        "Name": "Carles", 
-        "OBJECTID": 193, 
-        "neighborhood_esteem": 2, 
-        "Age": "16-40 years old", 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
+        "Name": "Elvira", 
+        "OBJECTID": 164, 
+        "Age": "+ than 40 years old", 
         "neighborhood_identity": 8, 
-        "What_is_identity": "The condition of being oneself or itself, and not another", 
-        "involvement_neighborhood": 7, 
-        "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 5
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2140163015906484, 
-          41.434721329111596
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 7, 
-        "activities_in_neighborhood": 4, 
-        "Name": "Tania", 
-        "OBJECTID": 195, 
-        "neighborhood_esteem": 9, 
-        "Age": "0-15 years old", 
-        "neighborhood_identity": 7, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 4, 
-        "Sex": "Female", 
-        "Words": "Reception", 
-        "relationship_neighbors": 7
+        "Sex": "Male", 
+        "Words": "Happiness", 
+        "Safaretjos_description": "has potential"
       }
     }
     ,
@@ -4136,18 +3098,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 3, 
-        "activities_in_neighborhood": 3, 
-        "Name": "Isabel", 
-        "OBJECTID": 197, 
-        "neighborhood_esteem": 4, 
-        "Age": "+ than 40 years old", 
+        "What_is_identity": "Own character", 
+        "Name": "Elvira", 
+        "OBJECTID": 166, 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "Exact likeness in nature or qualities", 
-        "involvement_neighborhood": 1, 
         "Sex": "Male", 
-        "Words": "Joy", 
-        "relationship_neighbors": 6
+        "Words": "Culture", 
+        "Safaretjos_description": "need more jobs"
       }
     }
     ,
@@ -4161,18 +3119,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 2, 
+        "What_is_identity": "The qualities and beliefs that identify a person", 
         "Name": "Paula", 
-        "OBJECTID": 199, 
-        "neighborhood_esteem": 6, 
-        "Age": "+ than 40 years old", 
+        "OBJECTID": 167, 
+        "Age": "16-40 years old", 
         "neighborhood_identity": 3, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 7, 
-        "Sex": "Male", 
-        "Words": "Welcome", 
-        "relationship_neighbors": 5
+        "Sex": "Female", 
+        "Words": "Childhood", 
+        "Safaretjos_description": "is moving forward"
       }
     }
     ,
@@ -4186,18 +3140,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 9, 
-        "activities_in_neighborhood": 7, 
-        "Name": "Manel", 
-        "OBJECTID": 201, 
-        "neighborhood_esteem": 6, 
+        "What_is_identity": "Own character", 
+        "Name": "Juan Miguel", 
+        "OBJECTID": 168, 
         "Age": "0-15 years old", 
         "neighborhood_identity": 6, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 7, 
-        "Sex": "Male", 
-        "Words": "Community", 
-        "relationship_neighbors": 7
+        "Sex": "Female", 
+        "Words": "Quiet", 
+        "Safaretjos_description": "is obsolete"
       }
     }
     ,
@@ -4211,43 +3161,14 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 8, 
+        "What_is_identity": "Sameness or likeness in different instances", 
         "Name": "Manel", 
-        "OBJECTID": 203, 
-        "neighborhood_esteem": 2, 
-        "Age": "16-40 years old", 
+        "OBJECTID": 169, 
+        "Age": "0-15 years old", 
         "neighborhood_identity": 1, 
-        "What_is_identity": "An instance or point of sameness or likeness", 
-        "involvement_neighborhood": 1, 
         "Sex": "Female", 
         "Words": "Culture", 
-        "relationship_neighbors": 8
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2140017220963815, 
-          41.434848302999505
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "neighborhood_experiences": 1, 
-        "activities_in_neighborhood": 9, 
-        "Name": "Elvira", 
-        "OBJECTID": 206, 
-        "neighborhood_esteem": 6, 
-        "Age": "+ than 40 years old", 
-        "neighborhood_identity": 5, 
-        "What_is_identity": "The qualities, beliefs, etc., that distinguish or identify a person or thing", 
-        "involvement_neighborhood": 7, 
-        "Sex": "Female", 
-        "Words": "Traditions", 
-        "relationship_neighbors": 3
+        "Safaretjos_description": "feels quiet"
       }
     }
     ,
@@ -4261,18 +3182,434 @@ var punts_per_identitats2={
       }, 
       "type": "Feature", 
       "properties": {
-        "neighborhood_experiences": 2, 
-        "activities_in_neighborhood": 2, 
-        "Name": "Gerard", 
-        "OBJECTID": 210, 
-        "neighborhood_esteem": 3, 
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Isabel", 
+        "OBJECTID": 171, 
         "Age": "16-40 years old", 
         "neighborhood_identity": 5, 
-        "What_is_identity": "An equation that is satisfied for all values of the symbols", 
-        "involvement_neighborhood": 1, 
         "Sex": "Male", 
+        "Words": "Traditions", 
+        "Safaretjos_description": "feels quiet"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2123586359682132, 
+          41.435411554893115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "A psychological identification", 
+        "Name": "Elvira", 
+        "OBJECTID": 172, 
+        "Age": "16-40 years old", 
+        "neighborhood_identity": 9, 
+        "Sex": "Male", 
+        "Words": "Quiet", 
+        "Safaretjos_description": "must change of municipality"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2124333688753186, 
+          41.43541206653494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Isabel", 
+        "OBJECTID": 173, 
+        "Age": "0-15 years old", 
+        "neighborhood_identity": 10, 
+        "Sex": "Female", 
+        "Words": "Welcome", 
+        "Safaretjos_description": "has culture"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212390993294536, 
+          41.43535457912876
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Gerard", 
+        "OBJECTID": 174, 
+        "Age": "0-15 years old", 
+        "neighborhood_identity": 8, 
+        "Sex": "Female", 
+        "Words": "Peaceful", 
+        "Safaretjos_description": "has borders"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2124591977912833, 
+          41.43537125225921
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Mateu", 
+        "OBJECTID": 175, 
+        "Age": "0-15 years old", 
+        "neighborhood_identity": 10, 
+        "Sex": "Male", 
+        "Words": "Youth", 
+        "Safaretjos_description": "is welcoming"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2124197937923, 
+          41.43527755994998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Tania", 
+        "OBJECTID": 176, 
+        "Age": "16-40 years old", 
+        "neighborhood_identity": 10, 
+        "Sex": "Female", 
         "Words": "Childhood", 
-        "relationship_neighbors": 9
+        "Safaretjos_description": "has borders"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212483656718149, 
+          41.43523414527886
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Paula", 
+        "OBJECTID": 177, 
+        "Age": "16-40 years old", 
+        "neighborhood_identity": 7, 
+        "Sex": "Female", 
+        "Words": "Memories", 
+        "Safaretjos_description": "is not what it was"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2124391573810964, 
+          41.43533274513741
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "The condition of being oneself", 
+        "Name": "Carles", 
+        "OBJECTID": 178, 
+        "Age": "+ than 40 years old", 
+        "neighborhood_identity": 8, 
+        "Sex": "Female", 
+        "Words": "Welcome", 
+        "Safaretjos_description": "feels quiet"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2125511700812734, 
+          41.43523579910759
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "Sameness or likeness in different instances", 
+        "Name": "Carles", 
+        "OBJECTID": 179, 
+        "Age": "16-40 years old", 
+        "neighborhood_identity": 10, 
+        "Sex": "Male", 
+        "Words": "Obsolete", 
+        "Safaretjos_description": "feels homely"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2124868454994675, 
+          41.4351865032921
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Tania", 
+        "OBJECTID": 180, 
+        "Age": "0-15 years old", 
+        "neighborhood_identity": 10, 
+        "Sex": "Female", 
+        "Words": "Memories", 
+        "Safaretjos_description": "feels secured"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.2124064915912305, 
+          41.43538900361244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "Own character", 
+        "Name": "Tania", 
+        "OBJECTID": 181, 
+        "Age": "16-40 years old", 
+        "neighborhood_identity": 9, 
+        "Sex": "Male", 
+        "Words": "Familiar", 
+        "Safaretjos_description": "lacks facilities"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212484333130556, 
+          41.43540652905473
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Roger", 
+        "OBJECTID": 182, 
+        "Age": "+ than 40 years old", 
+        "neighborhood_identity": 9, 
+        "Sex": "Female", 
+        "Words": "Obsolete", 
+        "Safaretjos_description": "is happiness"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212395927053251, 
+          41.43531893620478
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Carles", 
+        "OBJECTID": 183, 
+        "Age": "0-15 years old", 
+        "neighborhood_identity": 9, 
+        "Sex": "Male", 
+        "Words": "Obsolete", 
+        "Safaretjos_description": "is identity"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212449933552009, 
+          41.43530500661063
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "A psychological identification", 
+        "Name": "Roger", 
+        "OBJECTID": 184, 
+        "Age": "0-15 years old", 
+        "neighborhood_identity": 7, 
+        "Sex": "Female", 
+        "Words": "Youth", 
+        "Safaretjos_description": "has changed"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.21245396336935, 
+          41.43523353757462
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "The qualities that make someone different from others", 
+        "Name": "Roger", 
+        "OBJECTID": 185, 
+        "Age": "16-40 years old", 
+        "neighborhood_identity": 8, 
+        "Sex": "Female", 
+        "Words": "Familiar", 
+        "Safaretjos_description": "is peaceful"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212530337967385, 
+          41.435203078371124
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Gerard", 
+        "OBJECTID": 186, 
+        "Age": "+ than 40 years old", 
+        "neighborhood_identity": 9, 
+        "Sex": "Female", 
+        "Words": "Homely", 
+        "Safaretjos_description": "is not active"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212377041431203, 
+          41.435440351614496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Paula", 
+        "OBJECTID": 187, 
+        "Age": "0-15 years old", 
+        "neighborhood_identity": 10, 
+        "Sex": "Male", 
+        "Words": "Quiet", 
+        "Safaretjos_description": "has changed"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212366635749896, 
+          41.435384273859796
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "The way a person behaves", 
+        "Name": "Mateu", 
+        "OBJECTID": 188, 
+        "Age": "16-40 years old", 
+        "neighborhood_identity": 9, 
+        "Sex": "Female", 
+        "Words": "Memories", 
+        "Safaretjos_description": "feels secured"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212477477344697, 
+          41.43533838130923
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "People close to me", 
+        "Name": "Elvira", 
+        "OBJECTID": 189, 
+        "Age": "16-40 years old", 
+        "neighborhood_identity": 10, 
+        "Sex": "Male", 
+        "Words": "Traditions", 
+        "Safaretjos_description": "is identity"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.212396727631283, 
+          41.43541647523812
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Tania", 
+        "OBJECTID": 190, 
+        "Age": "0-15 years old", 
+        "neighborhood_identity": 9, 
+        "Sex": "Female", 
+        "Words": "Quiet", 
+        "Safaretjos_description": "is identity"
+      }
+    }
+    ,
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          2.21245939361519, 
+          41.43526247064389
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "What_is_identity": "Exact likeness in nature or qualities", 
+        "Name": "Paula", 
+        "OBJECTID": 191, 
+        "Age": "16-40 years old", 
+        "neighborhood_identity": 10, 
+        "Sex": "Male", 
+        "Words": "Community", 
+        "Safaretjos_description": "need more jobs"
       }
     }
   ]

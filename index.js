@@ -1,11 +1,12 @@
 //Create map
-var map = L.map("map_cris");
+var map = L.map("map_cris",{zoomControl:false});
 var column = document.getElementsByClassName('column')[0];//Use Js to get an HTML object
 var label = document.getElementsByClassName('label')[0]; //Use Js to get an HTML object
 var layers = column.getElementsByClassName('layers')[0];//Use Js to get an HTML object
-var graphicContainer = column.getElementsByClassName('q-container')[0];//Use Js to get an HTML object
+/*var graphicContainer = column.getElementsByClassName('q-container')[0];*///Use Js to get an HTML object
+var graphicContainer=column.getElementsByClassName('graphic_image')[0];
 var filtersContainer = column.getElementsByClassName('filters')[0];
-// var lngButtons = column.getElementsByClassName('lng-btn');
+var lngButtons = document.getElementsByClassName('lng-btn');
 
 map.setView([41.435435, 2.212861],18);
 
@@ -46,34 +47,59 @@ var municipis_layer = new L.geoJson(municipis,{
 }).addTo(map);
 
 
-// var babel = {
-//   "ca": ca,
-//   "es": es,
-//   "en": en
-// };
+var babel = {
+  "ca": ca,
+  "es": es,
+  "en": en
+};
 
-// for (let btn of lngButtons ) {
-//   if ( btn.addEventListener ) {
-//     btn.addEventListener('click', function( ev ) {
-//       var targetLng = ev.currentTarget.getAttribute('id');
-//       location.hash = targetLng;
-//       location.reload();
-//     });
-//   }
-// };
+for (let btn of lngButtons ) {
+  if ( btn.addEventListener ) {
+    btn.addEventListener('click', function( ev ) {
+      var targetLng = ev.currentTarget.getAttribute('id');
+      location.hash = targetLng;
+      // location.reload();
+      currentLng = babel[location.hash.slice(1)];
+      updateHTMLTextValues();
+      for (let button of lngButtons){
+        button.classList.remove("selected");
+      }
+      ev.currentTarget.classList.add("selected");
+    });
+  }
+};
 
-// function lng( val ) {
-//   if ( val ) {
-//     return currentLng[ val ]; 
-//   } else {
-//     return "";
-//   }
-// }
+var currentLng;
+if (location.hash == '' ) {
+  location.hash = 'en'; //The page starts in catalan
+  currentLng = babel[location.hash.slice(1)]; // li trrec el #
+} else {
+  currentLng = babel[location.hash.slice(1)];
+};
 
-// var currentLng;
-// if (location.hash == '' ) {
-//   location.hash = 'ca';
-//   currentLng = babel[location.hash];
-// } else {
-//   currentLng = babel[location.hash];
-// }
+for(let button of lngButtons){
+  if ( button.getAttribute("id") === location.hash.slice(1)){
+    button.classList.add("selected");
+
+  }
+}
+
+function lng( val ) {
+  if ( val && currentLng[ val ]) {
+    return currentLng[ val ]; 
+  } else {
+    return "";
+  }
+};
+
+function updateHTMLTextValues(){
+  var literals =document.getElementsByClassName('lng');
+  for ( let literal of literals ) {
+    literal.innerText = lng( literal.getAttribute('lng_val') );
+  }
+
+  var imageURL = graphicContainer.style.backgroundImage;
+  graphicContainer.style.backgroundImage = imageURL.replace(/(_ca|_es|_en)/,'_'+location.hash.slice(1));
+}
+
+updateHTMLTextValues();

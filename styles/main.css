@@ -47,16 +47,50 @@
 .imatge{
     width:100%;
     max-height:150px;
-    background-image:url(../fotos/title.png);
-    /*background-size:     contain; per escalar la imatge a l'espai que hi ha      */              
+    background-image:url(../fotos/title_fons.png); /*Amb els dos punts es tira enrere una carpeta*/
+    background-size:     contain; /*per escalar la imatge a l'espai que hi ha */                   
     background-repeat:   no-repeat;
+    flex:1;
+    color:white;
     
+    position:relative;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+
+.imatge span {
+    position:absolute;
+    z-index:20;
+    width:100%;
+    text-align: end;
+    box-sizing: border-box;
+    padding-right: 20px;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 1277px) and (min-width:987px){ /*si la pantalla es menor a 1277 canvia l'estil*/
+    .imatge span{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 987px) and (min-width: 754px){ /*si la pantalla es menor a 1277 canvia l'estil*/
+    .imatge span{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 754px) { /*si la pantalla es menor a 1277 canvia l'estil*/
+    .imatge span{
+        font-size: 20px;
+    }
 }
 
 .label_map{
     position:absolute;
-    top:20px;
-    right: 52%;
+    bottom:0px;
+    left: 8px;
     z-index: 600;
 }
 
@@ -72,6 +106,7 @@
     flex-direction: column;
     align-items: center
     justify-content: space-between;
+
     
     
 
@@ -116,6 +151,11 @@
     font-size: 20px;
 }
 
+.label3{
+    font-family: Helvetica,Arial,sans-serif;
+    color:white;
+    font-size: 15px;
+}
 .list{
     color:white;
     font-size: 14px;
@@ -131,7 +171,8 @@
 
 }
 
-.layers-list-item:hover {
+.layers-list-item:hover,
+.layers-list-item.selected {
     font-size: 150%;
     cursor: pointer;
     color: #04FFFF;
@@ -150,38 +191,63 @@
     color: #777;
 }
 
-.scroll-viewport{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-}
 
-.scroll-viewport > div:not(.layers){ /*tots els fills del scroll*/
+/*
+.scroll-viewport > div:not(.layers){ tots els fills del scroll
     flex:1;
-}
+}*/
 
 .graphics{
     width:100%; /*en cas que el gràfic tapi el nom de les capes posar 80%*/
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    max-height: 200px;
+    flex:2;
+}
+
+.graphic_image{
+    flex:1;
+    background-size: contain;
+    background-position: 50%;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    /*background-image: url(../fotos/metro_relationships_en.jpg);*/
+    /*background-size:     contain; 
+    background-repeat:   no-repeat;*/
     
+    /*margin-top: 35px;*/
+}
+
+.text1{
+    color:white;
+    font-size: 30px;
+    margin:10px 0px; /*vertical:10, horitz:0*/
+    text-align: justify;
+}
+
+.text2{
+    color:white;
+    font-size: 24px;
+    margin:10px 0px 30px 0px ;/* top right bottom left*/
+    text-align: justify;
+    opacity: 0.75;
 }
 
 .controlls{
     width:100%;
     display:flex;
-    background-image:url(../fotos/foto_div2.png);
+    background-image:url(../fotos/div_3_light.png);
     background-repeat:   no-repeat;
-    background-size:     contain; 
+    background-size:     cover; 
+    flex:1;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
 .imatge_ac{
     flex:1;
-    background-image:url(../fotos/foto_AC.png);
+    background-image:url(../fotos/foto_AC_2.png);
     background-size:     contain;          
     background-repeat:   no-repeat;
     align-items: center;
@@ -217,11 +283,145 @@
     padding-top: 5px;
 }
 
-.selected {
+.option-btn.selected {
     background-color:  #04FFFF;
 
 }
 
-.selected:hover {
+.option-btn.selected:hover {
     background-color: #ccFFFF;
+}
+
+.language-btns-wrapper{
+    /*position:absolute;*/
+    /*top:115px;
+    right: 1%;
+    z-index: 600;*/
+    color:white;
+    display:flex;
+    flex:0.1;
+    position: relative;
+    
+
+}
+
+.lang-box{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    right:0px;
+    z-index:20;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+
+}
+
+
+
+.lng-btn{
+    padding-right: 2px;
+    font-size: 12px;
+    cursor:pointer;
+}
+
+.lng-btn.selected{
+    color:#04FFFF;
+}
+
+
+.home_cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f00;
+    z-index: 1;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+
+#map_cover{
+    width:100%;
+    height:100%;
+    opacity:0.5;
+    position:absolute;
+    z-index:10; 
+    top:0;
+    left:0;
+}
+
+.background{
+    width:100%;
+    height:100%;
+    background-color: black;
+
+}
+
+.cover_container{
+    width:100%;
+    height:100%;
+    opacity:1;
+    position:absolute;
+    z-index:15; 
+    top:0;
+    left:0;
+    background-color: #fff0 ;/*transparent*/
+    position:relative; /*perque els fills es coloquin respecte aquest*/
+    display:flex;
+    flex-direction: column;
+
+}
+
+.cover_section{
+    flex:1; /*només aplica a half_up (perquè el half down ja te un flex)*/
+    color:white;
+
+}
+
+.cover_section.half_down {
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    flex:2;
+
+}
+
+.cover_section.half_up{
+    position:relative;
+}
+
+.home_button,
+.home_button_exit{
+    position: absolute;
+    right:20px;
+    top:80px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 0.5px solid #fff8;
+    padding: 5px 10px;
+}
+
+.home_button:hover,
+.home_button_exit:hover {
+    background-color: #fff2
+}
+
+.description_title {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.leaflet-control-attribution {
+    display: none;
+}
+
+.name{
+    position:absolute;
+    right:20px;
+    top:55px;
+    z-index: 20;
+
 }

@@ -7,6 +7,7 @@
   <!-- VENDOR -->
   <script src="vendor/leaflet/leaflet.js"></script>
   <script src="vendor/leaflet/leaflet-heat.js"></script>  
+  <script src="vendor/Leaflet.pattern-master/dist/leaflet.pattern-src.js"></script>  
   <script src="vendor/Leaflet.Canvas-Flowmap-Layer-master/src/CanvasFlowmapLayer.js"></script> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.2.0/Tween.min.js"></script>
 
@@ -30,47 +31,70 @@
 
 
 <body>
+  <div class=home_cover>
+    <div class=background>
+      <div id=map_cover></div>
+      <div class=cover_container>
+        <div class="cover_section half_up">
+          <div class="home_button lng" lng_val="go-inside"></div>
+        </div>
+        <div class="cover_section half_down">
+          <div class='description_title'>
+            <div class="text1 lng" lng_val="subtitle"></div>
+          </div> 
+          <div class='text2 lng' lng_val="description"></div>  
+        </div>
+      </div>
+    </div>
+    
+  </div>
   <div id="map_cris" class="my-first-map"></div>
   <!-- <canvas id="myCanvas" width="200" height="100"></canvas> -->
   <div class=column>
-    <div class="scroll-viewport">
-      <div class=imatge></div>
-      <div class="controlls">
-        <div class="filters"><!-- / posar lestat dels filters de la capa que carrego x defecte -->
-          
-        </div>
-        <div class=layers></div>
-        <div class=imatge_ac></div>
-      </div>
-      <div class='graphics'>
-        <div name=graphic_1 class='q-container' style='max-width:900px; display:block; position:relative'>
-          <div style='padding-bottom:41.7%; position:relative'>
-            <iframe src=http://www.quadrigram.com/hosting/taller_tematic/sostre_potencial2/ width='100%' height='100%' style='border: none; position:absolute'></iframe>
-          </div>
-          
-        </div>
-      </div>
-      <!-- <div class="language-btns-wrapper">
-        <div class="lng-btn" id="ca"></div>
-        <div class="lng-btn" id="en"></div>
-        <div class="lng-btn" id="es"></div>
-      </div> -->
+    
+    <div class=imatge>
+      <span class=lng lng_val='Safaretjos in 7Dimensions'></span>
+      <div class=name>Cristina Ferrer Teixidor</div>
+      <div class='home_button_exit lng' lng_val='go-back'></div>
     </div>
+    <div class="controlls">
+      <div class="filters"><!-- / posar lestat dels filters de la capa que carrego x defecte -->
+        
+      </div>
+      <div class=layers></div>
+      <div class=imatge_ac></div>
+    </div>
+    <div class='graphics'>
+      <div class="graphic_image" style="background-image: url(fotos/metro_relationships_en.jpg);"></div>
+    </div>
+    <div class="language-btns-wrapper">
+      <div class=lang-box>
+        <div class="lng-btn" id="ca">CATALÀ</div>
+        <div class="lng-btn">-----</div>
+        <div class="lng-btn" id="es">ESPAÑOL</div>
+        <div class="lng-btn">-----</div>
+        <div class="lng-btn" id="en">ENGLISH</div>
+      </div>
+    </div>
+      
+    
   </div>
+  
+  
   <div class=label_map>
     <p class=label></p>
   </div>
   
   <!-- LANGUAGE -->
-  <script src"lng/ca.js"></script>
-  <script src"lng/es.js"></script>
-  <script src"lng/en.js"></script>
+  <script src="lng/ca.js"></script>
+  <script src="lng/es.js"></script>
+  <script src="lng/en.js"></script>
 
   <!-- DATA -->
   <script src="json/potential_ceiling.json"></script>
   <script src="json/identity.json"></script>
   <script src="json/paths.json"></script>
-  <script src="json/borders.json"></script>
+  <script src="json/perceptions.json"></script>
   <script src="json/social_relationships.json"></script>
   <script src="json/local_relationships_reduit.json"></script> 
   <script src="json/metro_relationships.json"></script> 
@@ -79,15 +103,19 @@
 
   <!-- MAP-->
   <script src="index.js"></script>
+  <script src="cover.js"></script>
+
+
 
   <!-- LAYERS -->
-  <script src="layers/barriers.layer.js"></script>
+  <script src="layers/perceptions-layer.js"></script>
   <script src="layers/identity.layer.js"></script>
   <script src="layers/local-relations.layer.js"></script> <!-- local -->
   <script src="layers/metro-relations.layer.js"></script>
   <script src="layers/potential-ceiling.layer.js"></script>
   <script src="layers/paths.layer.js"></script>
   <script src="layers/social-network.layer.js"></script>
+  
 
   <!-- CONTROLS -->
   <script src="map-controls.js"></script>

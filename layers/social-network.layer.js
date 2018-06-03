@@ -1,6 +1,6 @@
 var social_relationships_layer;
 
-function socialNetworkLayerGen( filterFn ) {
+function socialNetworkLayerGen( ) {// this json contain a collection of lines and points
   var layer = new L.geoJson(social_relationships, {
     filter: filterFn,
     style: styleSocial,
@@ -54,6 +54,7 @@ function onEachFeatureSocial( feature, layer ) {
   } else {
     layer.on({
 
+
     });
   }
 }
@@ -61,18 +62,20 @@ function onEachFeatureSocial( feature, layer ) {
 function startsFrom( feature, targetFeature ) {
   var pointCords = targetFeature.geometry.coordinates;
   return feature.properties.x_start == targetFeature.properties.x_start//pointCords[1]
-    || feature.properties.x_end_2 == targetFeature.properties.x_start//pointCords[1]
-    || feature.properties.x_end_1 == targetFeature.properties.x_start//pointCords[1]
+    || feature.properties.x_end == targetFeature.properties.x_start//pointCords[1]
     || feature.properties.y_start == targetFeature.properties.y_start//pointCords[0]
-    || feature.properties.y_end_1 == targetFeature.properties.y_start//pointCords[0]
-    || feature.properties.y_end_2 == targetFeature.properties.y_start//pointCords[0]
+    || feature.properties.y_end == targetFeature.properties.y_start//pointCords[0]
     || false;
 }
 
+var blurredDelay;
 function highlightNetwork( event ) {
+  var social_label = "<span class='label2'>Family members: </span>"+event.target.feature.properties.Family_members;
+  label.style.fontSize="30px";
+  label.innerHTML = social_label;
   var layer = event.target;
 
-  Object.keys(currentLayer._layers).map( function( key ) {
+  Object.keys(currentLayer._layers).map( function( key ) {//_layers es el nom del objecte que leaflet asigna a cada feature
     var _layer = currentLayer._layers[key];
     if ( _layer.feature.geometry.type != "Point" && startsFrom( _layer.feature, layer.feature ) ) {
       _layer.setStyle({
@@ -83,6 +86,7 @@ function highlightNetwork( event ) {
       });      
     }
   });
+  clearTimeout(blurredDelay);
 }
 
 function resetHighlightNetwork( event ) {
@@ -100,6 +104,12 @@ function resetHighlightNetwork( event ) {
       });
     }
   });
+
+  clearTimeout(blurredDelay);//si li passo una funcio amb delay la para i no sexecuta
+
+  blurredDelay = setTimeout(function(){//setTimeout executa una funcio en un temps
+    label.innerHTML = '';
+  }, 700 );
 }
 
 // social_relationships_layer = socialNetworkLayerGen(); //.addTo(map);
