@@ -12,7 +12,17 @@ function pathsLayerGen( ) {
 
 var blurredDelay;
 function highlightFeaturePaths( event ) {
-  var mean_transport = "<span class=label3>Mean of transport: </span>"+event.target.feature.properties.Transport;
+  var mean_transport = "<span class='label3 lng' lng_val='Mean of transport'>"
+    +lng('Mean of transport')
+    +"</span>"
+    /*+"<span class='label3 lng' lng_val='" + event.target.feature.properties.Reason+"'>"*/
+    +lng(event.target.feature.properties.Transport)/*+"</span>"*/
+    +"<br><span class='label3 lng' lng_val='On my way'>"
+    +lng('On my way')
+    +"</span>"
+    +"<span class='label3 lng' lng_val='" + event.target.feature.properties.Reason+"'>"
+    +lng(event.target.feature.properties.Reason)+"</span>";
+
   label.style.fontSize="30px";
   label.innerHTML = mean_transport;
   var layer = event.target;
@@ -40,11 +50,19 @@ function resetHighlightPaths( e ) {
 };
 
 function zoomToFeature( e ) {
+  // var feature = e.sourceTarget.feature,
+  //   layer = e.target;
+
+  // L.popup()
+  //   .setLatLng(e.latlng)
+  //   .setContent("<span class='lng' lng_val='On my way'>"+lng('On my way')+"</span><span class='lng' lng_val='" + feature.properties.Reason + "'>" + lng(feature.properties.Reason)+".</span>")
+  //   .openOn(map);
+  // layer.bindPopup("<span class='lng' lng_val='On my way'>"+lng('On my way')+": </span>" + lng(feature.properties.Reason)+".")
   map.fitBounds(e.target.getBounds());
 };
 
 function onEachFeaturePaths( feature_A, layer_B ) {
-  layer_B.bindPopup("<span>On my way </span>" + feature_A.properties.Reason+"<span>.</span>")
+  // layer_B.bindPopup("<span class='lng' lng_val='On my way'>"+lng('On my way')+": </span>" + lng(feature_A.properties.Reason)+".")
   layer_B.on({
       mouseover: highlightFeaturePaths,
       mouseout: resetHighlightPaths,

@@ -52,7 +52,7 @@ var en = {
 	//label social_relationships
 	'Family members':'Family members',
 	//label paths
-	'Mean of transport':'Mean of transport :',
+	'Mean of transport':'Mean of transport',
 	'cycling':'cycling',
 	'private vehicle':'private vehicle', 
 	'public transport':'public transport',
@@ -61,8 +61,9 @@ var en = {
 	'Safaretjos is ...':'Safaretjos is ...',
 	//PopUP potential_ceiling
 	"Built floors":"Built floors :",
-	"Planned floors":"Planned floors",
+	"Planned floors":"Planned floors :",
 	//PopUp paths
+	'On my way':'On my way: ',
 	'to exercise':'to exercise',
 	'to meet friends':'to meet friends', 
 	'to school':'to school',

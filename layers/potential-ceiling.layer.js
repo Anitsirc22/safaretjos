@@ -80,16 +80,24 @@ function resetHighlight(e) {
     //info.update();
 };
 
-function zoomToFeature(e) {
+function zoomToFeatureCeiling(e) {
+  var feature = e.sourceTarget.feature,
+    layer = e.target;
+
+  L.popup()
+    .setLatLng(e.latlng)
+    .setContent("<span class='popup-content lng' lng_val='Built floors'>" +lng("Built floors")+ "</span><span class='popup-content2' >"+feature.properties.PL_reals+"</span></br>"+ "<span class='popup-content lng' lng_val='Planned floors'>"+lng('Planned floors')+"</span><span class=popup-content2>"+feature.properties.PL_Planej+"</span>")
+    .openOn(map);
+
   map.fitBounds(e.target.getBounds());
 };
 
 function onEachFeature(feature_A,layer_B){
-  layer_B.bindPopup("<h1 class='popup-content lng' lng_val='Built floors'>" +lng("Built floors")+ "<span class='popup-content2' >"+feature_A.properties.PL_reals+"</span></h1>"+ "<h1 class='popup-content lng' lng_val='Planned floors'>"+lng('Planned floors')+"<span class=popup-content2>"+feature_A.properties.PL_Planej+"</span></h1>")
+  // layer_B.bindPopup("<h1 class='popup-content lng' lng_val='Built floors'>" +lng("Built floors")+ "<span class='popup-content2' >"+feature_A.properties.PL_reals+"</span></h1>"+ "<h1 class='popup-content lng' lng_val='Planned floors'>"+lng('Planned floors')+"<span class=popup-content2>"+feature_A.properties.PL_Planej+"</span></h1>")
   layer_B.on({
       mouseover: highlightFeature,
       mouseout: resetHighlight,
-      click: zoomToFeature
+      click: zoomToFeatureCeiling
   });
 };
 

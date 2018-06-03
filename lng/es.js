@@ -60,9 +60,10 @@ var es = {
 	//label identity
 	'Safaretjos is ...':'Safaretjos es ...',
 	//PopUP potential_ceiling
-	"Built floors":"Plantes construidas",
-	"Planned floors":"Plantes según planeamiento",
+	"Built floors":"Plantas construidas: ",
+	"Planned floors":"Plantas según planeamiento: ",
 	//PopUp paths
+	'On my way':'De camino a: ',
 	'to exercise':'traducir al español',
 	'to meet friends':'traducir al español', 
 	'to school':'traducir al español',

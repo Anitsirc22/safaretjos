@@ -92,6 +92,7 @@
     bottom:0px;
     left: 8px;
     z-index: 600;
+
 }
 
 .column{
@@ -136,7 +137,7 @@
     padding: 0px;
     position:center;
     color:white;
-    text-align: center;
+    text-align: start;
     font-size: 55px;
     margin:0px;
     padding-bottom:55px;
