@@ -63,7 +63,7 @@ def init():
 def catch_all(path):
 	file=os.path.join(os.path.abspath(os.getcwd()),path)
 	extension = os.path.splitext(file)[1]
-	if extension == '.png' or extension == '.gif' or extension=='.jpg':
+	if extension == '.png' or extension == '.gif' or extension=='.jpg' or extension=='.ico':
 		return send_file(file, mimetype="image/" + extensions_dict[extension])
 	else:
 		if "quadrigram" in file:
@@ -78,7 +78,7 @@ extensions_dict = {
 	".css": "css",
 	".png": "png",
 	".gif": "gif",
-	".ico": "plain",
+	".ico": "png",
 	".jpg":"jpeg"
 }
 

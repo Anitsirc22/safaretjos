@@ -133,6 +133,9 @@ for (let enterLayer of myLayers){
   htmlEl.setAttribute('class','layers-list-item lng');
   htmlEl.setAttribute('lng_val', enterLayer.name );
   htmlEl.innerText = lng( enterLayer.name );
+  if (enterLayer.name==="Potential ceiling"){
+    htmlEl.classList.add("selected");
+  }
 
   layers.appendChild(htmlEl);
 
