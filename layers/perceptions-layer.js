@@ -1,18 +1,6 @@
-var perceptions_layer;
 
-function perceptionsLayerGen( ) {
-  var layer =  new L.geoJson(perceptions,{
-    filter:filterFn,
-    style: stylePerceptions,
-    onEachFeature:onEachFeaturePerceptions,
-    /*fillPattern:perceptionsPattern  */  
-    
-  });
-  perceptions_layer = layer;
-  return layer;
-}
 
-//perceptions_layer = perceptionsLayerGen();
+/*perceptions_layer = perceptionsLayerGen();*/
 
 
 var shape = new L.PatternCircle({ x: 5, y: 5, radius: 1, fill: true, color:'white', fillOpacity:0.2 });
@@ -131,3 +119,17 @@ function onEachFeaturePerceptions( feature_A, layer_B ) {
   });
 };
 
+
+var perceptions_layer;
+
+function perceptionsLayerGen( ) {
+  var layer =  new L.geoJson(perceptions,{
+    filter:filterFn,
+    style: stylePerceptions,
+    onEachFeature:onEachFeaturePerceptions,
+    /*fillPattern:perceptionsPattern  */  
+    
+  });
+  perceptions_layer = layer;
+  return layer;
+};

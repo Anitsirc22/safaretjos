@@ -31,11 +31,11 @@ function identityLayerGen( ) {
     max: 10,
     minOpacity: 0.8,
     gradient: {
-      0: '#d7191c',
-      0.60: '#fdae61',
-      0.80:'#ffffbf',
-      0.85: '#BE788D',
-      1: '#F90527'
+      0: '#b30000',
+      0.60: '#e34a33',
+      0.80:'#fc8d59',
+      0.85: '#fdcc8a',
+      1: '#fef0d9'
     },
     blur:35
   });
@@ -61,7 +61,8 @@ function styleIdentity(feature) {
       color: '#fff0',
       weight: 0.5,
       opacity: 1,
-      fillOpacity: 0
+      fillOpacity: 0,
+      clickable: true
     };
   
 }
