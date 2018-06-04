@@ -62,7 +62,7 @@ function styleIdentity(feature) {
       weight: 0.5,
       opacity: 1,
       fillOpacity: 0,
-      clickable: true
+      
     };
   
 }

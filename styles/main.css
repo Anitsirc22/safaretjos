@@ -12,11 +12,13 @@
     color: #000;
     opacity:1;
     font-size:15px;
+    font-family: 'Source Sans Pro', 'Lora', sans-serif;
 }
 
   .popup-content2{
     color:black;
     font-size: 125%
+    font-family: 'Source Sans Pro', 'Lora', sans-serif;
   }
 
   .leaflet-popup-content-wrapper {
@@ -29,6 +31,7 @@
     color:black;
     opacity: 1;
     font-weight: bold;
+    font-family: 'Source Sans Pro', 'Lora', sans-serif;
   }
 
 
@@ -133,7 +136,7 @@
 
 
 .label{
-    font-family: Helvetica,Arial,sans-serif;
+    /*font-family: Helvetica,Arial,sans-serif;*/
     padding: 0px;
     position:center;
     color:white;
@@ -147,26 +150,26 @@
 }
 
 .label2{
-    font-family: Helvetica,Arial,sans-serif;
+    /*font-family: Helvetica,Arial,sans-serif;*/
     color:white;
     font-size: 20px;
 }
 
 .label3{
-    font-family: Helvetica,Arial,sans-serif;
+    /*font-family: Helvetica,Arial,sans-serif;*/
     color:white;
     font-size: 15px;
 }
 .list{
     color:white;
     font-size: 14px;
-    font-family: Helvetica,Arial,sans-serif;
+    /*font-family: Helvetica,Arial,sans-serif;*/
     padding-bottom: : 0px;
 }
 
 .layers-list-item {
     color: #FFF;
-    font-family: Helvetica,Arial,sans-serif;
+    /*font-family: Helvetica,Arial,sans-serif;*/
     padding-right: 20px;
     opacity: 0.75;
     
@@ -234,7 +237,7 @@
 
 .text2{
     color:white;
-    font-size: 24px;
+    font-size: 20px;
     margin:10px 0px 30px 0px ;/* top right bottom left*/
     text-align: justify;
     opacity: 0.75;
@@ -274,11 +277,11 @@
 
 .option-btn{
     background: #ddd;
-    padding: 5px 10px;
+    padding: 3px 10px;
     /*width: 43px;*/
     border-radius: 5px;
     cursor:pointer;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .option-btn:hover {
@@ -392,6 +395,7 @@
     flex-direction: column;
     padding:20px;
     flex:2;
+
 
 }
 
