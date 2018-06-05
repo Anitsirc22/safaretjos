@@ -80,7 +80,8 @@ var es = {
 	"Paths":"Recorridos",
 	"Local relationships":"Relaciones locales",
 	"Metropolitan relationships":"Relaciones metropolitanas",
-	//layers perceptions
+  //layers perceptions
+  "Perceptions": "Percepciones",
 	'Darkness':'traducir al español',
 	'Lost connection':'traducir al español',
 	'Noise':'traducir al español', 

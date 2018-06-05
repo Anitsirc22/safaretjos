@@ -80,7 +80,8 @@ var en = {
 	"Paths":"Paths",
 	"Local relationships":"Local relationships",
 	"Metropolitan relationships":"Metropolitan relationships",
-	//layers perceptions
+  //layers perceptions
+  "Perceptions": "Perceptions",
 	'Darkness':'Darkness',
 	'Lost connection':'Lost connection',
 	'Noise':'Noise', 
