@@ -218,7 +218,8 @@
 .graphic_image{
     flex:1;
     background-size: contain;
-    background-position: 50%;
+    background-position: 50% 95%; 
+    /*margin-bottom:20px;*/
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
     /*background-image: url(../fotos/metro_relationships_en.jpg);*/
