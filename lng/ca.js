@@ -42,7 +42,8 @@ var ca = {
 	'need more jobs':'traduir al català',
 	'should recover trades':'traduir al català',
 	'will change':'traduir al català',
-	//label perceptions
+  //label perceptions
+  "Perceptions": "Percepcions",
 	'Changing directions':'traduir al català',
 	'Infastructure blocking access to the park':'traduir al català',
 	'Mass of vehicles in and out of Barcelona':'traduir al català',
