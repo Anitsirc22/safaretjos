@@ -54,7 +54,7 @@ function stylePerceptions(feature) {
       	radius: 5,
       	fillColor: '#ff0000',
   			color: '#fff',
-  			weight: 0.5,
+  			weight: 2,
   			opacity: 1,
   			fillOpacity: 0,
         dashArray:"5, 10" 
@@ -68,7 +68,7 @@ function stylePerceptions(feature) {
   	} else {
     	return {
     		color: 'white',
-    		weight: 0.5,
+    		weight: 2,
     		opacity: 0.5,
     		clickable: true,
         fillPattern: stripes
@@ -79,7 +79,9 @@ function stylePerceptions(feature) {
 
 var blurredDelay;
 function highlightFeaturePerceptions( event ) {
-  var perception_label = event.target.feature.properties.Reason;
+  var perception_label = "<span class='label3 lng' lng_val='" + event.target.feature.properties.Reason+"'>"
+  +lng(event.target.feature.properties.Reason)+"</span>"; //NO FUNCIONA EN ELS PATTERNS, SENSE EL DICCIONARI FUNCIONA 
+    
   label.style.fontSize="23px";
   label.innerHTML = perception_label;
   var layer = event.target;
@@ -102,7 +104,7 @@ function resetHighlightPerceptions( e ) {
 
   blurredDelay = setTimeout(function(){//setTimeout executa una funcio en un temps
     label.innerHTML = '';
-  }, 100 );
+  }, 700 );
     //info.update();
 };
 

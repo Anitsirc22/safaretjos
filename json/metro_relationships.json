@@ -12,13 +12,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2123814103806962, 
-        "x_end": 2.0731419076056654, 
+        "x_end": 2.1884428101785813, 
         "Name": "Manel", 
         "OBJECTID": 1, 
         "id_start": 2, 
-        "id_end": 159, 
-        "Municipality": "Sant Cugat del Vall\u00e8s", 
-        "y_end": 41.461866737655754, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Female", 
         "y_start": 41.4346383699827, 
         "Age": "16-40 years old"
@@ -36,64 +36,16 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2126590052737547, 
-        "x_end": 2.0119105644407527, 
+        "x_end": 2.221904617845434, 
         "Name": "Manel", 
         "OBJECTID": 2, 
         "id_start": 7, 
-        "id_end": 152, 
-        "Municipality": "El Papiol", 
-        "y_end": 41.442180934374456, 
+        "id_end": 206, 
+        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
+        "y_end": 41.423899917027825, 
         "Sex": "Female", 
         "y_start": 41.434430578537366, 
         "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211986461500992, 
-          41.435216137776436
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211986461500992, 
-        "x_end": 2.0907907487188315, 
-        "Name": "Ignasi", 
-        "OBJECTID": 3, 
-        "id_start": 14, 
-        "id_end": 145, 
-        "Municipality": "Esplugues de Llobregat", 
-        "y_end": 41.37909731320891, 
-        "Sex": "Female", 
-        "y_start": 41.435216137776436, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2116583422624867, 
-          41.43573361499826
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2116583422624867, 
-        "x_end": 1.9758098057357008, 
-        "Name": "Paula", 
-        "OBJECTID": 4, 
-        "id_start": 17, 
-        "id_end": 172, 
-        "Municipality": "La Palma de Cervell\u00f3", 
-        "y_end": 41.40842703157853, 
-        "Sex": "Female", 
-        "y_start": 41.43573361499826, 
-        "Age": "+ than 40 years old"
       }
     }
     ,
@@ -108,13 +60,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.211902503706219, 
-        "x_end": 2.268189198214835, 
+        "x_end": 2.112016692966433, 
         "Name": "Isabel", 
         "OBJECTID": 5, 
         "id_start": 24, 
-        "id_end": 168, 
-        "Municipality": "Tiana", 
-        "y_end": 41.48588083138518, 
+        "id_end": 203, 
+        "Municipality": "L'hospitalet de Llobregat", 
+        "y_end": 41.35786255538207, 
         "Sex": "Female", 
         "y_start": 41.43621373648447, 
         "Age": "0-15 years old"
@@ -132,13 +84,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2120878029217717, 
-        "x_end": 2.075037813872023, 
+        "x_end": 2.221904617845434, 
         "Name": "Manel", 
         "OBJECTID": 6, 
         "id_start": 28, 
-        "id_end": 144, 
-        "Municipality": "Cornell\u00e0 de Llobregat", 
-        "y_end": 41.357393346148065, 
+        "id_end": 206, 
+        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
+        "y_end": 41.423899917027825, 
         "Sex": "Female", 
         "y_start": 41.43594093974879, 
         "Age": "+ than 40 years old"
@@ -156,13 +108,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.212179939051119, 
-        "x_end": 2.112016692966433, 
+        "x_end": 2.236476453566433, 
         "Name": "Manel", 
         "OBJECTID": 7, 
         "id_start": 29, 
-        "id_end": 147, 
-        "Municipality": "L'hospitalet de Llobregat", 
-        "y_end": 41.35786255538207, 
+        "id_end": 201, 
+        "Municipality": "Badalona", 
+        "y_end": 41.46196816155472, 
         "Sex": "Female", 
         "y_start": 41.43589451584334, 
         "Age": "16-40 years old"
@@ -180,13 +132,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2122815379574585, 
-        "x_end": 1.9855903817379423, 
+        "x_end": 2.221904617845434, 
         "Name": "Roger", 
         "OBJECTID": 8, 
         "id_start": 33, 
-        "id_end": 151, 
-        "Municipality": "Pallej\u00e0", 
-        "y_end": 41.421591990049, 
+        "id_end": 206, 
+        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
+        "y_end": 41.423899917027825, 
         "Sex": "Male", 
         "y_start": 41.43565298417969, 
         "Age": "16-40 years old"
@@ -204,13 +156,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213804340222745, 
-        "x_end": 2.0551972115280366, 
+        "x_end": 2.1526628749435703, 
         "Name": "Paula", 
         "OBJECTID": 9, 
         "id_start": 41, 
-        "id_end": 161, 
-        "Municipality": "Sant Joan Desp\u00ed", 
-        "y_end": 41.36633589461461, 
+        "id_end": 202, 
+        "Municipality": "Barcelona", 
+        "y_end": 41.39948132678639, 
         "Sex": "Female", 
         "y_start": 41.43550138867264, 
         "Age": "0-15 years old"
@@ -228,13 +180,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213071409495562, 
-        "x_end": 2.0551972115280366, 
+        "x_end": 2.0731419076056654, 
         "Name": "Ignasi", 
         "OBJECTID": 10, 
         "id_start": 46, 
-        "id_end": 161, 
-        "Municipality": "Sant Joan Desp\u00ed", 
-        "y_end": 41.36633589461461, 
+        "id_end": 207, 
+        "Municipality": "Sant Cugat del Vall\u00e8s", 
+        "y_end": 41.461866737655754, 
         "Sex": "Female", 
         "y_start": 41.43525534895045, 
         "Age": "0-15 years old"
@@ -252,13 +204,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213527771595856, 
-        "x_end": 1.9705008833360398, 
+        "x_end": 2.236476453566433, 
         "Name": "Gerard", 
         "OBJECTID": 11, 
         "id_start": 74, 
-        "id_end": 141, 
-        "Municipality": "Castelldefels", 
-        "y_end": 41.27633825884828, 
+        "id_end": 201, 
+        "Municipality": "Badalona", 
+        "y_end": 41.46196816155472, 
         "Sex": "Male", 
         "y_start": 41.43490731163409, 
         "Age": "16-40 years old"
@@ -276,13 +228,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213421611729627, 
-        "x_end": 1.9712375709868508, 
+        "x_end": 2.1884428101785813, 
         "Name": "Isabel", 
         "OBJECTID": 12, 
         "id_start": 76, 
-        "id_end": 169, 
-        "Municipality": "Torrelles de Llobregat", 
-        "y_end": 41.35463452648043, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Female", 
         "y_start": 41.43485949488608, 
         "Age": "+ than 40 years old"
@@ -300,13 +252,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2131808291883055, 
-        "x_end": 2.114899606771942, 
+        "x_end": 2.0731419076056654, 
         "Name": "Ignasi", 
         "OBJECTID": 13, 
         "id_start": 77, 
-        "id_end": 171, 
-        "Municipality": "Badia", 
-        "y_end": 41.5082038717789, 
+        "id_end": 207, 
+        "Municipality": "Sant Cugat del Vall\u00e8s", 
+        "y_end": 41.461866737655754, 
         "Sex": "Male", 
         "y_start": 41.43474298352423, 
         "Age": "0-15 years old"
@@ -324,13 +276,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2128136617060186, 
-        "x_end": 2.221904617845434, 
+        "x_end": 2.0731419076056654, 
         "Name": "Manel", 
         "OBJECTID": 14, 
         "id_start": 85, 
-        "id_end": 155, 
-        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
-        "y_end": 41.423899917027825, 
+        "id_end": 207, 
+        "Municipality": "Sant Cugat del Vall\u00e8s", 
+        "y_end": 41.461866737655754, 
         "Sex": "Female", 
         "y_start": 41.43581446856083, 
         "Age": "0-15 years old"
@@ -348,13 +300,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213049388644868, 
-        "x_end": 2.034336987162671, 
+        "x_end": 2.221904617845434, 
         "Name": "Manel", 
         "OBJECTID": 15, 
         "id_start": 88, 
-        "id_end": 148, 
-        "Municipality": "Molins de Rei", 
-        "y_end": 41.42065729504075, 
+        "id_end": 206, 
+        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
+        "y_end": 41.423899917027825, 
         "Sex": "Male", 
         "y_start": 41.4358251986557, 
         "Age": "+ than 40 years old"
@@ -372,13 +324,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2130673482923746, 
-        "x_end": 2.0551972115280366, 
+        "x_end": 2.112016692966433, 
         "Name": "Manel", 
         "OBJECTID": 16, 
         "id_start": 90, 
-        "id_end": 161, 
-        "Municipality": "Sant Joan Desp\u00ed", 
-        "y_end": 41.36633589461461, 
+        "id_end": 203, 
+        "Municipality": "L'hospitalet de Llobregat", 
+        "y_end": 41.35786255538207, 
         "Sex": "Female", 
         "y_start": 41.435627349510405, 
         "Age": "+ than 40 years old"
@@ -396,13 +348,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.21290539616869, 
-        "x_end": 2.0907907487188315, 
+        "x_end": 2.236476453566433, 
         "Name": "Elvira", 
         "OBJECTID": 17, 
         "id_start": 92, 
-        "id_end": 145, 
-        "Municipality": "Esplugues de Llobregat", 
-        "y_end": 41.37909731320891, 
+        "id_end": 201, 
+        "Municipality": "Badalona", 
+        "y_end": 41.46196816155472, 
         "Sex": "Female", 
         "y_start": 41.43552828647333, 
         "Age": "+ than 40 years old"
@@ -420,13 +372,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2128044203952806, 
-        "x_end": 2.221904617845434, 
+        "x_end": 2.1884428101785813, 
         "Name": "Isabel", 
         "OBJECTID": 18, 
         "id_start": 93, 
-        "id_end": 155, 
-        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
-        "y_end": 41.423899917027825, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Female", 
         "y_start": 41.4355941335884, 
         "Age": "16-40 years old"
@@ -444,13 +396,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213344087959211, 
-        "x_end": 2.1526628749435703, 
+        "x_end": 2.0731419076056654, 
         "Name": "Elvira", 
         "OBJECTID": 19, 
         "id_start": 100, 
-        "id_end": 138, 
-        "Municipality": "Barcelona", 
-        "y_end": 41.39948132678639, 
+        "id_end": 207, 
+        "Municipality": "Sant Cugat del Vall\u00e8s", 
+        "y_end": 41.461866737655754, 
         "Sex": "Female", 
         "y_start": 41.43582749793409, 
         "Age": "0-15 years old"
@@ -468,13 +420,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213071884399192, 
-        "x_end": 2.031966802830376, 
+        "x_end": 2.221904617845434, 
         "Name": "Gerard", 
         "OBJECTID": 20, 
         "id_start": 105, 
-        "id_end": 170, 
-        "Municipality": "Viladecans", 
-        "y_end": 41.30268600663913, 
+        "id_end": 206, 
+        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
+        "y_end": 41.423899917027825, 
         "Sex": "Female", 
         "y_start": 41.43631310311985, 
         "Age": "+ than 40 years old"
@@ -492,40 +444,16 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2132930619333875, 
-        "x_end": 2.0988315354646465, 
+        "x_end": 2.034336987162671, 
         "Name": "Isabel", 
         "OBJECTID": 21, 
         "id_start": 114, 
-        "id_end": 153, 
-        "Municipality": "El Prat de Llobregat", 
-        "y_end": 41.31011913505429, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Male", 
         "y_start": 41.434467849285525, 
         "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2138550882596073, 
-          41.43462220759181
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2138550882596073, 
-        "x_end": 2.0119105644407527, 
-        "Name": "Isabel", 
-        "OBJECTID": 22, 
-        "id_start": 115, 
-        "id_end": 152, 
-        "Municipality": "El Papiol", 
-        "y_end": 41.442180934374456, 
-        "Sex": "Male", 
-        "y_start": 41.43462220759181, 
-        "Age": "0-15 years old"
       }
     }
     ,
@@ -540,13 +468,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213589231540642, 
-        "x_end": 2.0988315354646465, 
+        "x_end": 2.034336987162671, 
         "Name": "Mateu", 
         "OBJECTID": 23, 
         "id_start": 118, 
-        "id_end": 153, 
-        "Municipality": "El Prat de Llobregat", 
-        "y_end": 41.31011913505429, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Female", 
         "y_start": 41.43602066871432, 
         "Age": "16-40 years old"
@@ -564,13 +492,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2132860375320558, 
-        "x_end": 2.1539953853318448, 
+        "x_end": 2.221904617845434, 
         "Name": "Isabel", 
         "OBJECTID": 24, 
         "id_start": 120, 
-        "id_end": 154, 
-        "Municipality": "Ripollet", 
-        "y_end": 41.499869092126985, 
+        "id_end": 206, 
+        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
+        "y_end": 41.423899917027825, 
         "Sex": "Female", 
         "y_start": 41.436026024147935, 
         "Age": "16-40 years old"
@@ -588,13 +516,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213073104184982, 
-        "x_end": 2.114899606771942, 
+        "x_end": 2.112016692966433, 
         "Name": "Manel", 
         "OBJECTID": 25, 
         "id_start": 124, 
-        "id_end": 171, 
-        "Municipality": "Badia", 
-        "y_end": 41.5082038717789, 
+        "id_end": 203, 
+        "Municipality": "L'hospitalet de Llobregat", 
+        "y_end": 41.35786255538207, 
         "Sex": "Female", 
         "y_start": 41.43602621976089, 
         "Age": "+ than 40 years old"
@@ -612,13 +540,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.212959201307746, 
-        "x_end": 2.0988315354646465, 
+        "x_end": 2.236476453566433, 
         "Name": "Ignasi", 
         "OBJECTID": 26, 
         "id_start": 126, 
-        "id_end": 153, 
-        "Municipality": "El Prat de Llobregat", 
-        "y_end": 41.31011913505429, 
+        "id_end": 201, 
+        "Municipality": "Badalona", 
+        "y_end": 41.46196816155472, 
         "Sex": "Male", 
         "y_start": 41.436026331399404, 
         "Age": "+ than 40 years old"
@@ -636,13 +564,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.212826398081579, 
-        "x_end": 1.985745555436807, 
+        "x_end": 2.1526628749435703, 
         "Name": "Carles", 
         "OBJECTID": 27, 
         "id_start": 127, 
-        "id_end": 158, 
-        "Municipality": "Sant Climent de Llobregat", 
-        "y_end": 41.33323273464401, 
+        "id_end": 202, 
+        "Municipality": "Barcelona", 
+        "y_end": 41.39948132678639, 
         "Sex": "Male", 
         "y_start": 41.43602638926269, 
         "Age": "0-15 years old"
@@ -660,13 +588,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.212483662078482, 
-        "x_end": 2.2800918850829004, 
+        "x_end": 2.112016692966433, 
         "Name": "Carles", 
         "OBJECTID": 28, 
         "id_start": 129, 
-        "id_end": 150, 
-        "Municipality": "Montgat", 
-        "y_end": 41.47081376360569, 
+        "id_end": 203, 
+        "Municipality": "L'hospitalet de Llobregat", 
+        "y_end": 41.35786255538207, 
         "Sex": "Male", 
         "y_start": 41.43609527806135, 
         "Age": "+ than 40 years old"
@@ -684,13 +612,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2124720418167416, 
-        "x_end": 2.1225838616306385, 
+        "x_end": 2.0731419076056654, 
         "Name": "Manel", 
         "OBJECTID": 29, 
         "id_start": 130, 
-        "id_end": 167, 
-        "Municipality": "Cerdanyola del Vall\u00e8s", 
-        "y_end": 41.48061518758879, 
+        "id_end": 207, 
+        "Municipality": "Sant Cugat del Vall\u00e8s", 
+        "y_end": 41.461866737655754, 
         "Sex": "Male", 
         "y_start": 41.43622115325158, 
         "Age": "16-40 years old"
@@ -708,13 +636,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.21245952716707, 
-        "x_end": 1.963608755325543, 
+        "x_end": 2.1884428101785813, 
         "Name": "Tania", 
         "OBJECTID": 30, 
         "id_start": 131, 
-        "id_end": 156, 
-        "Municipality": "Sant Andreu de la Barca", 
-        "y_end": 41.45139630825276, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Male", 
         "y_start": 41.43627872514975, 
         "Age": "16-40 years old"
@@ -732,13 +660,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2133309812670285, 
-        "x_end": 2.0188169054229834, 
+        "x_end": 2.112016692966433, 
         "Name": "Carles", 
         "OBJECTID": 31, 
         "id_start": 136, 
-        "id_end": 163, 
-        "Municipality": "Santa Coloma de Cervell\u00f3", 
-        "y_end": 41.367922263146326, 
+        "id_end": 203, 
+        "Municipality": "L'hospitalet de Llobregat", 
+        "y_end": 41.35786255538207, 
         "Sex": "Female", 
         "y_start": 41.436025962183884, 
         "Age": "0-15 years old"
@@ -756,87 +684,15 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2121853719757985, 
-        "x_end": 2.114899606771942, 
+        "x_end": 2.221904617845434, 
         "Name": "Paula", 
         "OBJECTID": 32, 
         "id_start": 11, 
-        "id_end": 171, 
-        "Municipality": "Badia", 
-        "y_end": 41.5082038717789, 
+        "id_end": 206, 
+        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
+        "y_end": 41.423899917027825, 
         "Sex": "Female", 
         "y_start": 41.43492339068895, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211986461500992, 
-          41.435216137776436
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211986461500992, 
-        "x_end": 2.1539953853318448, 
-        "Name": "Ignasi", 
-        "OBJECTID": 33, 
-        "id_start": 14, 
-        "id_end": 154, 
-        "Municipality": "Ripollet", 
-        "y_end": 41.499869092126985, 
-        "Sex": "Female", 
-        "y_start": 41.435216137776436, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211800807503496, 
-          41.43550326190429
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211800807503496, 
-        "x_end": 2.002805772836024, 
-        "Name": "Carles", 
-        "OBJECTID": 34, 
-        "id_start": 15, 
-        "id_end": 166, 
-        "Municipality": "Sant Vicen\u00e7 dels Horts", 
-        "y_end": 41.3904533736922, 
-        "Sex": "Male", 
-        "y_start": 41.43550326190429, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211487592490779, 
-          41.43595444682911
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211487592490779, 
-        "x_end": 1.9014921162161302, 
-        "Name": "Paula", 
-        "OBJECTID": 35, 
-        "id_start": 18, 
-        "id_end": 139, 
-        "Municipality": "Begues", 
-        "y_end": 41.318055622281136, 
-        "Sex": "Female", 
-        "y_start": 41.43595444682911, 
         "Age": "+ than 40 years old"
       }
     }
@@ -852,13 +708,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2118949245619586, 
-        "x_end": 1.9705008833360398, 
+        "x_end": 2.236476453566433, 
         "Name": "Carles", 
         "OBJECTID": 36, 
         "id_start": 23, 
-        "id_end": 141, 
-        "Municipality": "Castelldefels", 
-        "y_end": 41.27633825884828, 
+        "id_end": 201, 
+        "Municipality": "Badalona", 
+        "y_end": 41.46196816155472, 
         "Sex": "Male", 
         "y_start": 41.43628240868057, 
         "Age": "+ than 40 years old"
@@ -876,39 +732,15 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2121148227366114, 
-        "x_end": 1.9855903817379423, 
+        "x_end": 2.034336987162671, 
         "Name": "Roger", 
         "OBJECTID": 37, 
         "id_start": 27, 
-        "id_end": 151, 
-        "Municipality": "Pallej\u00e0", 
-        "y_end": 41.421591990049, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Male", 
         "y_start": 41.43602348710105, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212179939051119, 
-          41.43589451584334
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212179939051119, 
-        "x_end": 2.0988315354646465, 
-        "Name": "Manel", 
-        "OBJECTID": 38, 
-        "id_start": 29, 
-        "id_end": 153, 
-        "Municipality": "El Prat de Llobregat", 
-        "y_end": 41.31011913505429, 
-        "Sex": "Female", 
-        "y_start": 41.43589451584334, 
         "Age": "16-40 years old"
       }
     }
@@ -924,13 +756,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.212190819126402, 
-        "x_end": 2.0119105644407527, 
+        "x_end": 2.034336987162671, 
         "Name": "Tania", 
         "OBJECTID": 39, 
         "id_start": 31, 
-        "id_end": 152, 
-        "Municipality": "El Papiol", 
-        "y_end": 41.442180934374456, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Female", 
         "y_start": 41.43575862473028, 
         "Age": "16-40 years old"
@@ -948,13 +780,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2120976000053596, 
-        "x_end": 2.041874698099788, 
+        "x_end": 2.1884428101785813, 
         "Name": "Roger", 
         "OBJECTID": 40, 
         "id_start": 34, 
-        "id_end": 157, 
-        "Municipality": "Sant Boi de Llobregat", 
-        "y_end": 41.33436583771722, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Female", 
         "y_start": 41.435805441159346, 
         "Age": "+ than 40 years old"
@@ -972,13 +804,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2120463851124117, 
-        "x_end": 2.1526628749435703, 
+        "x_end": 2.1884428101785813, 
         "Name": "Manel", 
         "OBJECTID": 41, 
         "id_start": 35, 
-        "id_end": 138, 
-        "Municipality": "Barcelona", 
-        "y_end": 41.39948132678639, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Male", 
         "y_start": 41.43585918551083, 
         "Age": "0-15 years old"
@@ -996,13 +828,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2119663200911694, 
-        "x_end": 2.1526628749435703, 
+        "x_end": 2.1884428101785813, 
         "Name": "Mateu", 
         "OBJECTID": 42, 
         "id_start": 36, 
-        "id_end": 138, 
-        "Municipality": "Barcelona", 
-        "y_end": 41.39948132678639, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Male", 
         "y_start": 41.43598418289438, 
         "Age": "0-15 years old"
@@ -1020,13 +852,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213686503053529, 
-        "x_end": 1.9712375709868508, 
+        "x_end": 2.034336987162671, 
         "Name": "Gerard", 
         "OBJECTID": 43, 
         "id_start": 63, 
-        "id_end": 169, 
-        "Municipality": "Torrelles de Llobregat", 
-        "y_end": 41.35463452648043, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Female", 
         "y_start": 41.43517866699649, 
         "Age": "0-15 years old"
@@ -1044,63 +876,15 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213339519736525, 
-        "x_end": 2.0551972115280366, 
+        "x_end": 2.112016692966433, 
         "Name": "Roger", 
         "OBJECTID": 44, 
         "id_start": 75, 
-        "id_end": 161, 
-        "Municipality": "Sant Joan Desp\u00ed", 
-        "y_end": 41.36633589461461, 
+        "id_end": 203, 
+        "Municipality": "L'hospitalet de Llobregat", 
+        "y_end": 41.35786255538207, 
         "Sex": "Female", 
         "y_start": 41.43482199221403, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213421611729627, 
-          41.43485949488608
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213421611729627, 
-        "x_end": 2.205786875629489, 
-        "Name": "Isabel", 
-        "OBJECTID": 45, 
-        "id_start": 76, 
-        "id_end": 164, 
-        "Municipality": "Santa Coloma de Gramanet", 
-        "y_end": 41.4578166228335, 
-        "Sex": "Female", 
-        "y_start": 41.43485949488608, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2131808291883055, 
-          41.43474298352423
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2131808291883055, 
-        "x_end": 2.0551972115280366, 
-        "Name": "Ignasi", 
-        "OBJECTID": 46, 
-        "id_start": 77, 
-        "id_end": 161, 
-        "Municipality": "Sant Joan Desp\u00ed", 
-        "y_end": 41.36633589461461, 
-        "Sex": "Male", 
-        "y_start": 41.43474298352423, 
         "Age": "0-15 years old"
       }
     }
@@ -1116,40 +900,16 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.212915755872033, 
-        "x_end": 2.268189198214835, 
+        "x_end": 2.0731419076056654, 
         "Name": "Mateu", 
         "OBJECTID": 47, 
         "id_start": 79, 
-        "id_end": 168, 
-        "Municipality": "Tiana", 
-        "y_end": 41.48588083138518, 
+        "id_end": 207, 
+        "Municipality": "Sant Cugat del Vall\u00e8s", 
+        "y_end": 41.461866737655754, 
         "Sex": "Female", 
         "y_start": 41.43464084709614, 
         "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213049388644868, 
-          41.4358251986557
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213049388644868, 
-        "x_end": 1.90827649040234, 
-        "Name": "Manel", 
-        "OBJECTID": 48, 
-        "id_start": 88, 
-        "id_end": 143, 
-        "Municipality": "Corbera de Llobregat", 
-        "y_end": 41.41810396854889, 
-        "Sex": "Male", 
-        "y_start": 41.4358251986557, 
-        "Age": "+ than 40 years old"
       }
     }
     ,
@@ -1164,39 +924,15 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.21318475550838, 
-        "x_end": 2.205786875629489, 
+        "x_end": 2.034336987162671, 
         "Name": "Carles", 
         "OBJECTID": 49, 
         "id_start": 122, 
-        "id_end": 164, 
-        "Municipality": "Santa Coloma de Gramanet", 
-        "y_end": 41.4578166228335, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Female", 
         "y_start": 41.4360261160296, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.21245952716707, 
-          41.43627872514975
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.21245952716707, 
-        "x_end": 2.075037813872023, 
-        "Name": "Tania", 
-        "OBJECTID": 50, 
-        "id_start": 131, 
-        "id_end": 144, 
-        "Municipality": "Cornell\u00e0 de Llobregat", 
-        "y_end": 41.357393346148065, 
-        "Sex": "Male", 
-        "y_start": 41.43627872514975, 
         "Age": "16-40 years old"
       }
     }
@@ -1212,112 +948,16 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.212278688513953, 
-        "x_end": 2.1539953853318448, 
+        "x_end": 2.1526628749435703, 
         "Name": "Carles", 
         "OBJECTID": 51, 
         "id_start": 132, 
-        "id_end": 154, 
-        "Municipality": "Ripollet", 
-        "y_end": 41.499869092126985, 
+        "id_end": 202, 
+        "Municipality": "Barcelona", 
+        "y_end": 41.39948132678639, 
         "Sex": "Female", 
         "y_start": 41.43634243793072, 
         "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212152098088515, 
-          41.434976386937045
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212152098088515, 
-        "x_end": 2.0188169054229834, 
-        "Name": "Gerard", 
-        "OBJECTID": 52, 
-        "id_start": 12, 
-        "id_end": 163, 
-        "Municipality": "Santa Coloma de Cervell\u00f3", 
-        "y_end": 41.367922263146326, 
-        "Sex": "Female", 
-        "y_start": 41.434976386937045, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212113325382896, 
-          41.435032160342985
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212113325382896, 
-        "x_end": 2.221904617845434, 
-        "Name": "Paula", 
-        "OBJECTID": 53, 
-        "id_start": 13, 
-        "id_end": 155, 
-        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
-        "y_end": 41.423899917027825, 
-        "Sex": "Male", 
-        "y_start": 41.435032160342985, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2116982447203197, 
-          41.43567169020266
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2116982447203197, 
-        "x_end": 1.985745555436807, 
-        "Name": "Paula", 
-        "OBJECTID": 54, 
-        "id_start": 16, 
-        "id_end": 158, 
-        "Municipality": "Sant Climent de Llobregat", 
-        "y_end": 41.33323273464401, 
-        "Sex": "Male", 
-        "y_start": 41.43567169020266, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211323793491909, 
-          41.43617586739547
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211323793491909, 
-        "x_end": 2.0494306715147395, 
-        "Name": "Mateu", 
-        "OBJECTID": 55, 
-        "id_start": 19, 
-        "id_end": 160, 
-        "Municipality": "Sant Feliu de Llobregat", 
-        "y_end": 41.39503419417161, 
-        "Sex": "Female", 
-        "y_start": 41.43617586739547, 
-        "Age": "16-40 years old"
       }
     }
     ,
@@ -1332,63 +972,15 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2119249792546527, 
-        "x_end": 2.0494306715147395, 
+        "x_end": 2.221904617845434, 
         "Name": "Gerard", 
         "OBJECTID": 56, 
         "id_start": 22, 
-        "id_end": 160, 
-        "Municipality": "Sant Feliu de Llobregat", 
-        "y_end": 41.39503419417161, 
+        "id_end": 206, 
+        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
+        "y_end": 41.423899917027825, 
         "Sex": "Female", 
         "y_start": 41.43635935621647, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212190819126402, 
-          41.43575862473028
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212190819126402, 
-        "x_end": 2.135384004337638, 
-        "Name": "Tania", 
-        "OBJECTID": 57, 
-        "id_start": 31, 
-        "id_end": 165, 
-        "Municipality": "Barber\u00e0 del Vall\u00e8s", 
-        "y_end": 41.518127879872445, 
-        "Sex": "Female", 
-        "y_start": 41.43575862473028, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2120976000053596, 
-          41.435805441159346
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2120976000053596, 
-        "x_end": 2.114899606771942, 
-        "Name": "Roger", 
-        "OBJECTID": 58, 
-        "id_start": 34, 
-        "id_end": 171, 
-        "Municipality": "Badia", 
-        "y_end": 41.5082038717789, 
-        "Sex": "Female", 
-        "y_start": 41.435805441159346, 
         "Age": "+ than 40 years old"
       }
     }
@@ -1404,13 +996,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2118874797746053, 
-        "x_end": 1.9712375709868508, 
+        "x_end": 2.236476453566433, 
         "Name": "Mateu", 
         "OBJECTID": 59, 
         "id_start": 37, 
-        "id_end": 169, 
-        "Municipality": "Torrelles de Llobregat", 
-        "y_end": 41.35463452648043, 
+        "id_end": 201, 
+        "Municipality": "Badalona", 
+        "y_end": 41.46196816155472, 
         "Sex": "Male", 
         "y_start": 41.4361347625529, 
         "Age": "+ than 40 years old"
@@ -1428,40 +1020,16 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2138623209022277, 
-        "x_end": 1.9758098057357008, 
+        "x_end": 2.221904617845434, 
         "Name": "Paula", 
         "OBJECTID": 60, 
         "id_start": 40, 
-        "id_end": 172, 
-        "Municipality": "La Palma de Cervell\u00f3", 
-        "y_end": 41.40842703157853, 
+        "id_end": 206, 
+        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
+        "y_end": 41.423899917027825, 
         "Sex": "Female", 
         "y_start": 41.43552709583037, 
         "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213804340222745, 
-          41.43550138867264
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213804340222745, 
-        "x_end": 2.0188169054229834, 
-        "Name": "Paula", 
-        "OBJECTID": 61, 
-        "id_start": 41, 
-        "id_end": 163, 
-        "Municipality": "Santa Coloma de Cervell\u00f3", 
-        "y_end": 41.367922263146326, 
-        "Sex": "Female", 
-        "y_start": 41.43550138867264, 
-        "Age": "0-15 years old"
       }
     }
     ,
@@ -1476,13 +1044,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2128795105695893, 
-        "x_end": 2.1526628749435703, 
+        "x_end": 2.1884428101785813, 
         "Name": "Manel", 
         "OBJECTID": 62, 
         "id_start": 47, 
-        "id_end": 138, 
-        "Municipality": "Barcelona", 
-        "y_end": 41.39948132678639, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Female", 
         "y_start": 41.43518109380539, 
         "Age": "+ than 40 years old"
@@ -1500,13 +1068,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2126308573172233, 
-        "x_end": 1.9656477918455766, 
+        "x_end": 2.1884428101785813, 
         "Name": "Isabel", 
         "OBJECTID": 63, 
         "id_start": 53, 
-        "id_end": 142, 
-        "Municipality": "Cervell\u00f3", 
-        "y_end": 41.38567346525871, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Female", 
         "y_start": 41.43532204410111, 
         "Age": "0-15 years old"
@@ -1524,13 +1092,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213941515335818, 
-        "x_end": 2.0551972115280366, 
+        "x_end": 2.221904617845434, 
         "Name": "Carles", 
         "OBJECTID": 64, 
         "id_start": 56, 
-        "id_end": 161, 
-        "Municipality": "Sant Joan Desp\u00ed", 
-        "y_end": 41.36633589461461, 
+        "id_end": 206, 
+        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
+        "y_end": 41.423899917027825, 
         "Sex": "Female", 
         "y_start": 41.43555574922752, 
         "Age": "16-40 years old"
@@ -1548,13 +1116,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.212728894477279, 
-        "x_end": 1.963608755325543, 
+        "x_end": 2.034336987162671, 
         "Name": "Gerard", 
         "OBJECTID": 65, 
         "id_start": 57, 
-        "id_end": 156, 
-        "Municipality": "Sant Andreu de la Barca", 
-        "y_end": 41.45139630825276, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Male", 
         "y_start": 41.43478697630127, 
         "Age": "0-15 years old"
@@ -1572,13 +1140,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2130669335030615, 
-        "x_end": 2.135384004337638, 
+        "x_end": 2.236476453566433, 
         "Name": "Roger", 
         "OBJECTID": 66, 
         "id_start": 59, 
-        "id_end": 165, 
-        "Municipality": "Barber\u00e0 del Vall\u00e8s", 
-        "y_end": 41.518127879872445, 
+        "id_end": 201, 
+        "Municipality": "Badalona", 
+        "y_end": 41.46196816155472, 
         "Sex": "Female", 
         "y_start": 41.43492155271287, 
         "Age": "+ than 40 years old"
@@ -1596,40 +1164,16 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2132517634053643, 
-        "x_end": 2.1539953853318448, 
+        "x_end": 2.1884428101785813, 
         "Name": "Manel", 
         "OBJECTID": 67, 
         "id_start": 60, 
-        "id_end": 154, 
-        "Municipality": "Ripollet", 
-        "y_end": 41.499869092126985, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Male", 
         "y_start": 41.43500676180313, 
         "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213686503053529, 
-          41.43517866699649
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213686503053529, 
-        "x_end": 1.9681894507688285, 
-        "Name": "Gerard", 
-        "OBJECTID": 68, 
-        "id_start": 63, 
-        "id_end": 140, 
-        "Municipality": "Castellbisbal", 
-        "y_end": 41.48279313783044, 
-        "Sex": "Female", 
-        "y_start": 41.43517866699649, 
-        "Age": "0-15 years old"
       }
     }
     ,
@@ -1644,13 +1188,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213900386927888, 
-        "x_end": 2.1526628749435703, 
+        "x_end": 2.034336987162671, 
         "Name": "Isabel", 
         "OBJECTID": 69, 
         "id_start": 80, 
-        "id_end": 138, 
-        "Municipality": "Barcelona", 
-        "y_end": 41.39948132678639, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Female", 
         "y_start": 41.435043217276906, 
         "Age": "0-15 years old"
@@ -1668,39 +1212,15 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.21323108535727, 
-        "x_end": 2.205786875629489, 
+        "x_end": 2.236476453566433, 
         "Name": "Paula", 
         "OBJECTID": 70, 
         "id_start": 98, 
-        "id_end": 164, 
-        "Municipality": "Santa Coloma de Gramanet", 
-        "y_end": 41.4578166228335, 
+        "id_end": 201, 
+        "Municipality": "Badalona", 
+        "y_end": 41.46196816155472, 
         "Sex": "Male", 
         "y_start": 41.43583366990441, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213631351150813, 
-          41.435811016440994
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213631351150813, 
-        "x_end": 2.0119105644407527, 
-        "Name": "Gerard", 
-        "OBJECTID": 71, 
-        "id_start": 104, 
-        "id_end": 152, 
-        "Municipality": "El Papiol", 
-        "y_end": 41.442180934374456, 
-        "Sex": "Female", 
-        "y_start": 41.435811016440994, 
         "Age": "16-40 years old"
       }
     }
@@ -1716,13 +1236,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2125586065652, 
-        "x_end": 1.9656477918455766, 
+        "x_end": 2.1884428101785813, 
         "Name": "Isabel", 
         "OBJECTID": 72, 
         "id_start": 134, 
-        "id_end": 142, 
-        "Municipality": "Cervell\u00f3", 
-        "y_end": 41.38567346525871, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Male", 
         "y_start": 41.43636959314474, 
         "Age": "16-40 years old"
@@ -1740,13 +1260,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.212460124013772, 
-        "x_end": 1.9014921162161302, 
+        "x_end": 2.1526628749435703, 
         "Name": "Ignasi", 
         "OBJECTID": 73, 
         "id_start": 5, 
-        "id_end": 139, 
-        "Municipality": "Begues", 
-        "y_end": 41.318055622281136, 
+        "id_end": 202, 
+        "Municipality": "Barcelona", 
+        "y_end": 41.39948132678639, 
         "Sex": "Male", 
         "y_start": 41.43448158474258, 
         "Age": "16-40 years old"
@@ -1757,71 +1277,23 @@ var metro_relationships={
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          2.212219365067016, 
-          41.43486961030305
+          2.212280135827758, 
+          41.43481997834252
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "x_start": 2.212219365067016, 
-        "x_end": 1.963608755325543, 
+        "x_start": 2.212280135827758, 
+        "x_end": 2.034336987162671, 
         "Name": "Manel", 
         "OBJECTID": 74, 
         "id_start": 10, 
-        "id_end": 156, 
-        "Municipality": "Sant Andreu de la Barca", 
-        "y_end": 41.45139630825276, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Female", 
-        "y_start": 41.43486961030305, 
+        "y_start": 41.43481997834252, 
         "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212152098088515, 
-          41.434976386937045
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212152098088515, 
-        "x_end": 2.221904617845434, 
-        "Name": "Gerard", 
-        "OBJECTID": 75, 
-        "id_start": 12, 
-        "id_end": 155, 
-        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
-        "y_end": 41.423899917027825, 
-        "Sex": "Female", 
-        "y_start": 41.434976386937045, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.211986461500992, 
-          41.435216137776436
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.211986461500992, 
-        "x_end": 2.135384004337638, 
-        "Name": "Ignasi", 
-        "OBJECTID": 76, 
-        "id_start": 14, 
-        "id_end": 165, 
-        "Municipality": "Barber\u00e0 del Vall\u00e8s", 
-        "y_end": 41.518127879872445, 
-        "Sex": "Female", 
-        "y_start": 41.435216137776436, 
-        "Age": "0-15 years old"
       }
     }
     ,
@@ -1836,112 +1308,16 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2120086457026806, 
-        "x_end": 2.268189198214835, 
+        "x_end": 2.1526628749435703, 
         "Name": "Isabel", 
         "OBJECTID": 77, 
         "id_start": 26, 
-        "id_end": 168, 
-        "Municipality": "Tiana", 
-        "y_end": 41.48588083138518, 
+        "id_end": 202, 
+        "Municipality": "Barcelona", 
+        "y_end": 41.39948132678639, 
         "Sex": "Male", 
         "y_start": 41.43608093447195, 
         "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2121148227366114, 
-          41.43602348710105
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2121148227366114, 
-        "x_end": 2.0551972115280366, 
-        "Name": "Roger", 
-        "OBJECTID": 78, 
-        "id_start": 27, 
-        "id_end": 161, 
-        "Municipality": "Sant Joan Desp\u00ed", 
-        "y_end": 41.36633589461461, 
-        "Sex": "Male", 
-        "y_start": 41.43602348710105, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2120976000053596, 
-          41.435805441159346
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2120976000053596, 
-        "x_end": 2.0494306715147395, 
-        "Name": "Roger", 
-        "OBJECTID": 79, 
-        "id_start": 34, 
-        "id_end": 160, 
-        "Municipality": "Sant Feliu de Llobregat", 
-        "y_end": 41.39503419417161, 
-        "Sex": "Female", 
-        "y_start": 41.435805441159346, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2120463851124117, 
-          41.43585918551083
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2120463851124117, 
-        "x_end": 2.236476453566433, 
-        "Name": "Manel", 
-        "OBJECTID": 80, 
-        "id_start": 35, 
-        "id_end": 137, 
-        "Municipality": "Badalona", 
-        "y_end": 41.46196816155472, 
-        "Sex": "Male", 
-        "y_start": 41.43585918551083, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2119663200911694, 
-          41.43598418289438
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2119663200911694, 
-        "x_end": 2.0494306715147395, 
-        "Name": "Mateu", 
-        "OBJECTID": 81, 
-        "id_start": 36, 
-        "id_end": 160, 
-        "Municipality": "Sant Feliu de Llobregat", 
-        "y_end": 41.39503419417161, 
-        "Sex": "Male", 
-        "y_start": 41.43598418289438, 
-        "Age": "0-15 years old"
       }
     }
     ,
@@ -1956,40 +1332,16 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.211766129914262, 
-        "x_end": 2.221904617845434, 
+        "x_end": 2.034336987162671, 
         "Name": "Mateu", 
         "OBJECTID": 82, 
         "id_start": 38, 
-        "id_end": 155, 
-        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
-        "y_end": 41.423899917027825, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Male", 
         "y_start": 41.43631714893162, 
         "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2138623209022277, 
-          41.43552709583037
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2138623209022277, 
-        "x_end": 2.0731419076056654, 
-        "Name": "Paula", 
-        "OBJECTID": 83, 
-        "id_start": 40, 
-        "id_end": 159, 
-        "Municipality": "Sant Cugat del Vall\u00e8s", 
-        "y_end": 41.461866737655754, 
-        "Sex": "Female", 
-        "y_start": 41.43552709583037, 
-        "Age": "16-40 years old"
       }
     }
     ,
@@ -2004,13 +1356,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.212797732011491, 
-        "x_end": 2.0188169054229834, 
+        "x_end": 2.112016692966433, 
         "Name": "Isabel", 
         "OBJECTID": 84, 
         "id_start": 48, 
-        "id_end": 163, 
-        "Municipality": "Santa Coloma de Cervell\u00f3", 
-        "y_end": 41.367922263146326, 
+        "id_end": 203, 
+        "Municipality": "L'hospitalet de Llobregat", 
+        "y_end": 41.35786255538207, 
         "Sex": "Male", 
         "y_start": 41.4350312618977, 
         "Age": "16-40 years old"
@@ -2028,13 +1380,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2126315830626075, 
-        "x_end": 2.221904617845434, 
+        "x_end": 2.1884428101785813, 
         "Name": "Isabel", 
         "OBJECTID": 85, 
         "id_start": 50, 
-        "id_end": 155, 
-        "Municipality": "Sant Adri\u00e0 de Bes\u00f2s", 
-        "y_end": 41.423899917027825, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Female", 
         "y_start": 41.43507044940651, 
         "Age": "+ than 40 years old"
@@ -2052,39 +1404,15 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.212553003520491, 
-        "x_end": 1.9656477918455766, 
+        "x_end": 2.1526628749435703, 
         "Name": "Manel", 
         "OBJECTID": 86, 
         "id_start": 51, 
-        "id_end": 142, 
-        "Municipality": "Cervell\u00f3", 
-        "y_end": 41.38567346525871, 
+        "id_end": 202, 
+        "Municipality": "Barcelona", 
+        "y_end": 41.39948132678639, 
         "Sex": "Male", 
         "y_start": 41.4351501598272, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212728894477279, 
-          41.43478697630127
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212728894477279, 
-        "x_end": 2.135384004337638, 
-        "Name": "Gerard", 
-        "OBJECTID": 87, 
-        "id_start": 57, 
-        "id_end": 165, 
-        "Municipality": "Barber\u00e0 del Vall\u00e8s", 
-        "y_end": 41.518127879872445, 
-        "Sex": "Male", 
-        "y_start": 41.43478697630127, 
         "Age": "0-15 years old"
       }
     }
@@ -2100,13 +1428,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213542136820687, 
-        "x_end": 2.0188169054229834, 
+        "x_end": 2.0731419076056654, 
         "Name": "Gerard", 
         "OBJECTID": 88, 
         "id_start": 62, 
-        "id_end": 163, 
-        "Municipality": "Santa Coloma de Cervell\u00f3", 
-        "y_end": 41.367922263146326, 
+        "id_end": 207, 
+        "Municipality": "Sant Cugat del Vall\u00e8s", 
+        "y_end": 41.461866737655754, 
         "Sex": "Male", 
         "y_start": 41.4351276581883, 
         "Age": "16-40 years old"
@@ -2124,13 +1452,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213937304806328, 
-        "x_end": 2.031966802830376, 
+        "x_end": 2.034336987162671, 
         "Name": "Ignasi", 
         "OBJECTID": 89, 
         "id_start": 66, 
-        "id_end": 170, 
-        "Municipality": "Viladecans", 
-        "y_end": 41.30268600663913, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Male", 
         "y_start": 41.43533807077166, 
         "Age": "0-15 years old"
@@ -2148,13 +1476,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213982390638945, 
-        "x_end": 1.9803067960654146, 
+        "x_end": 2.034336987162671, 
         "Name": "Gerard", 
         "OBJECTID": 90, 
         "id_start": 67, 
-        "id_end": 146, 
-        "Municipality": "Gav\u00e0", 
-        "y_end": 41.30624346538324, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Male", 
         "y_start": 41.4353899834038, 
         "Age": "0-15 years old"
@@ -2172,13 +1500,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2142386143730057, 
-        "x_end": 2.135384004337638, 
+        "x_end": 2.1526628749435703, 
         "Name": "Carles", 
         "OBJECTID": 91, 
         "id_start": 68, 
-        "id_end": 165, 
-        "Municipality": "Barber\u00e0 del Vall\u00e8s", 
-        "y_end": 41.518127879872445, 
+        "id_end": 202, 
+        "Municipality": "Barcelona", 
+        "y_end": 41.39948132678639, 
         "Sex": "Male", 
         "y_start": 41.435202675513295, 
         "Age": "16-40 years old"
@@ -2196,64 +1524,16 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.21413141888308, 
-        "x_end": 2.1526628749435703, 
+        "x_end": 2.0731419076056654, 
         "Name": "Ignasi", 
         "OBJECTID": 92, 
         "id_start": 70, 
-        "id_end": 138, 
-        "Municipality": "Barcelona", 
-        "y_end": 41.39948132678639, 
+        "id_end": 207, 
+        "Municipality": "Sant Cugat del Vall\u00e8s", 
+        "y_end": 41.461866737655754, 
         "Sex": "Male", 
         "y_start": 41.43513931900104, 
         "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213339519736525, 
-          41.43482199221403
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213339519736525, 
-        "x_end": 2.205786875629489, 
-        "Name": "Roger", 
-        "OBJECTID": 93, 
-        "id_start": 75, 
-        "id_end": 164, 
-        "Municipality": "Santa Coloma de Gramanet", 
-        "y_end": 41.4578166228335, 
-        "Sex": "Female", 
-        "y_start": 41.43482199221403, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2131808291883055, 
-          41.43474298352423
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2131808291883055, 
-        "x_end": 2.268189198214835, 
-        "Name": "Ignasi", 
-        "OBJECTID": 94, 
-        "id_start": 77, 
-        "id_end": 168, 
-        "Municipality": "Tiana", 
-        "y_end": 41.48588083138518, 
-        "Sex": "Male", 
-        "y_start": 41.43474298352423, 
-        "Age": "0-15 years old"
       }
     }
     ,
@@ -2268,64 +1548,16 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.21410723516534, 
-        "x_end": 1.985745555436807, 
+        "x_end": 2.0731419076056654, 
         "Name": "Ignasi", 
         "OBJECTID": 95, 
         "id_start": 78, 
-        "id_end": 158, 
-        "Municipality": "Sant Climent de Llobregat", 
-        "y_end": 41.33323273464401, 
+        "id_end": 207, 
+        "Municipality": "Sant Cugat del Vall\u00e8s", 
+        "y_end": 41.461866737655754, 
         "Sex": "Male", 
         "y_start": 41.43534945611357, 
         "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213900386927888, 
-          41.435043217276906
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213900386927888, 
-        "x_end": 2.0907907487188315, 
-        "Name": "Isabel", 
-        "OBJECTID": 96, 
-        "id_start": 80, 
-        "id_end": 145, 
-        "Municipality": "Esplugues de Llobregat", 
-        "y_end": 41.37909731320891, 
-        "Sex": "Female", 
-        "y_start": 41.435043217276906, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2128136617060186, 
-          41.43581446856083
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2128136617060186, 
-        "x_end": 2.0494306715147395, 
-        "Name": "Manel", 
-        "OBJECTID": 97, 
-        "id_start": 85, 
-        "id_end": 160, 
-        "Municipality": "Sant Feliu de Llobregat", 
-        "y_end": 41.39503419417161, 
-        "Sex": "Female", 
-        "y_start": 41.43581446856083, 
-        "Age": "0-15 years old"
       }
     }
     ,
@@ -2340,13 +1572,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213106246457339, 
-        "x_end": 1.9681894507688285, 
+        "x_end": 2.034336987162671, 
         "Name": "Ignasi", 
         "OBJECTID": 98, 
         "id_start": 89, 
-        "id_end": 140, 
-        "Municipality": "Castellbisbal", 
-        "y_end": 41.48279313783044, 
+        "id_end": 204, 
+        "Municipality": "Molins de Rei", 
+        "y_end": 41.42065729504075, 
         "Sex": "Male", 
         "y_start": 41.43582297001905, 
         "Age": "0-15 years old"
@@ -2364,135 +1596,15 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.2129742007323387, 
-        "x_end": 1.9014921162161302, 
+        "x_end": 2.1884428101785813, 
         "Name": "Isabel", 
         "OBJECTID": 99, 
         "id_start": 91, 
-        "id_end": 139, 
-        "Municipality": "Begues", 
-        "y_end": 41.318055622281136, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Male", 
         "y_start": 41.435591917430486, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.21290539616869, 
-          41.43552828647333
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.21290539616869, 
-        "x_end": 2.075037813872023, 
-        "Name": "Elvira", 
-        "OBJECTID": 100, 
-        "id_start": 92, 
-        "id_end": 144, 
-        "Municipality": "Cornell\u00e0 de Llobregat", 
-        "y_end": 41.357393346148065, 
-        "Sex": "Female", 
-        "y_start": 41.43552828647333, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2134323845784425, 
-          41.43582537782391
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2134323845784425, 
-        "x_end": 1.9014921162161302, 
-        "Name": "Manel", 
-        "OBJECTID": 101, 
-        "id_start": 101, 
-        "id_end": 139, 
-        "Municipality": "Begues", 
-        "y_end": 41.318055622281136, 
-        "Sex": "Male", 
-        "y_start": 41.43582537782391, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2138068809714357, 
-          41.435826949631796
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2138068809714357, 
-        "x_end": 2.031966802830376, 
-        "Name": "Mateu", 
-        "OBJECTID": 102, 
-        "id_start": 102, 
-        "id_end": 170, 
-        "Municipality": "Viladecans", 
-        "y_end": 41.30268600663913, 
-        "Sex": "Male", 
-        "y_start": 41.435826949631796, 
-        "Age": "0-15 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2133708988667564, 
-          41.43566507340725
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2133708988667564, 
-        "x_end": 2.2800918850829004, 
-        "Name": "Paula", 
-        "OBJECTID": 103, 
-        "id_start": 103, 
-        "id_end": 150, 
-        "Municipality": "Montgat", 
-        "y_end": 41.47081376360569, 
-        "Sex": "Female", 
-        "y_start": 41.43566507340725, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213631351150813, 
-          41.435811016440994
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213631351150813, 
-        "x_end": 2.268189198214835, 
-        "Name": "Gerard", 
-        "OBJECTID": 104, 
-        "id_start": 104, 
-        "id_end": 168, 
-        "Municipality": "Tiana", 
-        "y_end": 41.48588083138518, 
-        "Sex": "Female", 
-        "y_start": 41.435811016440994, 
         "Age": "16-40 years old"
       }
     }
@@ -2508,13 +1620,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.214437599973549, 
-        "x_end": 2.1539953853318448, 
+        "x_end": 2.0731419076056654, 
         "Name": "Roger", 
         "OBJECTID": 105, 
         "id_start": 106, 
-        "id_end": 154, 
-        "Municipality": "Ripollet", 
-        "y_end": 41.499869092126985, 
+        "id_end": 207, 
+        "Municipality": "Sant Cugat del Vall\u00e8s", 
+        "y_end": 41.461866737655754, 
         "Sex": "Female", 
         "y_start": 41.43501522751394, 
         "Age": "+ than 40 years old"
@@ -2532,13 +1644,13 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.214206229582106, 
-        "x_end": 1.9014921162161302, 
+        "x_end": 2.1884428101785813, 
         "Name": "Gerard", 
         "OBJECTID": 106, 
         "id_start": 110, 
-        "id_end": 139, 
-        "Municipality": "Begues", 
-        "y_end": 41.318055622281136, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Male", 
         "y_start": 41.43487454171898, 
         "Age": "16-40 years old"
@@ -2556,63 +1668,15 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.214149989167827, 
-        "x_end": 2.0731419076056654, 
+        "x_end": 2.1526628749435703, 
         "Name": "Roger", 
         "OBJECTID": 107, 
         "id_start": 111, 
-        "id_end": 159, 
-        "Municipality": "Sant Cugat del Vall\u00e8s", 
-        "y_end": 41.461866737655754, 
+        "id_end": 202, 
+        "Municipality": "Barcelona", 
+        "y_end": 41.39948132678639, 
         "Sex": "Male", 
         "y_start": 41.43482377078107, 
-        "Age": "16-40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2132930619333875, 
-          41.434467849285525
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2132930619333875, 
-        "x_end": 1.9712375709868508, 
-        "Name": "Isabel", 
-        "OBJECTID": 108, 
-        "id_start": 114, 
-        "id_end": 169, 
-        "Municipality": "Torrelles de Llobregat", 
-        "y_end": 41.35463452648043, 
-        "Sex": "Male", 
-        "y_start": 41.434467849285525, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.213589231540642, 
-          41.43602066871432
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.213589231540642, 
-        "x_end": 2.0731419076056654, 
-        "Name": "Mateu", 
-        "OBJECTID": 109, 
-        "id_start": 118, 
-        "id_end": 159, 
-        "Municipality": "Sant Cugat del Vall\u00e8s", 
-        "y_end": 41.461866737655754, 
-        "Sex": "Female", 
-        "y_start": 41.43602066871432, 
         "Age": "16-40 years old"
       }
     }
@@ -2628,64 +1692,16 @@ var metro_relationships={
       "type": "Feature", 
       "properties": {
         "x_start": 2.213436901744508, 
-        "x_end": 1.9656477918455766, 
+        "x_end": 2.1884428101785813, 
         "Name": "Mateu", 
         "OBJECTID": 110, 
         "id_start": 119, 
-        "id_end": 142, 
-        "Municipality": "Cervell\u00f3", 
-        "y_end": 41.38567346525871, 
+        "id_end": 205, 
+        "Municipality": "Montcada i Reixac", 
+        "y_end": 41.49368040437542, 
         "Sex": "Female", 
         "y_start": 41.436025846942336, 
         "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.212278688513953, 
-          41.43634243793072
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.212278688513953, 
-        "x_end": 2.0988315354646465, 
-        "Name": "Carles", 
-        "OBJECTID": 111, 
-        "id_start": 132, 
-        "id_end": 153, 
-        "Municipality": "El Prat de Llobregat", 
-        "y_end": 41.31011913505429, 
-        "Sex": "Female", 
-        "y_start": 41.43634243793072, 
-        "Age": "+ than 40 years old"
-      }
-    }
-    ,
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          2.2125586065652, 
-          41.43636959314474
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "x_start": 2.2125586065652, 
-        "x_end": 2.041874698099788, 
-        "Name": "Isabel", 
-        "OBJECTID": 112, 
-        "id_start": 134, 
-        "id_end": 157, 
-        "Municipality": "Sant Boi de Llobregat", 
-        "y_end": 41.33436583771722, 
-        "Sex": "Male", 
-        "y_start": 41.43636959314474, 
-        "Age": "16-40 years old"
       }
     }
   ]

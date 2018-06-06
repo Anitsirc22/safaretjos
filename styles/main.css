@@ -76,7 +76,7 @@
     .imatge span{
         font-size: 40px;
     }
-}
+} 
 
 @media screen and (max-width: 987px) and (min-width: 754px){ /*si la pantalla es menor a 1277 canvia l'estil*/
     .imatge span{
@@ -127,8 +127,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-top: 13px;
-    /*justify-content: center;*/
+    /*padding-top: 13px;*/
+    justify-content: center;
 }
 
 
@@ -261,13 +261,14 @@
     background-image:url(../fotos/foto_AC_2.png);
     background-size:     contain;          
     background-repeat:   no-repeat;
+    background-position: 50%; /*the image is positioned 50% horiz and 50% vertical*/
     align-items: center;
-    margin-top: 35px;
+    /*margin-top: 35px;*/
 }
 
 .filters{
     flex:1;
-    /*justify-content: center;*/
+    justify-content: center;
     color: #595959;
     display: flex;
     /* align-items: center; */
