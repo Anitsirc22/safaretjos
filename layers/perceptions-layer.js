@@ -19,11 +19,28 @@ perceptionsPattern.addTo(map);
 var stripes = new L.StripePattern({
       color:'red',
       angle:45,
-      weight:0.6,
+      weight:1.5,
       spaceWeight:0.1,
 
     });
 stripes.addTo(map);
+// var stripes45 = new L.StripePattern({
+//       color:'red',
+//       angle:45,
+//       weight:1.5,
+//       spaceWeight:0.1,
+
+//     });
+// stripes45.addTo(map);
+
+// var stripes225 = new L.StripePattern({
+//   color:'yellow',
+//   angle:90,
+//   weight:1.5,
+//   spaceWeight:0.1,
+
+// });
+// stripes225.addTo(map);
 /*console.log( perceptionsPattern );*/
 
 /*var perceptionsPattern = function( a,b,c ) {
@@ -48,8 +65,8 @@ stripes.addTo(map);
 }*/
 
 
-function stylePerceptions(feature) {
-    if ( feature.geometry.type === "LineString" &&feature.properties.Perception==="Lost connection") {
+function stylePerceptions( feature ) {
+  if ( feature.geometry.type === "LineString" && feature.properties.Perception === "Lost connection" ) {
     	return {
       	radius: 5,
       	fillColor: '#ff0000',
@@ -59,13 +76,21 @@ function stylePerceptions(feature) {
   			fillOpacity: 0,
         dashArray:"5, 10" 
       };
-    } else if (feature.properties.Reason==="Architecture as an obstacle"){
-  		return{
-  			fillColor:'red',
-  			color:'#fff0',
+    } else if ( feature.properties.Reason === "Architecture as an obstacle" ) {
+  		return {
+  			fillColor: 'red',
+  			color: '#fff0',
         fillPattern: perceptionsPattern
       };
-  	} else {
+  	// } else if ( feature.properties.Perception === "Darkness" ) {
+    // 	return {
+    // 		color: 'white',
+    // 		weight: 2,
+    // 		opacity: 0.5,
+    // 		clickable: true,
+    //     fillPattern: stripes225
+    //   };
+    } else {
     	return {
     		color: 'white',
     		weight: 2,
