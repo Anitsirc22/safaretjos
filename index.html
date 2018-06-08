@@ -32,6 +32,7 @@
 
 
 <body>
+  <!-- COVER -->
   <div class=home_cover>
     <div class=background>
       <div id=map_cover></div>
@@ -47,20 +48,31 @@
         </div>
       </div>
     </div>
+  </div>
+  <div id="map_cris" class="my-first-map">
     
   </div>
-  <div id="map_cris" class="my-first-map"></div>
-  <!-- <canvas id="myCanvas" width="200" height="100"></canvas> -->
+
+  <!-- CONTENT -->
+  <div class=content_box>
+    <div class=background_content>
+      <div class=content_button_exit>Go to map</div>
+      <div class=content>
+        <div class='content_title lng' lng_val="subtitle">The name of the layer</div>
+        <div class='content_description lng' lng_val="description"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COLUMN -->
   <div class=column>
-    
     <div class=imatge>
       <span class=lng lng_val='Safaretjos in 7Dimensions'></span>
       <div class=name>Cristina Ferrer Teixidor</div>
       <div class='home_button_exit lng' lng_val='go-back'></div>
     </div>
     <div class="controlls">
-      <div class="filters"><!-- / posar lestat dels filters de la capa que carrego x defecte -->
-        
+      <div class="filters"><!-- / posar lestat dels filters de la capa que carrego x defecte --> 
       </div>
       <div class=layers></div>
       <div class=imatge_ac></div>
@@ -85,6 +97,8 @@
   <div class=label_map>
     <p class=label></p>
   </div>
+  <div class=content_button>Content</div>
+
   
   <!-- LANGUAGE -->
   <script src="lng/ca.js"></script>
@@ -105,6 +119,7 @@
   <!-- MAP-->
   <script src="index.js"></script>
   <script src="cover.js"></script>
+  <script src="content.js"></script>
 
 
 

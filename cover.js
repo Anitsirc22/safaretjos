@@ -14,7 +14,8 @@ enter_button.addEventListener('click',function(e){
 
 exit_button.addEventListener('click',function(e){
 	cover.style.display="block";
-	setTimeout(function(){cover.style.opacity=1}, 0);
+  setTimeout(function(){cover.style.opacity=1}, 0);
+  content.style.display="none";
 });
 
 var myTileLayer = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png', {
