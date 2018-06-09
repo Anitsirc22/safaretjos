@@ -11,7 +11,7 @@ var ca = {
 	"16-40 years old": "16-40 anys",
 	"+ than 40 years old": "+ de 40 anys",
 	//label
-	"FLOORS":"PLANTES",
+	"FLOORS":" PLANTES",
 	//label identity
 	'create traditions':'crea tradicions.',
 	'creates community':'crea comunitat.',
@@ -59,6 +59,7 @@ var ca = {
 	'walking':'caminant.',
 	//label identity
 	'Safaretjos is ...':'Safaretjos... ',
+	'Identity:':'Identitat: ',
 	//PopUP potential_ceiling
 	"Built floors":"Plantes construides: ",
 	"Planned floors":"Plantes segons planejament: ",
@@ -89,8 +90,13 @@ var ca = {
 	'Vulnerable spaces':'Zones vulnerables',
 	//HOME
 	'subtitle':"Les ciutats estan convertint-se en organismes realment complexos.",
-	'description':'Traduir al català',
+	'description':'Els habitants d\'una ciutat produeixen un flux constant de dades. La recopilació massiva d\'aquestes dades pot proporcionar una visió més profunda de la dinàmica de la ciutat. Per comprendre les ciutats, el seu govern ha de tenir en compte les aportacions dels ciutadans en el procés de disseny. Els Safaretjos, un petit barri de 2000 habitants de Santa Coloma de Gramenet (Barcelona) situat en el límit entre quatre municipis. És un territori en el marc del riu Besòs, una infraestructura metropolitana que actualment articula el debat i la necessitat de formular propostes que provenen tant de les administracions com dels ciutadans i l\'acadèmia. L\'àrea es troba actualment en una certa manca de definició urbana. Ha estat concebut com un AREE (àrea residencial estratègica) i ara s\'ha aturat a l\'espera de decisions polítiques, tant locals com supralocals. Aquesta investigació es basa en la recopilació i visualització de dades dels ciutadans per comprendre el veïnat des de 7 dimensions diferents. Proporciona un observatori a petita escala que es pot prendre com a base per a futures decisions.',
 	'go-inside':'Entrar',
-	'Safaretjos in 7Dimensions':'Safaretjos en 7Dimensions',
-	'go-back':'Enrere'
+	/*'Safaretjos in 7Dimensions':'Safaretjos en 7Dimensions',*/
+	'go-back':'Enrere',
+	//CONTENT
+	'content_ceiling_title':'How do we measure identity?',
+	'content_ceiling_text':'Collecting data is not only a matter of assigning a number to everything. One must be critic before drawing conclusions on the data.\nWhat is really identity for each person? Since it does not exist a clear answer, several questions were asked to the neighbours in order to get an approach to their feelings for the neighbourhood. Each of them was answered with a number in the range from 0 (really negative) to 10 (really positive).\n\nHow would you value…\nyour relationship with your neighbours?\nyour involvement in the neighborhood\'s associative fabric?\nyour appreciation for the neighborhood?\nyour experiences in the neighborhood?\n\nOpen questions such as how they would describe the place in a few words were also conducted to get a better understanding of the numbers. \nAfter analysing the cases, an average number from 0 to 10 was finally assigned to visualize the feeling of identity in the neighbourhood.',
+	'Read content':'Llegir el contingut',
+	'Go to map':'Anar al mapa'
 };

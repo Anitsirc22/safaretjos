@@ -17,10 +17,10 @@ perceptionsPattern.addTo(map);
 
     });*/
 var stripes = new L.StripePattern({
-      color:'red',
+      color:'#FFFF00',
       angle:45,
-      weight:0.6,
-      spaceWeight:0.1,
+      weight:1,
+      spaceWeight:0.2,
 
     });
 stripes.addTo(map);
@@ -60,20 +60,58 @@ function stylePerceptions(feature) {
         dashArray:"5, 10" 
       };
     } else if (feature.properties.Reason==="Architecture as an obstacle"){
-  		return{
-  			fillColor:'red',
-  			color:'#fff0',
-        fillPattern: perceptionsPattern
+  		  return{
+    			fillColor:'red',
+    			color:'fff0',
+          fillOpacity:0.55,
+          /*fillPattern: perceptionsPattern*/
       };
-  	} else {
-    	return {
-    		color: 'white',
-    		weight: 2,
-    		opacity: 0.5,
-    		clickable: true,
-        fillPattern: stripes
+  	} else if (feature.properties.Reason==="The height difference and the retaining wall"||feature.properties.Reason==="Infastructure blocking access to the park"){
+        return{
+          fillColor:'red',
+          color:'red',
+          weight:3,
       };
-    }
+    }else if (feature.properties.Reason==="Changing directions"){
+        return{
+          color:'#04FFFF',
+          opacity:1,
+          weight:2,
+            /*fillColor:'#04FFFF'*/
+      };
+    } else if (feature.properties.Reason==="Social borders"){
+      return{
+        fillColor:'#ff6600',
+        color:'#fff0',
+        fillPattern: stripes,
+        fillOpacity:1,
+      };
+    } else if ( feature.geometry.type === "LineString" &&feature.properties.Reason==="Mass of vehicles in and out of Barcelona"||feature.properties.Reason==='Transit in the main road') {
+      return {
+        radius: 5,
+        fillColor: '#ff0000',
+        color: '#fec44f',
+        weight: 1.5,
+        opacity: 1,
+        fillOpacity: 0,
+          /*dashArray:"5, 10" */
+      };
+    }else if (feature.properties.Perception==="Darkness"){
+      return{
+        fillColor:'red',
+        color:'#fff0',
+        fillPattern: perceptionsPattern,
+        fillOpacity:0.5,
+      };
+    }else {
+    	  return {
+      		color: 'white',
+      		weight: 2,
+      		opacity: 0.5,
+      		clickable: true,
+          fillPattern: stripes
+      };
+    } 
 }
 
 
@@ -82,12 +120,12 @@ function highlightFeaturePerceptions( event ) {
   var perception_label = "<span class='label3 lng' lng_val='" + event.target.feature.properties.Reason+"'>"
   +lng(event.target.feature.properties.Reason)+"</span>"; //NO FUNCIONA EN ELS PATTERNS, SENSE EL DICCIONARI FUNCIONA 
     
-  label.style.fontSize="23px";
+  label.style.fontSize="30px";
   label.innerHTML = perception_label;
   var layer = event.target;
   layer.setStyle({
-      weight: 4,
-      color: 'white',
+      
+      color: 'fff0',
       fillOpacity: 0,
       opacity: 1,
   });

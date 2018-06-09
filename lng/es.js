@@ -11,7 +11,7 @@ var es = {
 	"16-40 years old": "16-40 años",
 	"+ than 40 years old": "+ de 40 años",
 	//label
-	"FLOORS":"PLANTAS",
+	"FLOORS":" PLANTAS",
 	//label identity
 	'create traditions':'crea tradiciones.',
 	'creates community':'crea comunidad.',
@@ -59,6 +59,7 @@ var es = {
 	'walking':'caminando.',
 	//label identity
 	'Safaretjos is ...':'Safaretjos... ',
+	'Identity:':'Identidad: ',
 	//PopUP potential_ceiling
 	"Built floors":"Plantas construidas: ",
 	"Planned floors":"Plantas según planeamiento: ",
@@ -89,8 +90,10 @@ var es = {
 	'Vulnerable spaces':'Zonas vulnerables',
 	//HOME
 	'subtitle':'Las ciudades están convirtiéndose en organismos realmente complejos.',
-	'description':'Traducir al español',
+	'description':'Los habitantes de una ciudad producen un flujo constante de datos. La recopilación masiva de estos datos puede proporcionar una visión más profunda de la dinámica de la ciudad. Para comprender las ciudades, su gobierno debe tener en cuenta los aportes de los ciudadanos en el proceso de diseño. Els Safaretjos, un pequeño barrio de 2000 habitantes de Santa Coloma de Gramenet (Barcelona) situado en el límite entre cuatro municipios. Es un territorio en el marco del río Besós, una infraestructura metropolitana que actualmente articula el debate y la necesidad de formular propuestas que provienen tanto de las administraciones como de los ciudadanos y la academia. El área se encuentra actualmente en una cierta falta de definición urbana. Ha sido concebido como un AREE (área residencial estratégica) y ahora se ha detenido en espera de decisiones políticas, tanto locales como supralocales. Esta investigación se basa en la recopilación y la visualización de datos de los ciudadanos para comprender el vecindario desde 7 dimensiones diferentes. Es un observatorio de la ciudad a pequeña escala que puede tomarse como base para futuras decisiones.',
 	'go-inside':'Entrar',
-	'Safaretjos in 7Dimensions':'Safaretjos en 7Dimensiones',
-	'go-back':'Atrás'
+	/*'Safaretjos in 7Dimensions':'Safaretjos en 7Dimensiones',*/
+	'go-back':'Atrás',
+	'Read content':'Leer el contenido',
+	'Go to map':'Ir al mapa'
 };

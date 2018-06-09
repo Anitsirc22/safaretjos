@@ -11,7 +11,7 @@ var en = {
 	"16-40 years old": "16-40 years old",
 	"+ than 40 years old": "+ than 40 years old",
 	//label potential_ceiling
-	"FLOORS":"FLOORS",
+	"FLOORS":" FLOORS",
 	//label identity
 	'create traditions':'create traditions.',
 	'creates community':'creates community.',
@@ -59,18 +59,19 @@ var en = {
 	'walking':'walking.',
 	//label identity
 	'Safaretjos is ...':'Safaretjos... ',
+	'Identity:':'Identity: ',
 	//PopUP potential_ceiling
-	"Built floors":"Built floors :",
-	"Planned floors":"Planned floors :",
+	"Built floors":"Built floors: ",
+	"Planned floors":"Planned floors: ",
 	//PopUp paths
 	'On my way':'On my way ',
-	'to exercise':'to exercise',
-	'to meet friends':'to meet friends', 
-	'to school':'to school',
-	'to take a walk':'to take a walk',
-	"to the doctor\'s":"to the doctor\'s",
-	'to the library':'to the library', 
-	'to the supermarket':'to the supermarket',
+	'to exercise':'to exercise.',
+	'to meet friends':'to meet friends.', 
+	'to school':'to school.',
+	'to take a walk':'to take a walk.',
+	"to the doctor\'s":"to the doctor\'s.",
+	'to the library':'to the library.', 
+	'to the supermarket':'to the supermarket.',
 	'to work':'to work',
 	//layers potential_ceiling
 	"Potential ceiling":"Potential ceiling",
@@ -80,8 +81,8 @@ var en = {
 	"Paths":"Paths",
 	"Local relationships":"Local relationships",
 	"Metropolitan relationships":"Metropolitan relationships",
-  //layers perceptions
-  "Perceptions": "Perceptions",
+  	//layers perceptions
+  	"Perceptions": "Perceptions",
 	'Darkness':'Darkness',
 	'Lost connection':'Lost connection',
 	'Noise':'Noise', 
@@ -91,9 +92,11 @@ var en = {
 	'subtitle':'Cities are becoming really complex organisms.',
 	'description':'Massive collection of data can provide a deep insight into the dynamics of the city. In order to understand cities, their governance must consider citizen inputs in the design process. Els Safaretjos, a small neighbourhood of 2000 inhabitants from Santa Coloma de Gramenet (Barcelona) is located at the boundary between four municipalities. It is also a territory within the framework of the Besós River, a metropolitan infrastructure that currently articulates the debate and the need to formulate proposals that come from the administrations as well as from citizens and the academy. The area is currently in a certain urban lack of definition. It has been envisaged as an AREE  (strategic residential area) and now it has come to a halt pending political decisions, both local and supra-local. This research is an attempt to both collect and visualize data from citizens in order to understand the neighbourhood from 7 different dimensions. It provides an observatory on a small scale that can be taken as a basis for future decisions.',
 	'go-inside':'Go inside',
-	'Safaretjos in 7Dimensions':'Safaretjos in 7Dimensions',
+	/*'Safaretjos in 7Dimensions':'Safaretjos in 7Dimensions',*/
 	'go-back':'Go back',
 	//CONTENT
 	'content_ceiling_title':'How much can Safaretjos grow?',
-	'content_ceiling_text':'This map compares urban planning to reality built. Each plot has been classified depending on its buildability potential.\nEven though there are some plots with a buildability index greater than the one established by the urban plan , approximately, xxxxxsq meters are still to be built in this neighbourhood. Therefore, we could expect a great densification in the coming years.'
+	'content_ceiling_text':'This map compares urban planning to reality built. Each plot has been classified depending on its buildability potential.\nEven though there are some plots with a buildability index greater than the one established by the urban plan , approximately, xxxxxsq meters are still to be built in this neighbourhood. Therefore, we could expect a great densification in the coming years.',
+	'Read content':'Read content',
+	'Go to map':'Go to map'
 };

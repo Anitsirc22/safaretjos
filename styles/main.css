@@ -23,7 +23,7 @@
 
   .leaflet-popup-content-wrapper {
     background: #fff;
-    opacity: 0.6
+    opacity: 0.75;
   }
 
   .leaflet-popup-content {
@@ -158,7 +158,7 @@
 .label3{
     /*font-family: Helvetica,Arial,sans-serif;*/
     color:white;
-    font-size: 15px;
+    font-size: 20px;
 }
 .list{
     color:white;
@@ -171,14 +171,14 @@
     color: #FFF;
     /*font-family: Helvetica,Arial,sans-serif;*/
     padding-right: 20px;
-    opacity: 0.75;
+    opacity: 1;
     
 
 }
 
 .layers-list-item:hover{
     cursor: pointer;
-    opacity:1;
+    opacity:0.75;
 
 }
 .layers-list-item.selected {
@@ -284,6 +284,7 @@
     border-radius: 5px;
     cursor:pointer;
     font-size: 15px;
+    font-weight:900;
 }
 
 .option-btn:hover {
@@ -464,7 +465,7 @@
 .content_button_exit{
     position: absolute;
     right:51%;
-    bottom:2px;
+    top:2px;
     cursor: pointer;
     /*border-radius: 8px;
     border: 0.5px solid #fff8;*/
@@ -496,12 +497,13 @@
     
 }
 .content_title{
-    font-size: 25px;
+    font-size: 35px;
     padding:20px;
 }
 
 .content_description{
     padding:20px;
+    font-size:20px;
     
 
 
