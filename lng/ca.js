@@ -12,6 +12,7 @@ var ca = {
 	"+ than 40 years old": "+ de 40 anys",
 	//label
 	"FLOORS":" PLANTES",
+	"Buildable floors":'Plantes edificables: ',
 	//label identity
 	'create traditions':'crea tradicions.',
 	'creates community':'crea comunitat.',

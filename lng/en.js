@@ -12,6 +12,7 @@ var en = {
 	"+ than 40 years old": "+ than 40 years old",
 	//label potential_ceiling
 	"FLOORS":" FLOORS",
+	"Buildable floors":'Buildable floors: ',
 	//label identity
 	'create traditions':'create traditions.',
 	'creates community':'creates community.',
