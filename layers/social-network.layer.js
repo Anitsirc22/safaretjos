@@ -70,9 +70,9 @@ function startsFrom( feature, targetFeature ) {
 
 var blurredDelay;
 function highlightNetwork( event ) {
-  var social_label = "<span class='label2 lng' lng_val='Family members'>"+lng('Family members')+" </span>"+event.target.feature.properties.Family_members;
+  /*var social_label = "<span class='label2 lng' lng_val='Family members'>"+lng('Family members')+" </span>"+event.target.feature.properties.Family_members;
   label.style.fontSize="30px";
-  label.innerHTML = social_label;
+  label.innerHTML = social_label;*/
   var layer = event.target;
 
   Object.keys(currentLayer._layers).map( function( key ) {//_layers es el nom del objecte que leaflet asigna a cada feature

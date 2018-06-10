@@ -71,7 +71,7 @@ var blurredDelay;
 function highlightFeatureIdentity( event ) {
   var identity_label = event.target.feature.properties.Safaretjos_description? event.target.feature.properties.Safaretjos_description : "";
   label.style.fontSize="23px";
-  label.innerHTML = "<span class='label3 lng' lng_val='Safaretjos is ...'>"+lng("Safaretjos is ...")+" </span>"+lng(identity_label);
+  label.innerHTML = "<span class='label3 lng' lng_val='Identity:'>"+lng('Identity:')+"</span>"+event.target.feature.properties.neighborhood_identity+"<br>"+"<span class='label3 lng' lng_val='Safaretjos is ...'>"+lng("Safaretjos is ...")+" </span>"+lng(identity_label);
   var layer = event.target;
   //info.update(layer.feature.properties);
   clearTimeout(blurredDelay);

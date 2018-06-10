@@ -14,7 +14,8 @@ enter_button.addEventListener('click',function(e){
 
 exit_button.addEventListener('click',function(e){
 	cover.style.display="block";
-	setTimeout(function(){cover.style.opacity=1}, 0);
+  setTimeout(function(){cover.style.opacity=1}, 0);
+  content.style.display="none";
 });
 
 var myTileLayer = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png', {
@@ -59,17 +60,23 @@ function stylePerceptions(feature) {
     if ( feature.geometry.type === "LineString" &&feature.properties.Perception==="Lost connection") {
     	return {
       	radius: 5,
-      		fillColor: '#ff0000',
+      	fillColor: '#ff0000',
   			color: '#fff',
   			weight: 3,
   			opacity: 1,
   			fillOpacity: 0,
-        	dashArray:"5, 10" 
+        dashArray:"5, 10" 
       };
-    } else if ( feature.geometry.type === "LineString" &&feature.properties.Reason==="Mass of vehicles in and out of Barcelona"||feature.properties.Reason==='Transit in the main road') {
+    } else if (feature.properties.Reason==="The height difference and the retaining wall"||feature.properties.Reason==="Infastructure blocking access to the park"){
+        return{
+          fillColor:'red',
+          color:'red',
+          weight:3,
+      };
+    }else if ( feature.geometry.type === "LineString" &&feature.properties.Reason==="Mass of vehicles in and out of Barcelona"||feature.properties.Reason==='Transit in the main road') {
     	return {
       	radius: 5,
-      		fillColor: '#ff0000',
+      	fillColor: '#ff0000',
   			color: '#fec44f',
   			weight: 0.8,
   			opacity: 1,
@@ -80,21 +87,21 @@ function stylePerceptions(feature) {
   		return{
   			fillColor:'red',
   			color:'#fff0',
-        	fillPattern: perceptionsPattern,
-        	fillOpacity:0.5,
+        fillPattern: perceptionsPattern,
+        fillOpacity:0.5,
       };
     } else if (feature.properties.Reason==="Social borders"){
   		return{
   			fillColor:'#ff6600',
   			color:'#fff0',
-        	fillPattern: stripes,
-        	fillOpacity:1,
+        fillPattern: stripes,
+        fillOpacity:1,
       };
     } else if (feature.properties.Reason==="Changing directions"){
   		return{
   			color:'#04FFFF',
-        	opacity:1,
-        	weight:2,
+        opacity:1,
+        weight:2,
         	/*fillColor:'#04FFFF'*/
       };
     
@@ -104,7 +111,7 @@ function stylePerceptions(feature) {
     		weight: 1.5,
     		opacity: 1,
     		clickable: true,
-        	fillPattern: stripes,
+        fillPattern: stripes,
 
       };
     }

@@ -17,13 +17,13 @@
 
   .popup-content2{
     color:black;
-    font-size: 125%
+    font-size: 125%;
     font-family: 'Source Sans Pro', 'Lora', sans-serif;
   }
 
   .leaflet-popup-content-wrapper {
     background: #fff;
-    opacity: 0.6
+    opacity: 0.75;
   }
 
   .leaflet-popup-content {
@@ -158,7 +158,7 @@
 .label3{
     /*font-family: Helvetica,Arial,sans-serif;*/
     color:white;
-    font-size: 15px;
+    font-size: 20px;
 }
 .list{
     color:white;
@@ -171,14 +171,14 @@
     color: #FFF;
     /*font-family: Helvetica,Arial,sans-serif;*/
     padding-right: 20px;
-    opacity: 0.75;
+    opacity: 1;
     
 
 }
 
 .layers-list-item:hover{
     cursor: pointer;
-    opacity:1;
+    opacity:0.75;
 
 }
 .layers-list-item.selected {
@@ -238,10 +238,10 @@
 
 .text2{
     color:white;
-    font-size: 20px;
+    font-size: 22px;
     margin:10px 0px 30px 0px ;/* top right bottom left*/
     text-align: justify;
-    opacity: 0.75;
+    opacity: 0.85;
 }
 
 .controlls{
@@ -284,6 +284,7 @@
     border-radius: 5px;
     cursor:pointer;
     font-size: 15px;
+    font-weight:900;
 }
 
 .option-btn:hover {
@@ -311,8 +312,10 @@
     z-index: 600;*/
     color:white;
     display:flex;
-    flex:0.1;
+    flex:0.15; /*0.1*/
     position: relative;
+    border-top: 0.5px solid white;
+
     
 
 }
@@ -323,11 +326,11 @@
     height:100%;
     top:0px;
     right:0px;
-    z-index:20;
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 20px;
+    padding-right: 20px;
+
 
 }
 
@@ -335,8 +338,11 @@
 
 .lng-btn{
     padding-right: 2px;
-    font-size: 12px;
+    font-size: 15px; /*12px*/
     cursor:pointer;
+    z-index:20;
+    margin: 0px 0px 0px 15px;
+
 }
 
 .lng-btn.selected{
@@ -357,7 +363,7 @@
 #map_cover{
     width:100%;
     height:100%;
-    opacity:0.5;
+    opacity:0.45;
     position:absolute;
     z-index:10; 
     top:0;
@@ -409,16 +415,18 @@
 .home_button_exit{
     position: absolute;
     right:20px;
-    top:80px;
+    top:84px;
     cursor: pointer;
     border-radius: 8px;
-    border: 0.5px solid #fff8;
-    padding: 5px 10px;
+    border: 1px solid #fff8;
+    padding: 2px 10px;
+    
+    color:#04FFFF;
 }
 
 .home_button:hover,
 .home_button_exit:hover {
-    background-color: #fff2
+    background-color: #fff2;
 }
 
 .description_title {
@@ -436,5 +444,68 @@
     right:20px;
     top:55px;
     z-index: 20;
+    font-size: 18px;
+
+}
+
+.content_box{
+    width: 50%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    opacity: 1;
+    color:white;
+    position:absolute;
+    display:none;
+    z-index:10;
+
+}
+
+.content_button,
+.content_button_exit{
+    position: absolute;
+    right:51%;
+    top:2px;
+    cursor: pointer;
+    /*border-radius: 8px;
+    border: 0.5px solid #fff8;*/
+    padding: 5px 10px;
+    color:white;
+    opacity:1; 
+    
+}
+
+
+.content_button:hover,
+.content_button_exit:hover{
+    color:#04FFFF;
+}
+
+.content_button_exit{
+    right:2%;
+
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    opacity: 1;
+
+    
+}
+.content_title{
+    font-size: 35px;
+    padding:20px;
+}
+
+.content_description{
+    padding:20px;
+    font-size:20px;
+    
+
 
 }

@@ -45,8 +45,8 @@ var blurredDelay;
 function highlightFeature(event){
   var layer = event.target;
   var each=event.target.feature.properties.NPL_flotants
-  var npl = event.target.feature.properties.NPL_flotants+"<span class='label2 lng' lng_val='FLOORS'>" +lng("FLOORS")+"</span>";
-  label.style.fontSize="55px";
+  var npl = "<span class='label2 lng' lng_val='Buildable floors'>" +lng("Buildable floors")+"</span>"+event.target.feature.properties.NPL_flotants;
+  label.style.fontSize="35px";
   label.innerHTML = npl;//label es el class que he decidit posar al num que es va actualitzant
   if (each>0){
     layer.setStyle({

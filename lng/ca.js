@@ -11,7 +11,8 @@ var ca = {
 	"16-40 years old": "16-40 anys",
 	"+ than 40 years old": "+ de 40 anys",
 	//label
-	"FLOORS":"PLANTES",
+	"FLOORS":" PLANTES",
+	"Buildable floors":'Plantes edificables: ',
 	//label identity
 	'create traditions':'crea tradicions.',
 	'creates community':'crea comunitat.',
@@ -59,6 +60,7 @@ var ca = {
 	'walking':'caminant.',
 	//label identity
 	'Safaretjos is ...':'Safaretjos... ',
+	'Identity:':'Identitat: ',
 	//PopUP potential_ceiling
 	"Built floors":"Plantes construides: ",
 	"Planned floors":"Plantes segons planejament: ",
@@ -89,8 +91,25 @@ var ca = {
 	'Vulnerable spaces':'Zones vulnerables',
 	//HOME
 	'subtitle':"Les ciutats estan convertint-se en organismes realment complexos.",
-	'description':'Traduir al català',
+	'description':'Els habitants de les ciutats produeixen un flux constant de dades. La recopilació massiva d\'aquestes dades pot proporcionar una visió més profunda de la dinàmica de la ciutat. Per comprendre les ciutats, el seu govern ha de tenir en compte les aportacions dels ciutadans en el procés de disseny. Safaretjos és un petit barri de 2000 habitants de Santa Coloma de Gramenet (Barcelona) situat en el límit entre quatre municipis. És un territori en el marc del riu Besòs, una infraestructura metropolitana que actualment articula el debat i la necessitat de formular propostes que provenen tant de les administracions com dels ciutadans i l\'acadèmia. L\'àrea es troba actualment en una certa manca de definició urbana. Ha estat concebut com un AREE (àrea residencial estratègica) i actualment es troba a l\'espera de decisions polítiques, tant locals com supralocals. Aquesta investigació es basa en la recopilació i visualització de dades dels ciutadans per comprendre el veïnat des de 7 dimensions diferents. Proporciona un observatori a petita escala que es pot prendre com a base per a futures decisions.',
 	'go-inside':'Entrar',
-	'Safaretjos in 7Dimensions':'Safaretjos en 7Dimensions',
-	'go-back':'Enrere'
+	/*'Safaretjos in 7Dimensions':'Safaretjos en 7Dimensions',*/
+	'go-back':'Enrere',
+	//CONTENT
+	'Read content':'Llegir el contingut',
+	'Go to map':'Anar al mapa',
+	'content_ceiling_title':'Quant pot créixer Safaretjos?',
+	'content_ceiling_text':'Conèixer l’estat de l’edificabilitat de les ciutats  permet identificar aquelles àrees de possible desenvolupament. Aquest mapa és una comparació entre el planejament urbanístic i la realitat construïda. Cada parcel·la ha estat classificada segons el seu potencial d\'edificabilitat. Les parcel·les amb un potencial més alt es troben a la vora del riu, considerada una àrea residencial estratègica que preveu la construcció de 310 habitatges. Encara que hi ha algunes parcel·les amb un índex d\'edificabilitat major que l\'establert pel planejament urbà, aproximadament, 45.000 metres quadrats de sostre falten per ser construïts en aquest veïnat. En conseqüència, podem esperar una gran densificació al barri en els propers anys.',
+	'content_identity_title':'Com mesurar el sentiment d\'identitat?',
+	'content_identity_text':'Recopilar dades no és només qüestió d\'assignar un nombre a tot el que es vol analitzar. Un ha de ser crític abans de treure conclusions sobre les dades.\nQuè és realment la identitat per a cada persona? Atès que no hi ha una resposta clara, es van fer diverses preguntes als veïns per obtenir una idea dels seus sentiments cap al veïnat. Cada una d\'elles va ser resposta amb un nombre en un rang del 0 (molt negatiu) al 10 (molt positiu).\nCom valoraries ...\nla teva relació amb els teus veïns?\nla teva participació en el teixit associatiu del veïnat?\nla teva estima cap al veïnat?\nles teves experiències al veïnat?\nAltres preguntes obertes com de quina manera descriurien el lloc en poques paraules, també es van dur a terme per aconseguir una millor comprensió dels nombres.\nDesprés d\'analitzar els casos, es va assignar la mitjana de les respostes obtingudes per visualitzar la sensació d\'identitat al veïnat.',
+	'content_perceptions_title':'¿Hi ha fronteres invisibles a Safaretjos?',
+	'content_perceptions_text':'Els cervells humans estan constantment processant milions d\'inputs que són generats cada dia en les noves ciutats dinàmiques. Recopilar dades actives basades en percepcions és un avanç. Cada persona té una percepció diferent del món canviant en el què vivim.\nNo només els territoris estan dividits pels límits municipals. Les conseqüències de les decisions arquitectòniques també poden convertir-se en fronteres invisibles a la ciutat, el que pot afectar el comportament i les percepcions dels seus ciutadans.\nLes dades han estat recopilades mitjançant múltiples dibuixos generats després de diverses discussions amb els veïns.\nEl mapa converteix l\'invisible a visible. En altres paraules, tracta de visualitzar el que els veïns experimenten i perceben a través dels seus sentits.',
+	'content_social_title':'És Safaretjos una comunitat?',
+	'content_social_text':'Com a éssers humans, necessitem un sentit de pertinença, aquest sentit és el que ens connecta amb moltes de les relacions que desenvolupem.\nLes comunitats permeten donar-nos suport, interactuar, compartir experiències, construir relacions valuoses ... Tots som membres de moltes comunitats (família, treball, veïnat, etc.), i ens movem constantment dins i fora d\'elles depenent de la situació.\nEn aquest cas, l\'objectiu és identificar si existeix una comunitat a Safaretjos. Per respondre a aquesta pregunta, es van recopilar dades sobre les comunitats a les que pertanyien els habitants del barri, sobre quantes persones coneixen al veïnat, quines activitats desenvolupen junts, on les realitzen i amb quina freqüència.\nEl mapa mostra una xarxa que representa les relacions socials dins el veïnat.',
+	'content_paths_title':'Com es mouen els ciutadans a Safaretjos?',
+	'content_paths_text':'Els humans estem constantment en moviment. La majoria de nosaltres estaria d\'acord en què el moviment és un poderós signe de la vitalitat humana.\nPer cartografiar els fluxos dels ciutadans, es va demanar als veïns del barri que dibuixessin els camins que sovint recorren per realitzar les seves activitats diàries, així com també el mitjà de transport utilitzat.\nPer naturalesa, la majoria d\'ells tendeixen a moure\’s i passar gran part del dia a Sant Adrià i Badalona en lloc de cap a Santa Coloma.',
+	'content_local_title':'S\’haurien de modificar els límits administratius?',
+	'content_local_text':'Safaretjos és un territori que es troba excèntricament de la seva ciutat, Santa Coloma de Gramenet. La majoria de les instal·lacions ubicades a curta distància pertanyen a altres municipis.\nNo és fàcil trobar un lloc a les escoles públiques pròximes al veïnat ja que aquestes no pertanyen a Santa Coloma. El mateix problema passa quan els ciutadans necessiten fer ús de qualsevol altre servei públic.\nLes dades que s\'han recopilat mostren com les persones fan ús de les instal·lacions locals independentment del seu municipi.\nEl mapa qüestiona el paper que exerceixen els límits administratius al veïnat i proposa solucions com ara acords d\'ús compartit per a escoles, centres d\'atenció primària i altres serveis.',
+	'content_metro_title':'Quin paper juga Safaretjos a escala metropolitana?',
+	'content_metro_text':'La situació de Safaretjos és estratègica a escala metropolitana i, més concretament, en el territori Besòs. A causa de la seva capacitat de centralitat i ròtula metropolitana es converteix en una peça central del Pla Besós.\nPer tal de visualitzar els fluxos dels ciutadans a escala metropolitana, es va preguntar als veïns sobre els seus moviments cap a altres municipis per motius laborals, familiars, d’estudis i  d\'oci.',
 };

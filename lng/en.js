@@ -11,7 +11,8 @@ var en = {
 	"16-40 years old": "16-40 years old",
 	"+ than 40 years old": "+ than 40 years old",
 	//label potential_ceiling
-	"FLOORS":"FLOORS",
+	"FLOORS":" FLOORS",
+	"Buildable floors":'Buildable floors: ',
 	//label identity
 	'create traditions':'create traditions.',
 	'creates community':'creates community.',
@@ -64,18 +65,19 @@ var en = {
 	'walking':'walking.',
 	//label identity
 	'Safaretjos is ...':'Safaretjos... ',
+	'Identity:':'Identity: ',
 	//PopUP potential_ceiling
-	"Built floors":"Built floors :",
-	"Planned floors":"Planned floors :",
+	"Built floors":"Built floors: ",
+	"Planned floors":"Planned floors: ",
 	//PopUp paths
 	'On my way':'On my way ',
-	'to exercise':'to exercise',
-	'to meet friends':'to meet friends', 
-	'to school':'to school',
-	'to take a walk':'to take a walk',
-	"to the doctor\'s":"to the doctor\'s",
-	'to the library':'to the library', 
-	'to the supermarket':'to the supermarket',
+	'to exercise':'to exercise.',
+	'to meet friends':'to meet friends.', 
+	'to school':'to school.',
+	'to take a walk':'to take a walk.',
+	"to the doctor\'s":"to the doctor\'s.",
+	'to the library':'to the library.', 
+	'to the supermarket':'to the supermarket.',
 	'to work':'to work',
 	//layers potential_ceiling
 	"Potential ceiling":"Potential ceiling",
@@ -85,8 +87,8 @@ var en = {
 	"Paths":"Paths",
 	"Local relationships":"Local relationships",
 	"Metropolitan relationships":"Metropolitan relationships",
-  //layers perceptions
-  "Perceptions": "Perceptions",
+  	//layers perceptions
+  	"Perceptions": "Perceptions",
 	'Darkness':'Darkness',
 	'Lost connection':'Lost connection',
 	'Noise':'Noise', 
@@ -94,8 +96,25 @@ var en = {
 	'Vulnerable spaces':'Vulnerable spaces',
 	//HOME
 	'subtitle':'Cities are becoming really complex organisms.',
-	'description':'The inhabitants of a city produce a constant flow of data. This data can be visualized and taken as a basis for observation and future decisions. The visualization of this info creates new knowledge about the city and is able to make the invisible visible (create an observatory). Active participation of citizens as well as passively collected data has helped to understand the neighbourhood from 7 dimensions./identify citizens perceptions and barriers in the neighbourhood/different dimensions in the neighbourhood that have question the actual urban plan. This project is focused on the neighborhood of Els Safaretjos in Santa Coloma de Gramenet (Barcelona). It is a territory within the framework of the Besós River, a metropolitan infrastructure that currently articulates the debate and the need to formulate proposals that come from the administrations as well as from citizens and the academy. At the same time, it is eccentric of its city Santa Coloma de Gramenet. The area is in a certain urban lack of definition. It has been envisaged as an AREE  (strategic residential area) and now it has come to a halt pending political decisions, both local and supra-local. The neighborhood of Els Safaretjos is part of District V, which extends over 65 Ha, in which 24,042 people live.',
+	'description':'The inhabitants of a city produce a constant flow of data. Massive collection of data can provide a deep insight into the dynamics of the city. In order to understand cities, their governance must consider citizen inputs in the design process. Safaretjos is a small neighbourhood of 2000 inhabitants from Santa Coloma de Gramenet (Barcelona) located at the boundary between four municipalities. It is also a territory within the framework of the Besós River, a metropolitan infrastructure that currently articulates the debate and the need to formulate proposals that come from the administrations as well as from citizens and the academy. The area is currently in a certain urban lack of definition. It has been envisaged as an AREE  (strategic residential area) and now it has come to a halt pending political decisions, both local and supra-local. This research is an attempt to both collect and visualize data from citizens in order to understand the neighbourhood from 7 different dimensions. It provides an observatory on a small scale that can be taken as a basis for future decisions.',
 	'go-inside':'Go inside',
-	'Safaretjos in 7Dimensions':'Safaretjos in 7Dimensions',
-	'go-back':'Go back'
+	/*'Safaretjos in 7Dimensions':'Safaretjos in 7Dimensions',*/
+	'go-back':'Go back',
+	//CONTENT
+	'Read content':'Read content',
+	'Go to map':'Go to map',
+	'content_ceiling_title':'How much can Safaretjos grow?',
+	'content_ceiling_text':'Knowing the buildability state of the cities allows us to identify those areas of possible development. This map compares urban planning to reality built. Each plot has been classified depending on its buildability potential. The plots with a higher potential are located next to the river, an area considered as a strategic residential area that expects the construction of 310 homes. Even though there are some plots with a buildability index greater than the one established by the urban planning, approximately 45.000 square meters are still to be built in this neighbourhood. Therefore, we could expect a great densification in the coming years.',
+	'content_identity_title':'How do we measure identity?',
+	'content_identity_text':'Collecting data is not only a matter of assigning a number to everything. One must be critic before drawing conclusions on the data. What is really identity for each person? Since it does not exist a clear answer, several questions were asked to the neighbours in order to get an approach to their feelings for the neighbourhood. Each of them was answered with a number in the range from 0 (really negative) to 10 (really positive).\nHow would you value…\nyour relationship with your neighbours?\nyour involvement in the neighborhood\'s associative fabric?\nyour appreciation for the neighborhood?\nyour experiences in the neighborhood?\nOpen questions such as how they would describe the place in a few words were also conducted to get a better understanding of the numbers.\nAfter analysing the cases, an average number from the answers obtained was finally assigned to visualize the feeling of identity in the neighbourhood.',
+	'content_perceptions_title':'Do invisible borders exist in Safaretjos?',
+	'content_perceptions_text':'Human brains are constantly processing millions of inputs that we encounter every day in the new dynamic cities. Collecting active data based on perceptions is a step forward. Each person has a different perception of the constantly changing world we are living in.\nNot only territories are divided by municipality boundaries. The consequences of architectural decisions can also become invisible borders in the city, which can affect the behaviour and perceptions of their citizens.\nThe data has been collected by multiple drawings after several discussions with the neighbours.\nThe map is an attempt to make the invisible visible. In other words, it tries to visualize what the neighbours experience and perceive by their senses.',
+	'content_social_title':'Is Safaretjos a community?',
+	'content_social_text':'As human beings, we need a sense of belonging, and that sense of belonging is what connects us to the many relationships we develop.\nCommunities allows us to support one another, interact, share experiences, builds valuable relationships…\nWe are all members of many communities (family, work, neighborhood, etc.), and we constantly move in and out of them, depending on the situation.\nThe main goal here was to try identify if there exists a community in Safaretjos. To respond that question, the citizens where asked how many people they know in the neighbourhood, what activities did they do together and how often they meet.\nThe map shows a network that represents the social relationships within the neighbourhood.',
+	'content_paths_title':'How citizens move in Safaretjos?',
+	'content_paths_text':'Humans are constantly on the move. Most of us would agree that movement, at root, is a powerful sign of human vitality.\nIn order to map citizen flows, the neighbours were asked to draw the paths that they often take to carry out their daily activities as well as the mean of transport used.\nMost of them tend to move and spend part of the day in Sant Adrià and Badalona rather than to its own city.',
+	'content_local_title':'Should administrative boundaries be modified?',
+	'content_local_text':'Safaretjos is a territory that is located eccentrically from its city Santa Coloma de Gramenet. Most of the facilities located in a walking distance belong to other municipalities.\nIt is not easy to find a spot in the public schools close to the neighbourhood since those don’t belong to Santa Coloma. The same issue happens when citizens need to make use of any public service.\nThe data that has been collected shows how people make use of local facilities regardless of their municipality.\nThe map questions the role that administrative boundaries play in the neighbourhood and proposes solutions such as shared use agreements for schools, primary care centres, and other services.',
+	'content_metro_title':'What role plays Safaretjos on a metropolitan scale?',
+	'content_metro_text':'The situation of Safaretjos is strategic at a metropolitan scale and, more specifically, in the Besòs Territory. Because of its ability to centrality and metropolitan kneecap it becomes a centrepiece of the Besós Plan.\nIn order to visualize citizen flows in a metropolitan scale, the neighbours were asked about their movements towards other municipalities due to work, family, studies and leisure reasons.',
 };
