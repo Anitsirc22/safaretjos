@@ -43,7 +43,12 @@ var en = {
 	'need more jobs':'need more jobs.',
 	'should recover trades':'should recover trades.',
 	'will change':'will change.',
-	//label perceptions
+  //label perceptions
+  "Darkness on the park": "Darkness on the park", 
+  "Darkness on the border with the river": "Darkness on the border with the river", 
+  "Darkness underneath the bridge": "Darkness underneath the bridge", 
+  "Social borders": "Social borders", 
+  "Architecture as an obstacle": "Architecture as an obstacle",
 	'Changing directions':'Changing directions.',
 	'Infastructure blocking access to the park':'Infastructure blocking access to the park.',
 	'Mass of vehicles in and out of Barcelona':'Mass of vehicles in and out of Barcelona.',
