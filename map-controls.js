@@ -18,6 +18,19 @@ var myLayers = [
     // data: parceles_edat_sexe,//data
     // onEachFeature: onEachFeature,
     // style: styleCadastre,
+    content: {
+      title: 'content_ceiling_title',
+      text: 'content_ceiling_text',
+      legend: {
+        colors: [
+          {
+            "borderColor": "white",
+            "backgroundColor": "rgba(255,255,255,0)"
+          }
+        ],
+        lables: []
+      }
+    },
     layerGen: cadastreLayerGen
   },
   {
@@ -33,6 +46,19 @@ var myLayers = [
       '0-15 years old': true,
       "16-40 years old": true,
       "+ than 40 years old": true
+    },
+    content: {
+      title: 'content_identity_title',
+      text: 'content_identity_text',
+      legend: {
+        colors: [
+          {
+            "borderColor": "white",
+            "backgroundColor": "rgba(255,255,255,0)"
+          }
+        ],
+        lables: []
+      }
     },
     // data: punts_per_identitats2,
     layerGen: identityLayerGen
@@ -51,6 +77,19 @@ var myLayers = [
       "Lost connection": true,
       Noise: true
     },
+    content: {
+      title: 'content_perceptions_title',
+      text: 'content_perceptions_text',
+      legend: {
+        colors: [
+          {
+            "borderColor": "white",
+            "backgroundColor": "rgba(255,255,255,0)"
+          }
+        ],
+        lables: []
+      }
+    },
     layerGen: perceptionsLayerGen
   },
   {
@@ -66,6 +105,10 @@ var myLayers = [
       '0-15 years old': true,
       "16-40 years old": true,
       "+ than 40 years old": true
+    },
+    content: {
+      title: 'content_social_title',
+      text: 'content_social_text',
     },
     // data: social_relationships,
     // onEachFeature: onEachFeature,
@@ -86,6 +129,19 @@ var myLayers = [
       "16-40 years old": true,
       "+ than 40 years old": true
     },
+    content: {
+      title: 'content_paths_title',
+      text: 'content_paths_text',
+      legend: {
+        colors: [
+          {
+            "borderColor": "green",
+            "backgroundColor": "rgba(255,255,255,0)"
+          }
+        ],
+        lables: []
+      }
+    },
     // data: paths,
     // onEachFeature: onEachFeaturePaths,
     // style: stylePaths,
@@ -105,6 +161,19 @@ var myLayers = [
       "16-40 years old": true,
       "+ than 40 years old": true
     },
+    content: {
+      title: 'content_local_title',
+      text: 'content_local_text',
+      legend: {
+        colors: [
+          {
+            "borderColor": "blue",
+            "backgroundColor": "rgba(255,255,255,0)"
+          }
+        ],
+        lables: []
+      }
+    },
     // data: local_relationships,
     // onEachFeature: onEachFeature,
     layerGen: localRelationsLayerGen
@@ -123,7 +192,20 @@ var myLayers = [
       "16-40 years old": true,
       "+ than 40 years old": true
     },
-    layerGen: metroRelationsGen
+    layerGen: metroRelationsGen,
+    content: {
+      title: 'content_metro_title',
+      text: 'content_metro_text',
+      legend: {
+        colors: [
+          {
+            "borderColor": "red",
+            "backgroundColor": "rgba(255,255,255,0)"
+          }
+        ],
+        lables: []
+      }
+    },
   }
 ];
 
@@ -200,6 +282,11 @@ for (let enterLayer of myLayers){
     }  // lng( filter );
 
     filtersContainer.innerHTML = filtersHTMLString;
+
+    contentTitle.innerHTML = lng(enterLayer.content.title);
+    contentTitle.setAttribute('lng_val',enterLayer.content.title);
+    contentDescription.innerHTML = lng(enterLayer.content.text);
+    contentDescription.setAttribute('lng_val',enterLayer.content.text);
 
     var buttons = filtersContainer.getElementsByClassName('option-btn');
 

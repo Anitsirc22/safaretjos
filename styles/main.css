@@ -454,12 +454,12 @@
     margin: 0;
     padding: 0;
     background-color: red;
-    opacity: 1;
+    opacity: 0;
     color:white;
     position:absolute;
     display:none;
     z-index:10;
-
+    transition: opacity 0.2s ease-in-out;
 }
 
 .content_button,
@@ -473,6 +473,8 @@
     padding: 5px 10px;
     color:white;
     opacity:1; 
+    font-size:18px;
+    font-weight:900;
     
 }
 
@@ -506,6 +508,8 @@
     padding:20px;
     font-size:20px;
     
+}
 
-
+.legend-item {
+  margin: 5px;
 }
