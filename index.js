@@ -7,6 +7,8 @@ var layers = column.getElementsByClassName('layers')[0];//Use Js to get an HTML 
 var graphicContainer=column.getElementsByClassName('graphic_image')[0];
 var filtersContainer = column.getElementsByClassName('filters')[0];
 var lngButtons = document.getElementsByClassName('lng-btn');
+var contentTitle = document.getElementsByClassName('content_title')[0];
+var contentDescription = document.getElementsByClassName('content_description')[0];
 
 map.setView([41.435435, 2.212861],18);
 
@@ -95,7 +97,11 @@ function lng( val ) {
 function updateHTMLTextValues(){
   var literals =document.getElementsByClassName('lng');
   for ( let literal of literals ) {
-    literal.innerText = lng( literal.getAttribute('lng_val') );
+    if ( literal.classList.contains('lng-html') ) {
+      literal.innerHTML = lng( literal.getAttribute('lng_val') );  
+    } else {
+      literal.innerText = lng( literal.getAttribute('lng_val') );
+    }
   }
 
   var imageURL = graphicContainer.style.backgroundImage;
